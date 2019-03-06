@@ -36,18 +36,22 @@ array.forEach((valor, indice) => {
         return {[cota]: Number(separate[1])};
     });
 
+    const total_vagas_qtde_array = vagas.map(vaga => vaga[Object.keys(vaga)[0]]);
+
+    const total_vagas = total_vagas_qtde_array.reduce((reducer, curr) => reducer + curr);
+
     const campus_position = campi.indexOf(campus);
 
     if (campi_json[campus_position].cursos === undefined) {
         campi_json[campus_position].cursos = [];
         campi_json[campus_position].cursos.push({
-            curso, vagas
+            curso, vagas, total_vagas
         });
     } else {
         const cursos = campi_json[campus_position].cursos.map(curso => curso.curso);
         if (!cursos.includes(curso)) {
             campi_json[campus_position].cursos.push({
-                curso, vagas
+                curso, vagas, total_vagas
             });
         }
     }
