@@ -1,14 +1,19 @@
 const removeAccents = require('remover-acentos');
 const resultado_if = require('../resultados/resultado_if.json');
 const campi_info = require('../resultados/campi_informacoes');
+const campi = require('../files_inscritos/campi');
 
 const getByCampus = (list, campus_id) => list.filter(row => Number(row.campus) === Number(campus_id));
+
+const getCampusById = (campus_id) => campi.filter(campus => campus.id === campus_id)[0];
 
 const getBySexo = (list, sexo) => list.filter(row => row.sexo === sexo);
 
 const getByCurso = (list, curso) => list.filter(row => removeAccents(row.curso) === removeAccents(curso));
 
 const getMaiorNota = (list) => list.reduce((reducer, curr) => parseFloat(replaceDot(reducer.nota)) < parseFloat(replaceDot(curr.nota)) ? curr : reducer);
+
+const getMenorNota = (list) => list.reduce((reducer, curr) => parseFloat(replaceDot(reducer.nota)) > parseFloat(replaceDot(curr.nota)) ? curr : reducer);
 
 const replaceDot = string => string.replace(',', '.');
 
@@ -57,11 +62,11 @@ const getVagas = (campus_id, curso_search, vaga_search = "") => {
         return curso.vagas.reduce((reducer, current) => {
             return reducer + current[Object.keys(current)[0]];
             // reducer[Object.keys(reducer)[0]] + current[Object.keys(current)[0]]
-        },0);
+        }, 0);
     }
 };
 
-module.exports = {getByCampus, getByCurso, getBySexo, getMaiorNota, getNotaCorte, getVagas, getTotalInscritos};
+module.exports = {getByCampus, getByCurso, getBySexo, getMaiorNota, getNotaCorte, getVagas, getTotalInscritos, getCampusById, getMenorNota};
 
 // console.log(getByCampus(resultado_if,7));
 // console.log(getBySexo(getByCampus(resultado_if, 10), "F"));

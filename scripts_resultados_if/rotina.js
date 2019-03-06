@@ -1,10 +1,12 @@
-const {getByCampus, getByCurso, getBySexo, getMaiorNota, getNotaCorte, getVagas, getTotalInscritos} = require('./filters');
+const {getByCampus, getByCurso, getBySexo, getMaiorNota, getNotaCorte, getVagas, getTotalInscritos, getCampusById, getMenorNota} = require('./filters');
 const resultado_if = require('../resultados/resultado_if.json');
 const inscritos_if = require('../files_inscritos/inscricoes_organizadas_com_sexo');
 const campi = require('../resultados/campi_informacoes');
 
 const cursos_pouco_inscritos = [];
 
+// Gerais
+console.log('-------------------------------------------------------');
 console.log(`Inscrições no processo seletivo: ${inscritos_if.length}`);
 console.log(`Inscrições com resultado: ${resultado_if.length}`);
 console.log('-------------------------------------------------------');
@@ -14,6 +16,14 @@ console.log('-------------------------------------------------------');
 console.log("Com resultado: Mulheres: " + getBySexo(resultado_if, "F").length);
 console.log("Com resultado: Homens: " + getBySexo(resultado_if, "M").length);
 console.log('-------------------------------------------------------');
+console.log("A maior nota tirada no processo seletivo foi: " + getMaiorNota(resultado_if).nota + " pelo aluno " + getMaiorNota(resultado_if).nome + " concorrendo ao curso de " + getMaiorNota(resultado_if).curso + " no campus " + getCampusById(getMaiorNota(resultado_if).campus).campus);
+console.log("A maior nota tirada por um aluno do sexo masculino no processo seletivo foi: " + getMaiorNota(getBySexo(resultado_if, "M")).nota + " pelo aluno " + getMaiorNota(getBySexo(resultado_if, "M")).nome + " concorrendo ao curso de " + getMaiorNota(getBySexo(resultado_if, "M")).curso + " no campus " + getCampusById(getMaiorNota(getBySexo(resultado_if, "F")).campus).campus);
+console.log("A maior nota tirada por um aluno do sexo feminino no processo seletivo foi: " + getMaiorNota(getBySexo(resultado_if, "F")).nota + " pela aluna " + getMaiorNota(getBySexo(resultado_if, "F")).nome + " concorrendo ao curso de " + getMaiorNota(getBySexo(resultado_if, "F")).curso + " no campus " + getCampusById(getMaiorNota(getBySexo(resultado_if, "F")).campus).campus);
+console.log('-------------------------------------------------------');
+console.log("A menor nota tirada no processo seletivo foi: " + getMenorNota(resultado_if).nota + " pelo aluno " + getMenorNota(resultado_if).nome + " concorrendo ao curso de " + getMenorNota(resultado_if).curso + " no campus " + getCampusById(getMenorNota(resultado_if).campus).campus);
+console.log("A menor nota tirada por um aluno do sexo masculino no processo seletivo foi: " + getMenorNota(getBySexo(resultado_if, "M")).nota + " pelo aluno " + getMenorNota(getBySexo(resultado_if, "M")).nome + " concorrendo ao curso de " + getMenorNota(getBySexo(resultado_if, "M")).curso + " no campus " + getCampusById(getMenorNota(getBySexo(resultado_if, "F")).campus).campus);
+console.log("A menor nota tirada por um aluno do sexo feminino no processo seletivo foi: " + getMenorNota(getBySexo(resultado_if, "F")).nota + " pela aluna " + getMenorNota(getBySexo(resultado_if, "F")).nome + " concorrendo ao curso de " + getMenorNota(getBySexo(resultado_if, "F")).curso + " no campus " + getCampusById(getMenorNota(getBySexo(resultado_if, "F")).campus).campus);
+console.log('-------------------------------------------------------');
 
 let total_vagas = 0;
 campi.forEach((value, index) => {
@@ -21,8 +31,8 @@ campi.forEach((value, index) => {
     // console.log(campus_id);
     console.log(`${value.campus}:`);
     console.log(`${getByCampus(inscritos_if, campus_id).length} inscritos, porém com ${getByCampus(resultado_if, campus_id).length} resultados`);
-    console.log(`Sendo esses: Inscritos - ${getBySexo(getByCampus(inscritos_if, campus_id), "M").length} e Com resultado - ${getBySexo(getByCampus(resultado_if, campus_id), "M").length} do sexo masculino e`)
-    console.log(`Sendo esses: Inscritos - ${getBySexo(getByCampus(inscritos_if, campus_id), "F").length} e Com resultado - ${getBySexo(getByCampus(resultado_if, campus_id), "F").length} do sexo feminino`)
+    console.log(`Sendo esses: Inscritos - ${getBySexo(getByCampus(inscritos_if, campus_id), "M").length} e Com resultado - ${getBySexo(getByCampus(resultado_if, campus_id), "M").length} do sexo masculino e`);
+    console.log(`Sendo esses: Inscritos - ${getBySexo(getByCampus(inscritos_if, campus_id), "F").length} e Com resultado - ${getBySexo(getByCampus(resultado_if, campus_id), "F").length} do sexo feminino`);
 
     let maior_nota = 0;
     let curso_maior_nota = 0;
