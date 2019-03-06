@@ -5,6 +5,17 @@ const campi = require('../resultados/campi_informacoes');
 
 const cursos_pouco_inscritos = [];
 
+console.log(`Inscrições no processo seletivo: ${inscritos_if.length}`);
+console.log(`Inscrições com resultado: ${resultado_if.length}`);
+console.log('-------------------------------------------------------');
+console.log("Inscritos: Mulheres: " + getBySexo(inscritos_if, "F").length);
+console.log("Inscritos: Homens: " + getBySexo(inscritos_if, "M").length);
+console.log('-------------------------------------------------------');
+console.log("Com resultado: Mulheres: " + getBySexo(resultado_if, "F").length);
+console.log("Com resultado: Homens: " + getBySexo(resultado_if, "M").length);
+console.log('-------------------------------------------------------');
+
+let total_vagas = 0;
 campi.forEach((value, index) => {
     const campus_id = value.id;
     // console.log(campus_id);
@@ -18,23 +29,33 @@ campi.forEach((value, index) => {
     const notas_cortes_campus = [];
     value.cursos.forEach((curso) => {
         const total_inscritos = getTotalInscritos("", campus_id, curso.curso);
-        if(Number(total_inscritos) < Number(curso.total_vagas)) {
-            console.log(curso.curso + ": ");
-            console.log(getByCurso(getByCampus(resultado_if, campus_id), curso.curso).length + " inscritos");
+        console.log(curso.curso + ": ");
+
+        const list = getByCurso(getByCampus(resultado_if, campus_id), curso.curso);
+        console.log("Total de inscritos no curso: " + list.length);
+        const list_feminino = getBySexo(list, "F");
+        const list_masculino = getBySexo(list, "M");
+
+        console.log("Inscritos do sexo feminino: " + list_feminino.length);
+        console.log("Inscritos do sexo masculino: " + list_masculino.length);
+
+        if (Number(total_inscritos) < Number(curso.total_vagas)) {
             cursos_pouco_inscritos.push(`${curso.curso} no ${value.campus}`);
-            console.log("Possuiu menos inscritos que a quantidade total de vagas pelo processo seletivo");
+            console.log("Possuiu menos inscritos que a quantidade total de vagas pelo processo seletivo (" + getByCurso(getByCampus(resultado_if, campus_id), curso.curso).length + " de " + curso.total_vagas + ")");
         }
         const nota_corte = getNotaCorte(getByCurso(getByCampus(resultado_if, campus_id), curso.curso), curso.curso, 'AC', campus_id);
 
+        console.log("Nota de corte do curso: " + nota_corte);
         notas_cortes_campus.push({nota_corte, curso: curso.curso});
-        if(nota_corte > maior_nota){
+        if (nota_corte > maior_nota) {
             maior_nota = nota_corte;
-            // console.log("OPA");
             curso_maior_nota = curso.curso;
         }
+
+        total_vagas += Number(curso.total_vagas);
     });
 
-    const getMenor = notas_cortes_campus.reduce((reducer, current) => (reducer.nota_corte < current.nota_corte) ? reducer : current,0);
+    const getMenor = notas_cortes_campus.reduce((reducer, current) => (reducer.nota_corte < current.nota_corte) ? reducer : current, 0);
 
 
     console.log("A menor nota de corte do câmpus " + value.campus + "  foi: " + getMenor.nota_corte + " no curso " + getMenor.curso);
@@ -42,4 +63,6 @@ campi.forEach((value, index) => {
 
 });
 
-console.log(cursos_pouco_inscritos.join(', ') );
+console.log("Os cursos que houveram o número de convocados para 1ª chamada menor que o número de vagas foram: ");
+console.log(cursos_pouco_inscritos.join('\r\n'));
+console.log("\nO total de vagas ofertadas pelo processo seletivo foram: " + total_vagas);
