@@ -1,9 +1,76 @@
-const {getByCampus, getByCurso, getBySexo, getMaiorNota, getNotaCorte, getVagas, getTotalInscritos, getCampusById, getMenorNota} = require('./filters');
+const {getByCampus, getByCurso, getBySexo, getMaiorNota, getNotaCorte, getVagas, getTotalInscritos, getCampusById, getMenorNota, areasConhecimento, getByAreaConhecimento, getCursoByAreaConhecimento, cotas} = require('./filters');
 const resultado_if = require('../resultados/resultado_if.json');
 const inscritos_if = require('../files_inscritos/inscricoes_organizadas_com_sexo');
 const campi = require('../resultados/campi_informacoes');
 
 const cursos_pouco_inscritos = [];
+
+areasConhecimento.forEach((value, index) => {
+    const resultado = getByAreaConhecimento(resultado_if, value);
+
+    console.log(`${resultado.length} inscritos, com resultado, pela área de conhecimento ${value}`);
+
+    const homens = getByAreaConhecimento(getBySexo(resultado_if, 'M'), value).length;
+    const mulheres = getByAreaConhecimento(getBySexo(resultado_if, 'F'), value).length;
+    console.log(`${homens} homens inscritos, com resultado, pela área de conhecimento ${value}`);
+    console.log(`${mulheres} mulheres inscritas, com resultado, pela área de conhecimento ${value}`);
+    const cursos = getCursoByAreaConhecimento(value, resultado_if);
+
+    let maior_nota_corte = 0;
+    let menor_nota_corte = null;
+    cursos.forEach(curso => {
+        const nota_corte = getNotaCorte(resultado_if, curso.curso, "AC", curso.campus);
+        if (nota_corte > maior_nota_corte) maior_nota_corte = nota_corte;
+
+        if (menor_nota_corte === null) menor_nota_corte = nota_corte;
+        else if (menor_nota_corte > nota_corte) menor_nota_corte = nota_corte;
+    });
+
+    console.log(`${maior_nota_corte}; É a maior nota de corte da area de conhecimento ${value} pela ampla concorrência.`);
+    console.log(`${menor_nota_corte}; É a menor nota de corte da area de conhecimento ${value} pela ampla concorrência.`);
+
+
+    cursos.forEach(curso => {
+        maior_nota_corte = 0;
+        menor_nota_corte = null;
+        let cota_maior = "";
+        let cota_menor = "";
+        cotas.forEach(cota => {
+            const nota_corte = getNotaCorte(resultado, curso.curso, cota, curso.campus);
+            console.log(nota_corte + " <<<<<<<<<<<<<<<<<<<<<<<<<");
+            console.log(maior_nota_corte+ " ><<<<<<<<<<<<<<<<<<<<<<<<<");
+            if (nota_corte > maior_nota_corte) {
+                maior_nota_corte = nota_corte;
+                cota_maior = cota;
+            }
+
+            if (menor_nota_corte === null) {
+                menor_nota_corte = nota_corte;
+                cota_menor = cota;
+            } else if (menor_nota_corte > nota_corte) {
+                menor_nota_corte = nota_corte;
+                cota_menor = cota;
+            }
+
+        });
+
+        if (maior_nota_corte !== undefined && maior_nota_corte > 0) {
+            console.log(`${maior_nota_corte}; É a maior nota de corte da area de conhecimento ${value} pela cota ${cota_maior}.`);
+        }
+
+        if (menor_nota_corte !== undefined && menor_nota_corte > 0) {
+            console.log(`${menor_nota_corte}; É a menor nota de corte da area de conhecimento ${value} pela cota ${cota_menor}.`);
+        }
+    });
+
+    const maior_nota = getMaiorNota(resultado);
+    const menor_nota = getMenorNota(resultado);
+
+    console.log(`${maior_nota.nota}; É a maior nota da area de conhecimento ${value}, tirada pelo aluno ${maior_nota.nome} para o curso de ${maior_nota.curso} no ${getCampusById(maior_nota.campus).campus}`);
+    console.log(`${menor_nota.nota}; É a menor nota da area de conhecimento ${value}, tirada pelo aluno ${menor_nota.nome} para o curso de ${menor_nota.curso} no ${getCampusById(menor_nota.campus).campus}`);
+
+
+});
 
 // Gerais
 console.log('-------------------------------------------------------');

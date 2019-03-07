@@ -3,6 +3,26 @@ const resultado_if = require('../resultados/resultado_if.json');
 const campi_info = require('../resultados/campi_informacoes');
 const campi = require('../files_inscritos/campi');
 
+const areasConhecimento = [
+    'CIÊNCIAS SOCIAIS APLICADAS',
+    'CIÊNCIAS AGRÁRIAS',
+    'CIÊNCIAS EXATAS E DA TERRA',
+    'CIÊNCIAS BIOLÓGICAS',
+    'ENGENHARIAS',
+    'CIÊNCIAS HUMANAS'
+];
+
+const cotas = [
+    'RIPPI-PCD',
+    'RIPPI',
+    'RI-PCD',
+    'RI',
+    'RSPPI-PCD',
+    'RSPPI',
+    'RS-PCD',
+    'RS'
+];
+
 const getByCampus = (list, campus_id) => list.filter(row => Number(row.campus) === Number(campus_id));
 
 const getCampusById = (campus_id) => campi.filter(campus => campus.id === campus_id)[0];
@@ -66,7 +86,36 @@ const getVagas = (campus_id, curso_search, vaga_search = "") => {
     }
 };
 
-module.exports = {getByCampus, getByCurso, getBySexo, getMaiorNota, getNotaCorte, getVagas, getTotalInscritos, getCampusById, getMenorNota};
+const getByAreaConhecimento = (list, area_search) => list.filter(row => removeAccents(row['area_conhecimento'].toUpperCase()) === removeAccents(area_search.toUpperCase()));
+
+const getCursoByAreaConhecimento = (area_search, list) => {
+    const cursos = [];
+
+    list.forEach(row => {
+        const cursos_filter = cursos.map(curso => curso.curso);
+        if (removeAccents(row.area_conhecimento.toUpperCase()) === removeAccents(area_search.toUpperCase()) && !cursos_filter.includes(row.curso)) {
+            cursos.push({curso: row.curso, campus: row.campus});
+        }
+    });
+
+    return cursos;
+};
+
+module.exports = {
+    getByCampus,
+    getByCurso,
+    getBySexo,
+    getMaiorNota,
+    getNotaCorte,
+    getVagas,
+    getTotalInscritos,
+    getCampusById,
+    getMenorNota,
+    areasConhecimento,
+    getByAreaConhecimento,
+    getCursoByAreaConhecimento,
+    cotas
+};
 
 // console.log(getByCampus(resultado_if,7));
 // console.log(getBySexo(getByCampus(resultado_if, 10), "F"));
