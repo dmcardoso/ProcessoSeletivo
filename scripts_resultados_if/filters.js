@@ -92,8 +92,8 @@ const getCursoByAreaConhecimento = (area_search, list) => {
     const cursos = [];
 
     list.forEach(row => {
-        const cursos_filter = cursos.map(curso => curso.curso);
-        if (removeAccents(row.area_conhecimento.toUpperCase()) === removeAccents(area_search.toUpperCase()) && !cursos_filter.includes(row.curso)) {
+        const igual = (new_curso) => cursos.some(curso => curso.curso === new_curso.curso && curso.campus === new_curso.campus);
+        if (removeAccents(row.area_conhecimento.toUpperCase()) === removeAccents(area_search.toUpperCase()) && !igual(row)) {
             cursos.push({curso: row.curso, campus: row.campus});
         }
     });
