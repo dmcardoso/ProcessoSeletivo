@@ -50,40 +50,42 @@
 
 <script>
 
-    $.ajax({
-        url: 'resultados/area_conhecimento_inscritos_if.json',
-        method: 'GET',
-        dataType: 'text',
-        success: function (res) {
-            grafico(JSON.parse(res), 'inscritos', 'Total de Inscritos', false);
+    let dados = [
+        {
+            url: 'resultados/area_conhecimento_inscritos_if.json',
+            elemento: 'inscritos',
+            titulo: 'Total de Inscritos',
+            multidaset: false
         },
-        error: function (error) {
-            console.log(error);
+        {
+            url: 'resultados/area_conhecimento_inscritos_com_sexo_if.json',
+            elemento: 'inscritos_com_sexo',
+            titulo: 'Total de Inscritos/Sexo',
+            multidaset: true
+        },
+        {
+            url: 'resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json',
+            elemento: 'maior_menor_nota_ac',
+            titulo: 'Maior/Menor Nota de Corte AC',
+            multidaset: true
         }
-    });
+    ];
 
-    $.ajax({
-        url: 'resultados/area_conhecimento_inscritos_com_sexo_if.json',
-        // url: 'resultados/teste.json',
-        method: 'GET',
-        success: function (res) {
-            grafico(JSON.parse(res), 'inscritos_com_sexo', 'Total de Inscritos/Sexo', true);
-        },
-        error: function (error) {
-            console.log(error);
-        }
-    });
+    const loadDados = (dados) => {
+        dados.forEach(v => {
+            fetch(v.url)
+                .then(function (res) {
+                    res.json().then(function (result) {
+                        grafico(result, v.elemento, v.titulo, v.multidaset)
+                    })
+                })
+                .catch(function (err) {
+                    console.log('Erro ao carregar os dados: ', err)
+                });
+        })
+    };
 
-    $.ajax({
-        url: 'resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json',
-        method: 'GET',
-        success: function (res) {
-            grafico(JSON.parse(res), 'maior_menor_nota_ac', 'Maior/Menor Nota de Corte AC', true);
-        },
-        error: function (error) {
-            console.log(error);
-        }
-    });
+    loadDados(dados);
 
     const grafico = function (dados, elemento, titulo, multidataset) {
 

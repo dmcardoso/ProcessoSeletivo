@@ -1,1 +1,50 @@
-{"CAMPUS CAMPOS BELOS":{"ac":11,"cotas":10},"CAMPUS POSSE":{"ac":12,"cotas":12},"CAMPUS URUTAÍ":{"ac":54,"cotas":38},"CAMPUS AVANÇADO IPAMERI":{"ac":6,"cotas":5},"CAMPUS RIO VERDE":{"ac":75,"cotas":76},"CAMPUS CERES":{"ac":30,"cotas":25},"CAMPUS IPORÁ":{"ac":22,"cotas":16},"CAMPUS CRISTALINA":{"ac":6,"cotas":4},"CAMPUS AVANÇADO HIDROLÂNDIA":{"ac":6,"cotas":4},"CAMPUS MORRINHOS":{"ac":40,"cotas":30},"CAMPUS AVANÇADO CATALÃO":{"ac":6,"cotas":4},"CAMPUS TRINDADE":{"ac":18,"cotas":15}}
+{
+  "CAMPUS CAMPOS BELOS": {
+    "ac": 11,
+    "cotas": 10
+  },
+  "CAMPUS POSSE": {
+    "ac": 12,
+    "cotas": 12
+  },
+  "CAMPUS URUTAÍ": {
+    "ac": 54,
+    "cotas": 38
+  },
+  "CAMPUS AVANÇADO IPAMERI": {
+    "ac": 6,
+    "cotas": 5
+  },
+  "CAMPUS RIO VERDE": {
+    "ac": 75,
+    "cotas": 76
+  },
+  "CAMPUS CERES": {
+    "ac": 30,
+    "cotas": 25
+  },
+  "CAMPUS IPORÁ": {
+    "ac": 22,
+    "cotas": 16
+  },
+  "CAMPUS CRISTALINA": {
+    "ac": 6,
+    "cotas": 4
+  },
+  "CAMPUS AVANÇADO HIDROLÂNDIA": {
+    "ac": 6,
+    "cotas": 4
+  },
+  "CAMPUS MORRINHOS": {
+    "ac": 40,
+    "cotas": 30
+  },
+  "CAMPUS AVANÇADO CATALÃO": {
+    "ac": 6,
+    "cotas": 4
+  },
+  "CAMPUS TRINDADE": {
+    "ac": 18,
+    "cotas": 15
+  }
+}

@@ -1,1 +1,214 @@
-{"CAMPUS IPORÁ":{"TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS":{"homens":6,"mulheres":4},"LICENCIATURA EM QUÍMICA":{"homens":2,"mulheres":5},"TECNOLOGIA EM AGRONEGÓCIO":{"homens":7,"mulheres":4},"BACHARELADO EM AGRONOMIA":{"homens":6,"mulheres":4}},"CAMPUS RIO VERDE":{"LICENCIATURA EM QUÍMICA":{"homens":8,"mulheres":5},"TECNOLOGIA EM SANEAMENTO AMBIENTAL":{"homens":7,"mulheres":7},"BACHARELADO EM ZOOTECNIA":{"homens":9,"mulheres":6},"LICENCIATURA EM CIÊNCIAS BIOLÓGICAS":{"homens":5,"mulheres":9},"BACHARELADO EM CIÊNCIAS BIOLÓGICAS":{"homens":6,"mulheres":7},"BACHARELADO EM ENGENHARIA CIVIL":{"homens":9,"mulheres":5},"BACHARELADO EM ENGENHARIA DE ALIMENTOS":{"homens":9,"mulheres":6},"BACHARELADO EM AGRONOMIA":{"homens":7,"mulheres":8},"BACHARELADO EM ENGENHARIA AMBIENTAL":{"homens":7,"mulheres":7},"BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO":{"homens":8,"mulheres":1},"BACHARELADO EM ADMINISTRAÇÃO":{"homens":7,"mulheres":8}},"CAMPUS CERES":{"LICENCIATURA EM CIÊNCIAS BIOLÓGICAS":{"homens":5,"mulheres":7},"BACHARELADO EM SISTEMAS DE INFORMAÇÃO":{"homens":6,"mulheres":4},"BACHARELADO EM ZOOTECNIA":{"homens":4,"mulheres":7},"LICENCIATURA EM QUÍMICA":{"homens":4,"mulheres":7},"BACHARELADO EM AGRONOMIA":{"homens":4,"mulheres":7}},"CAMPUS TRINDADE":{"BACHARELADO EM ENGENHARIA DE COMPUTAÇÃO":{"homens":10,"mulheres":1},"BACHARELADO EM ENGENHARIA ELÉTRICA":{"homens":11,"mulheres":0},"BACHARELADO EM ENGENHARIA CIVIL":{"homens":6,"mulheres":5}},"CAMPUS POSSE":{"BACHARELADO EM AGRONOMIA":{"homens":7,"mulheres":5},"BACHARELADO EM ADMINISTRAÇÃO":{"homens":4,"mulheres":8}},"CAMPUS URUTAÍ":{"LICENCIATURA EM QUÍMICA":{"homens":3,"mulheres":7},"BACHARELADO EM MEDICINA VETERINÁRIA":{"homens":2,"mulheres":10},"TECNOLOGIA EM GESTÃO DA TECNOLOGIA DA INFORMAÇÃO":{"homens":10,"mulheres":0},"BACHARELADO EM SISTEMAS DE INFORMAÇÃO":{"homens":7,"mulheres":3},"BACHARELADO EM AGRONOMIA":{"homens":3,"mulheres":7},"LICENCIATURA EM CIÊNCIAS BIOLÓGICAS":{"homens":4,"mulheres":6},"BACHARELADO EM CIÊNCIA E TECNOLOGIA DE ALIMENTOS":{"homens":2,"mulheres":8},"BACHARELADO EM ENGENHARIA AGRÍCOLA":{"homens":8,"mulheres":2},"LICENCIATURA EM MATEMÁTICA":{"homens":9,"mulheres":1}},"CAMPUS CRISTALINA":{"TECNOLOGIA EM HORTICULTURA":{"homens":6,"mulheres":4}},"CAMPUS CAMPOS BELOS":{"BACHARELADO EM ZOOTECNIA":{"homens":6,"mulheres":5},"BACHARELADO EM ADMINISTRAÇÃO":{"homens":5,"mulheres":5}},"CAMPUS MORRINHOS":{"TECNOLOGIA EM SISTEMAS PARA INTERNET":{"homens":4,"mulheres":3},"BACHARELADO EM ZOOTECNIA":{"homens":4,"mulheres":6},"BACHARELADO EM AGRONOMIA":{"homens":6,"mulheres":4},"TECNOLOGIA EM ALIMENTOS":{"homens":2,"mulheres":8},"BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO":{"homens":10,"mulheres":0},"LICENCIATURA EM PEDAGOGIA":{"homens":0,"mulheres":12},"LICENCIATURA EM QUÍMICA":{"homens":4,"mulheres":7}},"CAMPUS AVANÇADO IPAMERI":{"TECNOLOGIA EM GESTÃO COMERCIAL":{"homens":7,"mulheres":4}},"CAMPUS AVANÇADO HIDROLÂNDIA":{"TECNOLOGIA EM AGROECOLOGIA":{"homens":6,"mulheres":4}},"CAMPUS AVANÇADO CATALÃO":{"LICENCIATURA EM CIÊNCIAS NATURAIS":{"homens":4,"mulheres":6}}}
+{
+  "CAMPUS IPORÁ": {
+    "TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS": {
+      "homens": 6,
+      "mulheres": 4
+    },
+    "LICENCIATURA EM QUÍMICA": {
+      "homens": 2,
+      "mulheres": 5
+    },
+    "TECNOLOGIA EM AGRONEGÓCIO": {
+      "homens": 7,
+      "mulheres": 4
+    },
+    "BACHARELADO EM AGRONOMIA": {
+      "homens": 6,
+      "mulheres": 4
+    }
+  },
+  "CAMPUS RIO VERDE": {
+    "LICENCIATURA EM QUÍMICA": {
+      "homens": 8,
+      "mulheres": 5
+    },
+    "TECNOLOGIA EM SANEAMENTO AMBIENTAL": {
+      "homens": 7,
+      "mulheres": 7
+    },
+    "BACHARELADO EM ZOOTECNIA": {
+      "homens": 9,
+      "mulheres": 6
+    },
+    "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS": {
+      "homens": 5,
+      "mulheres": 9
+    },
+    "BACHARELADO EM CIÊNCIAS BIOLÓGICAS": {
+      "homens": 6,
+      "mulheres": 7
+    },
+    "BACHARELADO EM ENGENHARIA CIVIL": {
+      "homens": 9,
+      "mulheres": 5
+    },
+    "BACHARELADO EM ENGENHARIA DE ALIMENTOS": {
+      "homens": 9,
+      "mulheres": 6
+    },
+    "BACHARELADO EM AGRONOMIA": {
+      "homens": 7,
+      "mulheres": 8
+    },
+    "BACHARELADO EM ENGENHARIA AMBIENTAL": {
+      "homens": 7,
+      "mulheres": 7
+    },
+    "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO": {
+      "homens": 8,
+      "mulheres": 1
+    },
+    "BACHARELADO EM ADMINISTRAÇÃO": {
+      "homens": 7,
+      "mulheres": 8
+    }
+  },
+  "CAMPUS CERES": {
+    "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS": {
+      "homens": 5,
+      "mulheres": 7
+    },
+    "BACHARELADO EM SISTEMAS DE INFORMAÇÃO": {
+      "homens": 6,
+      "mulheres": 4
+    },
+    "BACHARELADO EM ZOOTECNIA": {
+      "homens": 4,
+      "mulheres": 7
+    },
+    "LICENCIATURA EM QUÍMICA": {
+      "homens": 4,
+      "mulheres": 7
+    },
+    "BACHARELADO EM AGRONOMIA": {
+      "homens": 4,
+      "mulheres": 7
+    }
+  },
+  "CAMPUS TRINDADE": {
+    "BACHARELADO EM ENGENHARIA DE COMPUTAÇÃO": {
+      "homens": 10,
+      "mulheres": 1
+    },
+    "BACHARELADO EM ENGENHARIA ELÉTRICA": {
+      "homens": 11,
+      "mulheres": 0
+    },
+    "BACHARELADO EM ENGENHARIA CIVIL": {
+      "homens": 6,
+      "mulheres": 5
+    }
+  },
+  "CAMPUS POSSE": {
+    "BACHARELADO EM AGRONOMIA": {
+      "homens": 7,
+      "mulheres": 5
+    },
+    "BACHARELADO EM ADMINISTRAÇÃO": {
+      "homens": 4,
+      "mulheres": 8
+    }
+  },
+  "CAMPUS URUTAÍ": {
+    "LICENCIATURA EM QUÍMICA": {
+      "homens": 3,
+      "mulheres": 7
+    },
+    "BACHARELADO EM MEDICINA VETERINÁRIA": {
+      "homens": 2,
+      "mulheres": 10
+    },
+    "TECNOLOGIA EM GESTÃO DA TECNOLOGIA DA INFORMAÇÃO": {
+      "homens": 10,
+      "mulheres": 0
+    },
+    "BACHARELADO EM SISTEMAS DE INFORMAÇÃO": {
+      "homens": 7,
+      "mulheres": 3
+    },
+    "BACHARELADO EM AGRONOMIA": {
+      "homens": 3,
+      "mulheres": 7
+    },
+    "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS": {
+      "homens": 4,
+      "mulheres": 6
+    },
+    "BACHARELADO EM CIÊNCIA E TECNOLOGIA DE ALIMENTOS": {
+      "homens": 2,
+      "mulheres": 8
+    },
+    "BACHARELADO EM ENGENHARIA AGRÍCOLA": {
+      "homens": 8,
+      "mulheres": 2
+    },
+    "LICENCIATURA EM MATEMÁTICA": {
+      "homens": 9,
+      "mulheres": 1
+    }
+  },
+  "CAMPUS CRISTALINA": {
+    "TECNOLOGIA EM HORTICULTURA": {
+      "homens": 6,
+      "mulheres": 4
+    }
+  },
+  "CAMPUS CAMPOS BELOS": {
+    "BACHARELADO EM ZOOTECNIA": {
+      "homens": 6,
+      "mulheres": 5
+    },
+    "BACHARELADO EM ADMINISTRAÇÃO": {
+      "homens": 5,
+      "mulheres": 5
+    }
+  },
+  "CAMPUS MORRINHOS": {
+    "TECNOLOGIA EM SISTEMAS PARA INTERNET": {
+      "homens": 4,
+      "mulheres": 3
+    },
+    "BACHARELADO EM ZOOTECNIA": {
+      "homens": 4,
+      "mulheres": 6
+    },
+    "BACHARELADO EM AGRONOMIA": {
+      "homens": 6,
+      "mulheres": 4
+    },
+    "TECNOLOGIA EM ALIMENTOS": {
+      "homens": 2,
+      "mulheres": 8
+    },
+    "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO": {
+      "homens": 10,
+      "mulheres": 0
+    },
+    "LICENCIATURA EM PEDAGOGIA": {
+      "homens": 0,
+      "mulheres": 12
+    },
+    "LICENCIATURA EM QUÍMICA": {
+      "homens": 4,
+      "mulheres": 7
+    }
+  },
+  "CAMPUS AVANÇADO IPAMERI": {
+    "TECNOLOGIA EM GESTÃO COMERCIAL": {
+      "homens": 7,
+      "mulheres": 4
+    }
+  },
+  "CAMPUS AVANÇADO HIDROLÂNDIA": {
+    "TECNOLOGIA EM AGROECOLOGIA": {
+      "homens": 6,
+      "mulheres": 4
+    }
+  },
+  "CAMPUS AVANÇADO CATALÃO": {
+    "LICENCIATURA EM CIÊNCIAS NATURAIS": {
+      "homens": 4,
+      "mulheres": 6
+    }
+  }
+}
