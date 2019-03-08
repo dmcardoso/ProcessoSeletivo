@@ -1,1 +1,42 @@
-{"CIÊNCIAS SOCIAIS APLICADAS":{"maior":{"RIPPI-PCD":"2771.2"},"menor":{"RIPPI":"2501.5"}},"CIÊNCIAS AGRÁRIAS":{"maior":{"RIPPI-PCD":"3157.6"},"menor":{"RIPPI":"2423.8"}},"CIÊNCIAS EXATAS E DA TERRA":{"maior":{"RI":"3071.6"},"menor":{"RIPPI-PCD":"2292"}},"CIÊNCIAS BIOLÓGICAS":{"maior":{"RI-PCD":"3245.7"},"menor":{"RI-PCD":"3245.7"}},"ENGENHARIAS":{"maior":{"RIPPI-PCD":"3435.1"},"menor":{"RIPPI":"2475.8"}}}
+{
+  "CIÊNCIAS SOCIAIS APLICADAS": {
+    "maior": {
+      "RIPPI-PCD": "2771.2"
+    },
+    "menor": {
+      "RIPPI": "2501.5"
+    }
+  },
+  "CIÊNCIAS AGRÁRIAS": {
+    "maior": {
+      "RIPPI-PCD": "3157.6"
+    },
+    "menor": {
+      "RIPPI": "2423.8"
+    }
+  },
+  "CIÊNCIAS EXATAS E DA TERRA": {
+    "maior": {
+      "RI": "3071.6"
+    },
+    "menor": {
+      "RIPPI-PCD": "2292"
+    }
+  },
+  "CIÊNCIAS BIOLÓGICAS": {
+    "maior": {
+      "RI-PCD": "3245.7"
+    },
+    "menor": {
+      "RI-PCD": "3245.7"
+    }
+  },
+  "ENGENHARIAS": {
+    "maior": {
+      "RIPPI-PCD": "3435.1"
+    },
+    "menor": {
+      "RIPPI": "2475.8"
+    }
+  }
+}

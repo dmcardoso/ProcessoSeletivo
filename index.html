@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Processo Seletivo</title>
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/chartjs.min.js"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 100%;
+            position: relative;
+        }
+
+        body {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            color: #4d4d4d;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        canvas {
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mineração de Dados</h1>
+</header>
+
+<article>
+
+    <canvas id="inscritos"></canvas>
+    <canvas id="inscritos_com_sexo"></canvas>
+    <canvas id="maior_menor_nota_ac"></canvas>
+
+</article>
+
+<script>
+
+    $.ajax({
+        url: 'resultados/area_conhecimento_inscritos_if.json',
+        method: 'GET',
+        dataType: 'text',
+        success: function (res) {
+            grafico(JSON.parse(res), 'inscritos', 'Total de Inscritos', false);
+        },
+        error: function (error) {
+            console.log(error);
+        }
+    });
+
+    $.ajax({
+        url: 'resultados/area_conhecimento_inscritos_com_sexo_if.json',
+        // url: 'resultados/teste.json',
+        method: 'GET',
+        success: function (res) {
+            grafico(JSON.parse(res), 'inscritos_com_sexo', 'Total de Inscritos/Sexo', true);
+        },
+        error: function (error) {
+            console.log(error);
+        }
+    });
+
+    $.ajax({
+        url: 'resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json',
+        method: 'GET',
+        success: function (res) {
+            grafico(JSON.parse(res), 'maior_menor_nota_ac', 'Maior/Menor Nota de Corte AC', true);
+        },
+        error: function (error) {
+            console.log(error);
+        }
+    });
+
+    const grafico = function (dados, elemento, titulo, multidataset) {
+
+        let elem = document.getElementById(elemento).getContext('2d'),
+            config = {},
+            colors = [
+                '#001f3f', '#0074D9', '#7FDBFF', '#39CCCC', '#3D9970', '#2ECC40', '#01FF70', '#FFDC00',
+                '#FF851B', '#FF4136', '#85144b', '#F012BE', '#B10DC9', '#111111', '#AAAAAA', '#DDDDDD'
+            ],
+            labels = [],
+            posicao_dados = [],
+            max_value = 0,
+            min_value = 1000000;
+
+        $.each(dados, function (i, v) {
+            if (i !== 'total') {
+                labels.push(i);
+                posicao_dados.push({indice: i, valor: v});
+                if (v > max_value) max_value = v;
+                if (v < min_value) min_value = v;
+            }
+        });
+
+        if (multidataset) {
+
+            config = {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: []
+                },
+                options: {
+                    animation: {
+                        duration: 300,
+                        easing: "easeOutQuart",
+                        onComplete: function () {
+                            let chartInstance = this.chart,
+                                ctx = chartInstance.ctx;
+
+                            ctx.font = Chart.helpers.fontString(Chart.defaults.global.defaultFontSize, Chart.defaults.global.defaultFontStyle, Chart.defaults.global.defaultFontFamily);
+                            ctx.textAlign = 'center';
+                            ctx.textBaseline = 'bottom';
+                            ctx.fillStyle = '#4d4d4d';
+
+                            this.data.datasets.forEach(function (dataset, i) {
+                                let meta = chartInstance.controller.getDatasetMeta(i);
+                                meta.data.forEach(function (bar, index) {
+                                    let data = dataset.data[index];
+                                    ctx.fillText(data, bar._model.x, bar._model.y + 0);
+                                });
+                            });
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: titulo,
+                        fontSize: 26,
+                        fontColor: '#4d4d4d'
+                    },
+                    legend: {
+                        labels: {
+                            usePointStyle: true
+                        }
+                    },
+                    hover: {
+                        animationDuration: 0
+                    },
+                    tooltips: {
+                        mode: 'point',
+                        backgroundColor: '#9d9d9d',
+                        borderColor: 'fff'
+                    },
+                    responsive: true
+                }
+            };
+
+            $.each(posicao_dados, function (i, v) {
+
+                config.data.datasets.push({
+                    label: v.indice,
+                    data: [],
+                    backgroundColor: colors[i],
+                    hoverBackgroundColor: colors[i],
+                    borderColor: colors[i],
+                    fill: false,
+                    lineTension: 0,
+                    pointHitRadius: 10,
+                    pointStyle: 'rectRounded',
+                    borderWidth: 3
+                });
+
+                $.each(v.valor, function (a, b) {
+                    config.data.datasets[i].data.push(b);
+                });
+
+                // config.data.datasets[i].data.push(100);
+            });
+            console.log(config.data.datasets);
+
+        } else {
+
+            config = {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: titulo,
+                        data: [],
+                        backgroundColor: [],
+                        borderColor: [],
+                        pointStyle: 'rectRounded'
+                    }]
+                },
+                options: {
+                    animation: {
+                        duration: 300,
+                        easing: "easeOutQuart",
+                        onComplete: function () {
+                            let chartInstance = this.chart,
+                                ctx = chartInstance.ctx;
+
+                            ctx.font = Chart.helpers.fontString(Chart.defaults.global.defaultFontSize, Chart.defaults.global.defaultFontStyle, Chart.defaults.global.defaultFontFamily);
+                            ctx.textAlign = 'center';
+                            ctx.textBaseline = 'bottom';
+                            ctx.fillStyle = '#4d4d4d';
+
+                            this.data.datasets.forEach(function (dataset, i) {
+                                let meta = chartInstance.controller.getDatasetMeta(i);
+                                meta.data.forEach(function (bar, index) {
+                                    let data = dataset.data[index];
+                                    ctx.fillText(data, bar._model.x, bar._model.y + 0);
+                                });
+                            });
+                        }
+                    },
+                    title: {
+                        text: titulo,
+                        fontSize: 26,
+                        fontColor: '#4d4d4d',
+                        display: true
+                    },
+                    legend: {
+                        labels: {
+                            usePointStyle: true,
+                            fontColor: '#001f3f',
+                            fontSize: 16
+                        }
+                    },
+                    hover: {
+                        animationDuration: 0
+                    },
+                    tooltips: {
+                        // enabled: false,
+                        mode: 'point',
+                        backgroundColor: '#9d9d9d',
+                        borderColor: 'fff'
+                    },
+                    scales: {
+                        yAxes: [{
+                            gridLines: {
+                                drawBorder: false,
+                                color: []
+                            },
+                            ticks: {
+                                min: 0,
+                                max: max_value,
+                                stepSize: Math.ceil(max_value / 7)
+                            }
+                        }]
+                    },
+                    responsive: true
+                }
+            };
+
+            $.each(posicao_dados, function (i, v) {
+                if (v.indice !== 'total') {
+                    config.data.datasets[0].backgroundColor.push(colors[i]);
+                    config.data.datasets[0].borderColor.push(colors[i]);
+                    config.data.datasets[0].data.push(v.valor);
+                }
+            });
+        }
+
+        return new Chart(elem, config);
+
+    }
+
+</script>
+</body>
+</html>
