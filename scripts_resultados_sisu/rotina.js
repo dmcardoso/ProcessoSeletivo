@@ -13,11 +13,11 @@ const {
     getByAreaConhecimento,
     getCursoByAreaConhecimento,
     cotas,
-    getByCota
+    getByCota,
+    getByCotaName
 } = require('./filters');
-const resultado_if = require('../resultados/resultado_if.json');
-const inscritos_if = require('../files_inscritos/inscricoes_organizadas_com_sexo');
-const campi = require('../resultados/campi_informacoes');
+const resultado_if = require('../resultados_sisu/sisu_final.json');
+const campi = require('../files_sisu/campi_info_sisu.json');
 
 const cursos_pouco_inscritos = [];
 const vagas_area_conhecimento_por_cotas = {};
@@ -78,48 +78,51 @@ areasConhecimento.forEach((value, index) => {
         let vagas_cotas = 0;
         cotas.forEach(cota => {
             const nota_corte = getNotaCorte(resultado, curso.curso, cota, curso.campus);
-            if (nota_corte > maior_nota_corte) {
-                maior_nota_corte = nota_corte;
-                cota_maior = cota;
-            }
+            // console.log(getNotaCorte(resultado, curso.curso, cota, curso.campus));
+            // console.log(cota, curso.curso, curso.campus);
+            if (nota_corte !== undefined) {
+                if (nota_corte > maior_nota_corte) {
+                    maior_nota_corte = nota_corte;
+                    cota_maior = cota;
+                }
 
-            if (menor_nota_corte === null || menor_nota_corte === undefined) {
-                menor_nota_corte = nota_corte;
-                cota_menor = cota;
-            } else if (menor_nota_corte > nota_corte) {
-                menor_nota_corte = nota_corte;
-                cota_menor = cota;
-            }
+                if (menor_nota_corte === null || menor_nota_corte === undefined) {
+                    menor_nota_corte = nota_corte;
+                    cota_menor = cota;
+                } else if (menor_nota_corte > nota_corte) {
+                    menor_nota_corte = nota_corte;
+                    cota_menor = cota;
+                }
 
-            const vagas_curso_cota = getVagas(curso.campus, curso.curso, cota);
-            vagas_cotas += vagas_curso_cota;
+                const vagas_curso_cota = getVagas(curso.campus, curso.curso, cota);
+                vagas_cotas += vagas_curso_cota;
 
-            if (vagas_por_curso_detalhada[getCampusById(curso.campus).campus] === undefined) {
-                vagas_por_curso_detalhada[getCampusById(curso.campus).campus] = {};
-            }
-            if (vagas_por_curso_detalhada[getCampusById(curso.campus).campus][curso.curso] === undefined) {
-                vagas_por_curso_detalhada[getCampusById(curso.campus).campus][curso.curso] = {};
-            }
-            vagas_por_curso_detalhada[getCampusById(curso.campus).campus][curso.curso][cota] = vagas_curso_cota;
+                if (vagas_por_curso_detalhada[getCampusById(curso.campus).campus] === undefined) {
+                    vagas_por_curso_detalhada[getCampusById(curso.campus).campus] = {};
+                }
+                if (vagas_por_curso_detalhada[getCampusById(curso.campus).campus][curso.curso] === undefined) {
+                    vagas_por_curso_detalhada[getCampusById(curso.campus).campus][curso.curso] = {};
+                }
+                vagas_por_curso_detalhada[getCampusById(curso.campus).campus][curso.curso][cota] = vagas_curso_cota;
 
-            if (vagas_area_conhecimento_por_cotas_detalhada[value] === undefined) {
-                vagas_area_conhecimento_por_cotas_detalhada[value] = {};
-            }
-            if (vagas_area_conhecimento_por_cotas_detalhada[value][cota] === undefined) {
-                vagas_area_conhecimento_por_cotas_detalhada[value][cota] = 0;
-            }
-            vagas_area_conhecimento_por_cotas_detalhada[value][cota] += vagas_curso_cota;
+                if (vagas_area_conhecimento_por_cotas_detalhada[value] === undefined) {
+                    vagas_area_conhecimento_por_cotas_detalhada[value] = {};
+                }
+                if (vagas_area_conhecimento_por_cotas_detalhada[value][cota] === undefined) {
+                    vagas_area_conhecimento_por_cotas_detalhada[value][cota] = 0;
+                }
+                vagas_area_conhecimento_por_cotas_detalhada[value][cota] += vagas_curso_cota;
 
-            if (maiores_menores_notas_corte_campi_cotas[getCampusById(curso.campus).campus] === undefined) {
-                maiores_menores_notas_corte_campi_cotas[getCampusById(curso.campus).campus] = [];
+                if (maiores_menores_notas_corte_campi_cotas[getCampusById(curso.campus).campus] === undefined) {
+                    maiores_menores_notas_corte_campi_cotas[getCampusById(curso.campus).campus] = [];
+                }
+
+                maiores_menores_notas_corte_campi_cotas[getCampusById(curso.campus).campus].push({
+                    curso: curso.curso,
+                    cota,
+                    nota_corte
+                });
             }
-
-            maiores_menores_notas_corte_campi_cotas[getCampusById(curso.campus).campus].push({
-                curso: curso.curso,
-                cota,
-                nota_corte
-            });
-
         });
         console.log("Vagas reservadas para cotas no curso " + curso.curso + " do " + getCampusById(curso.campus).campus + ": " + vagas_cotas);
         vagas_cotas_area_conhecimento += vagas_cotas;
@@ -201,10 +204,6 @@ areasConhecimento.forEach((value, index) => {
 
 });
 
-const sexo_inscritos = {
-    mulheres: getBySexo(inscritos_if, "F").length,
-    homens: getBySexo(inscritos_if, "M").length
-};
 const sexo_inscritos_com_resultado = {
     mulheres: getBySexo(resultado_if, "F").length,
     homens: getBySexo(resultado_if, "M").length
@@ -235,13 +234,6 @@ const sexo_maior_menor_nota_com_cota = {
 
 const vagas_campi = [];
 // Gerais
-console.log('-------------------------------------------------------');
-console.log(`Inscrições no processo seletivo: ${inscritos_if.length}`);
-console.log(`Inscrições com resultado: ${resultado_if.length}`);
-inscritos_por_area_conhecimento.total = resultado_if.length;
-console.log('-------------------------------------------------------');
-console.log("Inscritos: Mulheres: " + getBySexo(inscritos_if, "F").length);
-console.log("Inscritos: Homens: " + getBySexo(inscritos_if, "M").length);
 console.log('-------------------------------------------------------');
 console.log("Com resultado: Mulheres: " + getBySexo(resultado_if, "F").length);
 console.log("Com resultado: Homens: " + getBySexo(resultado_if, "M").length);
@@ -279,9 +271,9 @@ campi.forEach((value, index) => {
     const campus_id = value.id;
     // console.log(campus_id);
     console.log(`${value.campus}:`);
-    console.log(`${getByCampus(inscritos_if, campus_id).length} inscritos, porém com ${getByCampus(resultado_if, campus_id).length} resultados`);
-    console.log(`Sendo esses: Inscritos - ${getBySexo(getByCampus(inscritos_if, campus_id), "M").length} e Com resultado - ${getBySexo(getByCampus(resultado_if, campus_id), "M").length} do sexo masculino e`);
-    console.log(`Sendo esses: Inscritos - ${getBySexo(getByCampus(inscritos_if, campus_id), "F").length} e Com resultado - ${getBySexo(getByCampus(resultado_if, campus_id), "F").length} do sexo feminino`);
+    console.log(`inscritos com ${getByCampus(resultado_if, campus_id).length} resultados`);
+    console.log(`Sendo esses: Inscritos  Com resultado - ${getBySexo(getByCampus(resultado_if, campus_id), "M").length} do sexo masculino e`);
+    console.log(`Sendo esses: Inscritos  Com resultado - ${getBySexo(getByCampus(resultado_if, campus_id), "F").length} do sexo feminino`);
 
     inscritos_por_campus[value.campus] = getByCampus(resultado_if, campus_id).length;
     inscritos_por_campus_com_sexo[value.campus] = {};
@@ -396,33 +388,32 @@ console.log("\nO total de vagas ofertadas pelo processo seletivo foram: " + tota
  * Escreve os arquivos dos resultados
  */
 // Area conhecimento
-fs.writeFileSync('resultados/area_conhecimento_inscritos_if.json', JSON.stringify(inscritos_por_area_conhecimento)); //1 e 5
-fs.writeFileSync('resultados/area_conhecimento_inscritos_com_sexo_if.json', JSON.stringify(inscritos_com_sexo_por_area_conhecimento)); //1 e 5
-fs.writeFileSync('resultados/area_conhecimento_vagas_por_cotas_detalhada_if.json', JSON.stringify(vagas_area_conhecimento_por_cotas_detalhada)); //2
-fs.writeFileSync('resultados/area_conhecimento_vagas_por_cotas_if.json', JSON.stringify(vagas_area_conhecimento_por_cotas)); //2
-fs.writeFileSync('resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json', JSON.stringify(maiores_menores_notas_corte_area_conhecimento_ampla_concorrencia)); //3 e 4
-fs.writeFileSync('resultados/area_conhecimento_maiores_menores_notas_corte_cotas_if.json', JSON.stringify(maiores_menores_notas_corte_area_conhecimento_cotas));//3 e 4
+fs.writeFileSync('resultados_sisu/area_conhecimento_inscritos_sisu.json', JSON.stringify(inscritos_por_area_conhecimento)); //1 e 5
+fs.writeFileSync('resultados_sisu/area_conhecimento_inscritos_com_sexo_sisu.json', JSON.stringify(inscritos_com_sexo_por_area_conhecimento)); //1 e 5
+fs.writeFileSync('resultados_sisu/area_conhecimento_vagas_por_cotas_detalhada_sisu.json', JSON.stringify(vagas_area_conhecimento_por_cotas_detalhada)); //2
+fs.writeFileSync('resultados_sisu/area_conhecimento_vagas_por_cotas_sisu.json', JSON.stringify(vagas_area_conhecimento_por_cotas)); //2
+fs.writeFileSync('resultados_sisu/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_sisu.json', JSON.stringify(maiores_menores_notas_corte_area_conhecimento_ampla_concorrencia)); //3 e 4
+fs.writeFileSync('resultados_sisu/area_conhecimento_maiores_menores_notas_corte_cotas_sisu.json', JSON.stringify(maiores_menores_notas_corte_area_conhecimento_cotas));//3 e 4
 
-fs.writeFileSync('resultados/curso_vagas_por_cotas_detalhada_if.json', JSON.stringify(vagas_por_curso_detalhada));
-fs.writeFileSync('resultados/curso_vagas_por_cotas_if.json', JSON.stringify(vagas_por_curso));
-fs.writeFileSync('resultados/curso_vagas_if.json', JSON.stringify(curso_vagas));
-fs.writeFileSync('resultados/curso_inscritos_if.json', JSON.stringify(curso_inscritos)); //1 e 5
-fs.writeFileSync('resultados/curso_inscritos_com_sexo_if.json', JSON.stringify(curso_inscritos_com_sexo)); //1 e 5
-fs.writeFileSync('resultados/curso_notas_corte_ampla_concorrencia_if.json', JSON.stringify(notas_corte_cursos_ampla_concorrencia)); //1 e 5
-fs.writeFileSync('resultados/curso_notas_corte_cotas_if.json', JSON.stringify(maiores_menores_notas_corte_campi_cotas)); //1 e 5
-fs.writeFileSync('resultados/curso_maiores_menores_notas_if.json', JSON.stringify(maiores_menores_notas_curso)); //1 e 5
+fs.writeFileSync('resultados_sisu/curso_vagas_por_cotas_detalhada_sisu.json', JSON.stringify(vagas_por_curso_detalhada));
+fs.writeFileSync('resultados_sisu/curso_vagas_por_cotas_sisu.json', JSON.stringify(vagas_por_curso));
+fs.writeFileSync('resultados_sisu/curso_vagas_sisu.json', JSON.stringify(curso_vagas));
+fs.writeFileSync('resultados_sisu/curso_inscritos_sisu.json', JSON.stringify(curso_inscritos)); //1 e 5
+fs.writeFileSync('resultados_sisu/curso_inscritos_com_sexo_sisu.json', JSON.stringify(curso_inscritos_com_sexo)); //1 e 5
+fs.writeFileSync('resultados_sisu/curso_notas_corte_ampla_concorrencia_sisu.json', JSON.stringify(notas_corte_cursos_ampla_concorrencia)); //1 e 5
+fs.writeFileSync('resultados_sisu/curso_notas_corte_cotas_sisu.json', JSON.stringify(maiores_menores_notas_corte_campi_cotas)); //1 e 5
+fs.writeFileSync('resultados_sisu/curso_maiores_menores_notas_sisu.json', JSON.stringify(maiores_menores_notas_curso)); //1 e 5
 
-fs.writeFileSync('resultados/sexo_inscritos_if.json', JSON.stringify(sexo_inscritos));
-fs.writeFileSync('resultados/sexo_inscritos_com_resultado_if.json', JSON.stringify(sexo_inscritos_com_resultado));
-fs.writeFileSync('resultados/sexo_maiores_menores_notas_if.json', JSON.stringify(maiores_menores_notas_sexo));
-fs.writeFileSync('resultados/sexo_maiores_menores_notas_com_cotas_if.json', JSON.stringify(sexo_maior_menor_nota_com_cota));
+fs.writeFileSync('resultados_sisu/sexo_inscritos_com_resultado_sisu.json', JSON.stringify(sexo_inscritos_com_resultado));
+fs.writeFileSync('resultados_sisu/sexo_maiores_menores_notas_sisu.json', JSON.stringify(maiores_menores_notas_sexo));
+fs.writeFileSync('resultados_sisu/sexo_maiores_menores_notas_com_cotas_sisu.json', JSON.stringify(sexo_maior_menor_nota_com_cota));
 
-fs.writeFileSync('resultados/campi_quantidade_vagas_if.json', JSON.stringify(vagas_campi));
-fs.writeFileSync('resultados/campi_quantidade_vagas_detalhada_if.json', JSON.stringify(campi_quantidade_vagas_detalhada));
-fs.writeFileSync('resultados/campi_quantidade_inscritos_if.json', JSON.stringify(inscritos_por_campus));
-fs.writeFileSync('resultados/campi_inscritos_por_campus_com_sexo_if.json', JSON.stringify(inscritos_por_campus_com_sexo));
-fs.writeFileSync('resultados/campi_maiores_menores_notas_corte_ampla_concorrencia_if.json', JSON.stringify(campi_maiores_menores_notas_corte_ampla_concorrencia));
-fs.writeFileSync('resultados/campi_maiores_menores_notas_corte_cota_if.json', JSON.stringify(maiores_menores_notas_corte_campi_cotas_filtered));
+fs.writeFileSync('resultados_sisu/campi_quantidade_vagas_sisu.json', JSON.stringify(vagas_campi));
+fs.writeFileSync('resultados_sisu/campi_quantidade_vagas_detalhada_sisu.json', JSON.stringify(campi_quantidade_vagas_detalhada));
+fs.writeFileSync('resultados_sisu/campi_quantidade_inscritos_sisu.json', JSON.stringify(inscritos_por_campus));
+fs.writeFileSync('resultados_sisu/campi_inscritos_por_campus_com_sexo_sisu.json', JSON.stringify(inscritos_por_campus_com_sexo));
+fs.writeFileSync('resultados_sisu/campi_maiores_menores_notas_corte_ampla_concorrencia_sisu.json', JSON.stringify(campi_maiores_menores_notas_corte_ampla_concorrencia));
+fs.writeFileSync('resultados_sisu/campi_maiores_menores_notas_corte_cota_sisu.json', JSON.stringify(maiores_menores_notas_corte_campi_cotas_filtered));
 
 // Questão 6
-fs.writeFileSync('resultados/questao_6_if.txt', questao_seis);
+fs.writeFileSync('resultados_sisu/questao_6_sisu.txt', questao_seis);

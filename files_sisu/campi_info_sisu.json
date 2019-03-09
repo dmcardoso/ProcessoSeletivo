@@ -1,0 +1,1154 @@
+[
+  {
+    "id": 1,
+    "campus": "CAMPUS IPORÁ",
+    "cursos": [
+      {
+        "curso": "TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      },
+      {
+        "curso": "LICENCIATURA EM QUÍMICA",
+        "vagas": [
+          {
+            "AC": 4
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          }
+        ],
+        "vagas_calculadas": 7
+      },
+      {
+        "curso": "TECNOLOGIA EM AGRONEGÓCIO",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 11
+      },
+      {
+        "curso": "BACHARELADO EM AGRONOMIA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "campus": "CAMPUS RIO VERDE",
+    "cursos": [
+      {
+        "curso": "LICENCIATURA EM QUÍMICA",
+        "vagas": [
+          {
+            "AC": 7
+          },
+          {
+            "RIPPI": 2
+          },
+          {
+            "RSPPI": 2
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 13
+      },
+      {
+        "curso": "TECNOLOGIA EM SANEAMENTO AMBIENTAL",
+        "vagas": [
+          {
+            "AC": 7
+          },
+          {
+            "RIPPI": 2
+          },
+          {
+            "RSPPI": 2
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 14
+      },
+      {
+        "curso": "BACHARELADO EM ZOOTECNIA",
+        "vagas": [
+          {
+            "AC": 7
+          },
+          {
+            "RIPPI": 2
+          },
+          {
+            "RSPPI": 2
+          },
+          {
+            "RSPPI-PCD": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 15
+      },
+      {
+        "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+        "vagas": [
+          {
+            "AC": 7
+          },
+          {
+            "RIPPI": 2
+          },
+          {
+            "RSPPI": 2
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 14
+      },
+      {
+        "curso": "BACHARELADO EM CIÊNCIAS BIOLÓGICAS",
+        "vagas": [
+          {
+            "AC": 7
+          },
+          {
+            "RIPPI": 2
+          },
+          {
+            "RSPPI": 2
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 13
+      },
+      {
+        "curso": "BACHARELADO EM ENGENHARIA CIVIL",
+        "vagas": [
+          {
+            "AC": 7
+          },
+          {
+            "RIPPI": 2
+          },
+          {
+            "RSPPI": 2
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 14
+      },
+      {
+        "curso": "BACHARELADO EM ENGENHARIA DE ALIMENTOS",
+        "vagas": [
+          {
+            "AC": 7
+          },
+          {
+            "RIPPI": 2
+          },
+          {
+            "RSPPI": 2
+          },
+          {
+            "RSPPI-PCD": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 15
+      },
+      {
+        "curso": "BACHARELADO EM AGRONOMIA",
+        "vagas": [
+          {
+            "AC": 7
+          },
+          {
+            "RIPPI": 2
+          },
+          {
+            "RSPPI": 2
+          },
+          {
+            "RSPPI-PCD": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 15
+      },
+      {
+        "curso": "BACHARELADO EM ENGENHARIA AMBIENTAL",
+        "vagas": [
+          {
+            "AC": 7
+          },
+          {
+            "RIPPI": 2
+          },
+          {
+            "RSPPI": 2
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 14
+      },
+      {
+        "curso": "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO",
+        "vagas": [
+          {
+            "AC": 5
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          }
+        ],
+        "vagas_calculadas": 9
+      },
+      {
+        "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+        "vagas": [
+          {
+            "AC": 7
+          },
+          {
+            "RIPPI": 2
+          },
+          {
+            "RSPPI": 2
+          },
+          {
+            "RSPPI-PCD": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 15
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "campus": "CAMPUS CERES",
+    "cursos": [
+      {
+        "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RSPPI-PCD": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 12
+      },
+      {
+        "curso": "BACHARELADO EM SISTEMAS DE INFORMAÇÃO",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      },
+      {
+        "curso": "BACHARELADO EM ZOOTECNIA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RSPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 11
+      },
+      {
+        "curso": "LICENCIATURA EM QUÍMICA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 11
+      },
+      {
+        "curso": "BACHARELADO EM AGRONOMIA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 11
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "campus": "CAMPUS TRINDADE",
+    "cursos": [
+      {
+        "curso": "BACHARELADO EM ENGENHARIA DE COMPUTAÇÃO",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 11
+      },
+      {
+        "curso": "BACHARELADO EM ENGENHARIA ELÉTRICA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RSPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 11
+      },
+      {
+        "curso": "BACHARELADO EM ENGENHARIA CIVIL",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RSPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 11
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "campus": "CAMPUS POSSE",
+    "cursos": [
+      {
+        "curso": "BACHARELADO EM AGRONOMIA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RSPPI-PCD": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 12
+      },
+      {
+        "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RSPPI-PCD": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 12
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "campus": "CAMPUS URUTAÍ",
+    "cursos": [
+      {
+        "curso": "LICENCIATURA EM QUÍMICA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      },
+      {
+        "curso": "BACHARELADO EM MEDICINA VETERINÁRIA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RSPPI-PCD": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 12
+      },
+      {
+        "curso": "TECNOLOGIA EM GESTÃO DA TECNOLOGIA DA INFORMAÇÃO",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      },
+      {
+        "curso": "BACHARELADO EM SISTEMAS DE INFORMAÇÃO",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      },
+      {
+        "curso": "BACHARELADO EM AGRONOMIA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      },
+      {
+        "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      },
+      {
+        "curso": "BACHARELADO EM CIÊNCIA E TECNOLOGIA DE ALIMENTOS",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      },
+      {
+        "curso": "BACHARELADO EM ENGENHARIA AGRÍCOLA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      },
+      {
+        "curso": "LICENCIATURA EM MATEMÁTICA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "campus": "CAMPUS CRISTALINA",
+    "cursos": [
+      {
+        "curso": "TECNOLOGIA EM HORTICULTURA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "campus": "CAMPUS CAMPOS BELOS",
+    "cursos": [
+      {
+        "curso": "BACHARELADO EM ZOOTECNIA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 11
+      },
+      {
+        "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+        "vagas": [
+          {
+            "AC": 5
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RSPPI-PCD": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "campus": "CAMPUS MORRINHOS",
+    "cursos": [
+      {
+        "curso": "TECNOLOGIA EM SISTEMAS PARA INTERNET",
+        "vagas": [
+          {
+            "AC": 4
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          }
+        ],
+        "vagas_calculadas": 7
+      },
+      {
+        "curso": "BACHARELADO EM ZOOTECNIA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      },
+      {
+        "curso": "BACHARELADO EM AGRONOMIA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      },
+      {
+        "curso": "TECNOLOGIA EM ALIMENTOS",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      },
+      {
+        "curso": "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      },
+      {
+        "curso": "LICENCIATURA EM PEDAGOGIA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RSPPI-PCD": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 12
+      },
+      {
+        "curso": "LICENCIATURA EM QUÍMICA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RIPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 11
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "campus": "CAMPUS AVANÇADO IPAMERI",
+    "cursos": [
+      {
+        "curso": "TECNOLOGIA EM GESTÃO COMERCIAL",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RSPPI-PCD": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 11
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "campus": "CAMPUS AVANÇADO HIDROLÂNDIA",
+    "cursos": [
+      {
+        "curso": "TECNOLOGIA EM AGROECOLOGIA",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "campus": "CAMPUS AVANÇADO CATALÃO",
+    "cursos": [
+      {
+        "curso": "LICENCIATURA EM CIÊNCIAS NATURAIS",
+        "vagas": [
+          {
+            "AC": 6
+          },
+          {
+            "RIPPI": 1
+          },
+          {
+            "RSPPI": 1
+          },
+          {
+            "RI": 1
+          },
+          {
+            "RS": 1
+          }
+        ],
+        "vagas_calculadas": 10
+      }
+    ]
+  }
+]

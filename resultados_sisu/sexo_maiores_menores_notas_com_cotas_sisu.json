@@ -1,0 +1,22 @@
+{
+  "maior": {
+    "homens": {
+      "cota": "RS",
+      "nota": "703,54"
+    },
+    "mulheres": {
+      "cota": "RS",
+      "nota": "688,14"
+    }
+  },
+  "menor": {
+    "homens": {
+      "cota": "RIPPI-PCD",
+      "nota": "430,30"
+    },
+    "mulheres": {
+      "cota": "RSPPI-PCD",
+      "nota": "402,14"
+    }
+  }
+}

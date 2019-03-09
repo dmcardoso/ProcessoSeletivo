@@ -1,0 +1,1121 @@
+{
+  "CAMPUS CAMPOS BELOS": [
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "472.50"
+    },
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RIPPI",
+      "nota_corte": "621.32"
+    },
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RI",
+      "nota_corte": "591.62"
+    },
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RSPPI-PCD",
+      "nota_corte": "512.42"
+    },
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RSPPI",
+      "nota_corte": "578.02"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "477.20"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RIPPI",
+      "nota_corte": "596.72"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RI",
+      "nota_corte": "603.78"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RSPPI",
+      "nota_corte": "558.78"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RS",
+      "nota_corte": "596.22"
+    }
+  ],
+  "CAMPUS POSSE": [
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "552.30"
+    },
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RIPPI",
+      "nota_corte": "617.36"
+    },
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RI",
+      "nota_corte": "586.50"
+    },
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RSPPI-PCD",
+      "nota_corte": "504.20"
+    },
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RSPPI",
+      "nota_corte": "607.48"
+    },
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RS",
+      "nota_corte": "597.72"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "443.52"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RIPPI",
+      "nota_corte": "583.44"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RI",
+      "nota_corte": "609.08"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RSPPI-PCD",
+      "nota_corte": "463.56"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RSPPI",
+      "nota_corte": "603.74"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RS",
+      "nota_corte": "614.60"
+    }
+  ],
+  "CAMPUS URUTAÍ": [
+    {
+      "curso": "TECNOLOGIA EM GESTÃO DA TECNOLOGIA DA INFORMAÇÃO",
+      "cota": "RIPPI",
+      "nota_corte": "571.72"
+    },
+    {
+      "curso": "TECNOLOGIA EM GESTÃO DA TECNOLOGIA DA INFORMAÇÃO",
+      "cota": "RI",
+      "nota_corte": "606.44"
+    },
+    {
+      "curso": "TECNOLOGIA EM GESTÃO DA TECNOLOGIA DA INFORMAÇÃO",
+      "cota": "RSPPI",
+      "nota_corte": "565.62"
+    },
+    {
+      "curso": "TECNOLOGIA EM GESTÃO DA TECNOLOGIA DA INFORMAÇÃO",
+      "cota": "RS",
+      "nota_corte": "595.46"
+    },
+    {
+      "curso": "BACHARELADO EM MEDICINA VETERINÁRIA",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "550.36"
+    },
+    {
+      "curso": "BACHARELADO EM MEDICINA VETERINÁRIA",
+      "cota": "RIPPI",
+      "nota_corte": "657.88"
+    },
+    {
+      "curso": "BACHARELADO EM MEDICINA VETERINÁRIA",
+      "cota": "RI",
+      "nota_corte": "668.22"
+    },
+    {
+      "curso": "BACHARELADO EM MEDICINA VETERINÁRIA",
+      "cota": "RSPPI-PCD",
+      "nota_corte": "479.52"
+    },
+    {
+      "curso": "BACHARELADO EM MEDICINA VETERINÁRIA",
+      "cota": "RSPPI",
+      "nota_corte": "672.66"
+    },
+    {
+      "curso": "BACHARELADO EM MEDICINA VETERINÁRIA",
+      "cota": "RS",
+      "nota_corte": "688.14"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RIPPI",
+      "nota_corte": "596.08"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RI",
+      "nota_corte": "642.46"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RSPPI",
+      "nota_corte": "612.24"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RS",
+      "nota_corte": "659.06"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RIPPI",
+      "nota_corte": "575.60"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RI",
+      "nota_corte": "667.90"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RSPPI",
+      "nota_corte": "638.46"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RS",
+      "nota_corte": "615.18"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIA E TECNOLOGIA DE ALIMENTOS",
+      "cota": "RIPPI",
+      "nota_corte": "573.46"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIA E TECNOLOGIA DE ALIMENTOS",
+      "cota": "RI",
+      "nota_corte": "577.74"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIA E TECNOLOGIA DE ALIMENTOS",
+      "cota": "RSPPI",
+      "nota_corte": "577.64"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIA E TECNOLOGIA DE ALIMENTOS",
+      "cota": "RS",
+      "nota_corte": "576.92"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RIPPI",
+      "nota_corte": "532.08"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RI",
+      "nota_corte": "548.96"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RSPPI",
+      "nota_corte": "538.50"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RS",
+      "nota_corte": "565.14"
+    },
+    {
+      "curso": "BACHARELADO EM SISTEMAS DE INFORMAÇÃO",
+      "cota": "RIPPI",
+      "nota_corte": "579.74"
+    },
+    {
+      "curso": "BACHARELADO EM SISTEMAS DE INFORMAÇÃO",
+      "cota": "RI",
+      "nota_corte": "563.28"
+    },
+    {
+      "curso": "BACHARELADO EM SISTEMAS DE INFORMAÇÃO",
+      "cota": "RSPPI",
+      "nota_corte": "575.92"
+    },
+    {
+      "curso": "BACHARELADO EM SISTEMAS DE INFORMAÇÃO",
+      "cota": "RS",
+      "nota_corte": "555.84"
+    },
+    {
+      "curso": "LICENCIATURA EM MATEMÁTICA",
+      "cota": "RIPPI",
+      "nota_corte": "602.26"
+    },
+    {
+      "curso": "LICENCIATURA EM MATEMÁTICA",
+      "cota": "RI",
+      "nota_corte": "626.06"
+    },
+    {
+      "curso": "LICENCIATURA EM MATEMÁTICA",
+      "cota": "RSPPI",
+      "nota_corte": "655.52"
+    },
+    {
+      "curso": "LICENCIATURA EM MATEMÁTICA",
+      "cota": "RS",
+      "nota_corte": "535.08"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA AGRÍCOLA",
+      "cota": "RIPPI",
+      "nota_corte": "593.54"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA AGRÍCOLA",
+      "cota": "RI",
+      "nota_corte": "610.80"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA AGRÍCOLA",
+      "cota": "RSPPI",
+      "nota_corte": "611.42"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA AGRÍCOLA",
+      "cota": "RS",
+      "nota_corte": "666.14"
+    }
+  ],
+  "CAMPUS AVANÇADO IPAMERI": [
+    {
+      "curso": "TECNOLOGIA EM GESTÃO COMERCIAL",
+      "cota": "RIPPI",
+      "nota_corte": "554.62"
+    },
+    {
+      "curso": "TECNOLOGIA EM GESTÃO COMERCIAL",
+      "cota": "RI",
+      "nota_corte": "569.86"
+    },
+    {
+      "curso": "TECNOLOGIA EM GESTÃO COMERCIAL",
+      "cota": "RSPPI-PCD",
+      "nota_corte": "494.94"
+    },
+    {
+      "curso": "TECNOLOGIA EM GESTÃO COMERCIAL",
+      "cota": "RSPPI",
+      "nota_corte": "601.60"
+    },
+    {
+      "curso": "TECNOLOGIA EM GESTÃO COMERCIAL",
+      "cota": "RS",
+      "nota_corte": "564.36"
+    }
+  ],
+  "CAMPUS RIO VERDE": [
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "541.02"
+    },
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RIPPI",
+      "nota_corte": "617.94"
+    },
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RI",
+      "nota_corte": "669.06"
+    },
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RSPPI-PCD",
+      "nota_corte": "508.14"
+    },
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RSPPI",
+      "nota_corte": "598.08"
+    },
+    {
+      "curso": "BACHARELADO EM ADMINISTRAÇÃO",
+      "cota": "RS",
+      "nota_corte": "628.52"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "499.64"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RIPPI",
+      "nota_corte": "606.86"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RI",
+      "nota_corte": "593.46"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RSPPI",
+      "nota_corte": "577.46"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RS",
+      "nota_corte": "646.98"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "541"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RIPPI",
+      "nota_corte": "586.84"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RI",
+      "nota_corte": "612.22"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RSPPI-PCD",
+      "nota_corte": "462.78"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RSPPI",
+      "nota_corte": "625.24"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RS",
+      "nota_corte": "611.92"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RIPPI",
+      "nota_corte": "579.74"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RI",
+      "nota_corte": "542.20"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RSPPI",
+      "nota_corte": "567.74"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RS",
+      "nota_corte": "668.32"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "447.96"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RIPPI",
+      "nota_corte": "576.70"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RI",
+      "nota_corte": "583.24"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RSPPI-PCD",
+      "nota_corte": "508.22"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RSPPI",
+      "nota_corte": "575.20"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RS",
+      "nota_corte": "579.14"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "511.48"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO",
+      "cota": "RIPPI",
+      "nota_corte": "587.32"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO",
+      "cota": "RI",
+      "nota_corte": "636.84"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO",
+      "cota": "RSPPI",
+      "nota_corte": "660.98"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RIPPI",
+      "nota_corte": "585.06"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RI",
+      "nota_corte": "587.44"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RSPPI",
+      "nota_corte": "585.92"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RS",
+      "nota_corte": "702.18"
+    },
+    {
+      "curso": "TECNOLOGIA EM SANEAMENTO AMBIENTAL",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "459.76"
+    },
+    {
+      "curso": "TECNOLOGIA EM SANEAMENTO AMBIENTAL",
+      "cota": "RIPPI",
+      "nota_corte": "534.10"
+    },
+    {
+      "curso": "TECNOLOGIA EM SANEAMENTO AMBIENTAL",
+      "cota": "RI",
+      "nota_corte": "558.30"
+    },
+    {
+      "curso": "TECNOLOGIA EM SANEAMENTO AMBIENTAL",
+      "cota": "RSPPI",
+      "nota_corte": "571.18"
+    },
+    {
+      "curso": "TECNOLOGIA EM SANEAMENTO AMBIENTAL",
+      "cota": "RS",
+      "nota_corte": "570.20"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA CIVIL",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "467.68"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA CIVIL",
+      "cota": "RIPPI",
+      "nota_corte": "649.66"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA CIVIL",
+      "cota": "RI",
+      "nota_corte": "680.68"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA CIVIL",
+      "cota": "RSPPI",
+      "nota_corte": "656.88"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA CIVIL",
+      "cota": "RS",
+      "nota_corte": "703.54"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA DE ALIMENTOS",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "430.30"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA DE ALIMENTOS",
+      "cota": "RIPPI",
+      "nota_corte": "593.28"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA DE ALIMENTOS",
+      "cota": "RI",
+      "nota_corte": "629.18"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA DE ALIMENTOS",
+      "cota": "RSPPI-PCD",
+      "nota_corte": "539.70"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA DE ALIMENTOS",
+      "cota": "RSPPI",
+      "nota_corte": "611.18"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA DE ALIMENTOS",
+      "cota": "RS",
+      "nota_corte": "633.52"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA AMBIENTAL",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "552.20"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA AMBIENTAL",
+      "cota": "RIPPI",
+      "nota_corte": "610.38"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA AMBIENTAL",
+      "cota": "RI",
+      "nota_corte": "600.50"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA AMBIENTAL",
+      "cota": "RSPPI",
+      "nota_corte": "603.40"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA AMBIENTAL",
+      "cota": "RS",
+      "nota_corte": "617.54"
+    }
+  ],
+  "CAMPUS CERES": [
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "512.38"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RIPPI",
+      "nota_corte": "597.28"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RI",
+      "nota_corte": "602.96"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RSPPI-PCD",
+      "nota_corte": "486.12"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RSPPI",
+      "nota_corte": "610.88"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS",
+      "cota": "RS",
+      "nota_corte": "607.42"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "468.96"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RIPPI",
+      "nota_corte": "637.20"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RI",
+      "nota_corte": "621.32"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RSPPI",
+      "nota_corte": "630.88"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RS",
+      "nota_corte": "620.92"
+    },
+    {
+      "curso": "BACHARELADO EM SISTEMAS DE INFORMAÇÃO",
+      "cota": "RIPPI",
+      "nota_corte": "611.50"
+    },
+    {
+      "curso": "BACHARELADO EM SISTEMAS DE INFORMAÇÃO",
+      "cota": "RI",
+      "nota_corte": "643.50"
+    },
+    {
+      "curso": "BACHARELADO EM SISTEMAS DE INFORMAÇÃO",
+      "cota": "RSPPI",
+      "nota_corte": "629.92"
+    },
+    {
+      "curso": "BACHARELADO EM SISTEMAS DE INFORMAÇÃO",
+      "cota": "RS",
+      "nota_corte": "640.16"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RIPPI",
+      "nota_corte": "585.30"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RI",
+      "nota_corte": "624.78"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RSPPI-PCD",
+      "nota_corte": "476.88"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RSPPI",
+      "nota_corte": "605.32"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RS",
+      "nota_corte": "642.82"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "466.90"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RIPPI",
+      "nota_corte": "619.14"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RI",
+      "nota_corte": "614.32"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RSPPI",
+      "nota_corte": "642.08"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RS",
+      "nota_corte": "591.54"
+    }
+  ],
+  "CAMPUS IPORÁ": [
+    {
+      "curso": "TECNOLOGIA EM AGRONEGÓCIO",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "511.06"
+    },
+    {
+      "curso": "TECNOLOGIA EM AGRONEGÓCIO",
+      "cota": "RIPPI",
+      "nota_corte": "604.76"
+    },
+    {
+      "curso": "TECNOLOGIA EM AGRONEGÓCIO",
+      "cota": "RI",
+      "nota_corte": "595.38"
+    },
+    {
+      "curso": "TECNOLOGIA EM AGRONEGÓCIO",
+      "cota": "RSPPI",
+      "nota_corte": "580.16"
+    },
+    {
+      "curso": "TECNOLOGIA EM AGRONEGÓCIO",
+      "cota": "RS",
+      "nota_corte": "602.02"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RIPPI",
+      "nota_corte": "599.42"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RI",
+      "nota_corte": "623.92"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RSPPI",
+      "nota_corte": "587.34"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RS",
+      "nota_corte": "618.74"
+    },
+    {
+      "curso": "TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+      "cota": "RIPPI",
+      "nota_corte": "567.06"
+    },
+    {
+      "curso": "TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+      "cota": "RI",
+      "nota_corte": "596.32"
+    },
+    {
+      "curso": "TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+      "cota": "RSPPI",
+      "nota_corte": "549.16"
+    },
+    {
+      "curso": "TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS",
+      "cota": "RS",
+      "nota_corte": "582.14"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RIPPI",
+      "nota_corte": "592.36"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RI",
+      "nota_corte": "545.40"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RSPPI",
+      "nota_corte": "540.48"
+    }
+  ],
+  "CAMPUS CRISTALINA": [
+    {
+      "curso": "TECNOLOGIA EM HORTICULTURA",
+      "cota": "RIPPI",
+      "nota_corte": "553.26"
+    },
+    {
+      "curso": "TECNOLOGIA EM HORTICULTURA",
+      "cota": "RI",
+      "nota_corte": "544.02"
+    },
+    {
+      "curso": "TECNOLOGIA EM HORTICULTURA",
+      "cota": "RSPPI",
+      "nota_corte": "570.12"
+    },
+    {
+      "curso": "TECNOLOGIA EM HORTICULTURA",
+      "cota": "RS",
+      "nota_corte": "677.60"
+    }
+  ],
+  "CAMPUS AVANÇADO HIDROLÂNDIA": [
+    {
+      "curso": "TECNOLOGIA EM AGROECOLOGIA",
+      "cota": "RIPPI",
+      "nota_corte": "564.26"
+    },
+    {
+      "curso": "TECNOLOGIA EM AGROECOLOGIA",
+      "cota": "RI",
+      "nota_corte": "548.50"
+    },
+    {
+      "curso": "TECNOLOGIA EM AGROECOLOGIA",
+      "cota": "RSPPI",
+      "nota_corte": "590.20"
+    },
+    {
+      "curso": "TECNOLOGIA EM AGROECOLOGIA",
+      "cota": "RS",
+      "nota_corte": "594.86"
+    }
+  ],
+  "CAMPUS MORRINHOS": [
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RIPPI",
+      "nota_corte": "599.02"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RI",
+      "nota_corte": "623.78"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RSPPI",
+      "nota_corte": "628.10"
+    },
+    {
+      "curso": "BACHARELADO EM AGRONOMIA",
+      "cota": "RS",
+      "nota_corte": "648.30"
+    },
+    {
+      "curso": "TECNOLOGIA EM SISTEMAS PARA INTERNET",
+      "cota": "RIPPI",
+      "nota_corte": "635.64"
+    },
+    {
+      "curso": "TECNOLOGIA EM SISTEMAS PARA INTERNET",
+      "cota": "RI",
+      "nota_corte": "597.20"
+    },
+    {
+      "curso": "TECNOLOGIA EM SISTEMAS PARA INTERNET",
+      "cota": "RSPPI",
+      "nota_corte": "607.70"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RIPPI",
+      "nota_corte": "605.20"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RI",
+      "nota_corte": "584.40"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RSPPI",
+      "nota_corte": "578.68"
+    },
+    {
+      "curso": "BACHARELADO EM ZOOTECNIA",
+      "cota": "RS",
+      "nota_corte": "608.56"
+    },
+    {
+      "curso": "TECNOLOGIA EM ALIMENTOS",
+      "cota": "RIPPI",
+      "nota_corte": "569.20"
+    },
+    {
+      "curso": "TECNOLOGIA EM ALIMENTOS",
+      "cota": "RI",
+      "nota_corte": "547.62"
+    },
+    {
+      "curso": "TECNOLOGIA EM ALIMENTOS",
+      "cota": "RSPPI",
+      "nota_corte": "546.10"
+    },
+    {
+      "curso": "TECNOLOGIA EM ALIMENTOS",
+      "cota": "RS",
+      "nota_corte": "599.14"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO",
+      "cota": "RIPPI",
+      "nota_corte": "552.18"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO",
+      "cota": "RI",
+      "nota_corte": "601.20"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO",
+      "cota": "RSPPI",
+      "nota_corte": "624.92"
+    },
+    {
+      "curso": "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO",
+      "cota": "RS",
+      "nota_corte": "639.28"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "466.50"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RIPPI",
+      "nota_corte": "549.28"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RI",
+      "nota_corte": "566.58"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RSPPI",
+      "nota_corte": "614.12"
+    },
+    {
+      "curso": "LICENCIATURA EM QUÍMICA",
+      "cota": "RS",
+      "nota_corte": "583.40"
+    },
+    {
+      "curso": "LICENCIATURA EM PEDAGOGIA",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "415.84"
+    },
+    {
+      "curso": "LICENCIATURA EM PEDAGOGIA",
+      "cota": "RIPPI",
+      "nota_corte": "587.44"
+    },
+    {
+      "curso": "LICENCIATURA EM PEDAGOGIA",
+      "cota": "RI",
+      "nota_corte": "601.72"
+    },
+    {
+      "curso": "LICENCIATURA EM PEDAGOGIA",
+      "cota": "RSPPI-PCD",
+      "nota_corte": "430.92"
+    },
+    {
+      "curso": "LICENCIATURA EM PEDAGOGIA",
+      "cota": "RSPPI",
+      "nota_corte": "586.24"
+    },
+    {
+      "curso": "LICENCIATURA EM PEDAGOGIA",
+      "cota": "RS",
+      "nota_corte": "604.70"
+    }
+  ],
+  "CAMPUS AVANÇADO CATALÃO": [
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS NATURAIS",
+      "cota": "RIPPI",
+      "nota_corte": "564.98"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS NATURAIS",
+      "cota": "RI",
+      "nota_corte": "535.78"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS NATURAIS",
+      "cota": "RSPPI",
+      "nota_corte": "555.70"
+    },
+    {
+      "curso": "LICENCIATURA EM CIÊNCIAS NATURAIS",
+      "cota": "RS",
+      "nota_corte": "561.98"
+    }
+  ],
+  "CAMPUS TRINDADE": [
+    {
+      "curso": "BACHARELADO EM ENGENHARIA DE COMPUTAÇÃO",
+      "cota": "RIPPI-PCD",
+      "nota_corte": "505.52"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA DE COMPUTAÇÃO",
+      "cota": "RIPPI",
+      "nota_corte": "613.34"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA DE COMPUTAÇÃO",
+      "cota": "RI",
+      "nota_corte": "662.44"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA DE COMPUTAÇÃO",
+      "cota": "RSPPI",
+      "nota_corte": "641.86"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA DE COMPUTAÇÃO",
+      "cota": "RS",
+      "nota_corte": "656.08"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA ELÉTRICA",
+      "cota": "RIPPI",
+      "nota_corte": "633.28"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA ELÉTRICA",
+      "cota": "RI",
+      "nota_corte": "663.58"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA ELÉTRICA",
+      "cota": "RSPPI-PCD",
+      "nota_corte": "555.08"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA ELÉTRICA",
+      "cota": "RSPPI",
+      "nota_corte": "641.42"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA ELÉTRICA",
+      "cota": "RS",
+      "nota_corte": "602.86"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA CIVIL",
+      "cota": "RIPPI",
+      "nota_corte": "656.18"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA CIVIL",
+      "cota": "RI",
+      "nota_corte": "658.58"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA CIVIL",
+      "cota": "RSPPI-PCD",
+      "nota_corte": "402.14"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA CIVIL",
+      "cota": "RSPPI",
+      "nota_corte": "652.30"
+    },
+    {
+      "curso": "BACHARELADO EM ENGENHARIA CIVIL",
+      "cota": "RS",
+      "nota_corte": "679.54"
+    }
+  ]
+}

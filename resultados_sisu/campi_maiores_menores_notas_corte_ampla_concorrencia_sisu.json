@@ -1,0 +1,50 @@
+{
+  "CAMPUS IPORÁ": {
+    "maior": "624.18",
+    "menor": "577.26"
+  },
+  "CAMPUS RIO VERDE": {
+    "maior": "694.46",
+    "menor": "596.82"
+  },
+  "CAMPUS CERES": {
+    "maior": "650.46",
+    "menor": "585.18"
+  },
+  "CAMPUS TRINDADE": {
+    "maior": "706.14",
+    "menor": "675.32"
+  },
+  "CAMPUS POSSE": {
+    "maior": "629.58",
+    "menor": "617.64"
+  },
+  "CAMPUS URUTAÍ": {
+    "maior": "696.42",
+    "menor": "568.26"
+  },
+  "CAMPUS CRISTALINA": {
+    "maior": "584.54",
+    "menor": "584.54"
+  },
+  "CAMPUS CAMPOS BELOS": {
+    "maior": "640.72",
+    "menor": "603.34"
+  },
+  "CAMPUS MORRINHOS": {
+    "maior": "630.32",
+    "menor": "580.08"
+  },
+  "CAMPUS AVANÇADO IPAMERI": {
+    "maior": "575.84",
+    "menor": "575.84"
+  },
+  "CAMPUS AVANÇADO HIDROLÂNDIA": {
+    "maior": "594.36",
+    "menor": "594.36"
+  },
+  "CAMPUS AVANÇADO CATALÃO": {
+    "maior": "579.26",
+    "menor": "579.26"
+  }
+}

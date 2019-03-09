@@ -1,6 +1,6 @@
 const removeAccents = require('remover-acentos');
-const resultado_if = require('../resultados/resultado_if.json');
-const campi_info = require('../resultados/campi_informacoes');
+const resultado_if = require('../files_sisu/sisu_final.json');
+const campi_info = require('../files_sisu/campi_info_sisu');
 const campi = require('../files_inscritos/campi');
 
 const areasConhecimento = [
@@ -15,11 +15,9 @@ const areasConhecimento = [
 const cotas = [
     'RIPPI-PCD',
     'RIPPI',
-    'RI-PCD',
     'RI',
     'RSPPI-PCD',
     'RSPPI',
-    'RS-PCD',
     'RS'
 ];
 
@@ -37,25 +35,10 @@ const getMenorNota = (list) => list.reduce((reducer, curr) => parseFloat(replace
 
 const replaceDot = string => string.replace(',', '.');
 
-const getNotaCorte = (list, curso, vaga_search = "AC", campus_id) => {
-    const corte = getTotalInscritos(vaga_search, campus_id, curso);
-
-    let filtro_colocacao = "";
-    switch (vaga_search) {
-        case "AC":
-            filtro_colocacao = "classificacao_ac";
-            break;
-        default:
-            filtro_colocacao = "classificacao_cota";
-            break;
-    }
-    let ultimo_aprovado = list.filter(inscrito => Number(inscrito[filtro_colocacao]) === corte);
-
-    if (ultimo_aprovado.length > 0) {
-        ultimo_aprovado = ultimo_aprovado[0];
-        return replaceDot(ultimo_aprovado.nota);
-    } else {
-        // console.log("Menos inscritos que a quantidade total de vagas");
+const getNotaCorte = (list, curso, cota, campus) => {
+    const nota_corte = list.find(row => row.curso === curso && row.campus === campus && row.concorrencia === cota);
+    if(nota_corte !== undefined && nota_corte.nota_corte_concorrida !== undefined){
+        return replaceDot(nota_corte.nota_corte_concorrida);
     }
 };
 
@@ -92,8 +75,8 @@ const getCursoByAreaConhecimento = (area_search, list) => {
     const cursos = [];
 
     list.forEach(row => {
-        const equal = (new_curso) => cursos.some(curso => curso.curso === new_curso.curso && curso.campus === new_curso.campus);
-        if (removeAccents(row.area_conhecimento.toUpperCase()) === removeAccents(area_search.toUpperCase()) && !equal(row)) {
+        const igual = (new_curso) => cursos.some(curso => curso.curso === new_curso.curso && curso.campus === new_curso.campus);
+        if (removeAccents(row.area_conhecimento.toUpperCase()) === removeAccents(area_search.toUpperCase()) && !igual(row)) {
             cursos.push({curso: row.curso, campus: row.campus});
         }
     });
@@ -102,6 +85,7 @@ const getCursoByAreaConhecimento = (area_search, list) => {
 };
 
 const getByCota = (list) => list.filter(row => row.concorrencia !== "AC");
+const getByCotaName = (list, cota_search, curso, campus) => list.filter(row => row.concorrencia === cota_search && row.curso === curso && row.campus === campus);
 
 module.exports = {
     getByCampus,
@@ -117,7 +101,8 @@ module.exports = {
     getByAreaConhecimento,
     getCursoByAreaConhecimento,
     cotas,
-    getByCota
+    getByCota,
+    getByCotaName
 };
 
 // console.log(getByCampus(resultado_if,7));

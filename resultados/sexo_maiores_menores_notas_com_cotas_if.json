@@ -1,0 +1,22 @@
+{
+  "maior": {
+    "homens": {
+      "cota": "RS",
+      "nota": "3525,8"
+    },
+    "mulheres": {
+      "cota": "RI",
+      "nota": "3435,1"
+    }
+  },
+  "menor": {
+    "homens": {
+      "cota": "RI",
+      "nota": "2016,4"
+    },
+    "mulheres": {
+      "cota": "RIPPI",
+      "nota": "2025,9"
+    }
+  }
+}

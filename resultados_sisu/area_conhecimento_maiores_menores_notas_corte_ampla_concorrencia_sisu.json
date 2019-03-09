@@ -1,0 +1,26 @@
+{
+  "CIÊNCIAS SOCIAIS APLICADAS": {
+    "maior": "643.14",
+    "menor": "568.26"
+  },
+  "CIÊNCIAS AGRÁRIAS": {
+    "maior": "696.42",
+    "menor": "573.40"
+  },
+  "CIÊNCIAS EXATAS E DA TERRA": {
+    "maior": "663.04",
+    "menor": "577.26"
+  },
+  "CIÊNCIAS BIOLÓGICAS": {
+    "maior": "635.82",
+    "menor": "635.82"
+  },
+  "ENGENHARIAS": {
+    "maior": "706.14",
+    "menor": "596.82"
+  },
+  "CIÊNCIAS HUMANAS": {
+    "maior": "600.30",
+    "menor": "600.30"
+  }
+}
