@@ -238,13 +238,13 @@ console.log('-------------------------------------------------------');
 console.log("Com resultado: Mulheres: " + getBySexo(resultado_if, "F").length);
 console.log("Com resultado: Homens: " + getBySexo(resultado_if, "M").length);
 console.log('-------------------------------------------------------');
-console.log("A maior nota tirada no processo seletivo foi: " + getMaiorNota(resultado_if).nota + " pelo aluno " + getMaiorNota(resultado_if).nome + " concorrendo ao curso de " + getMaiorNota(resultado_if).curso + " no campus " + getCampusById(getMaiorNota(resultado_if).campus).campus);
-console.log("A maior nota tirada por um aluno do sexo masculino no processo seletivo foi: " + getMaiorNota(getBySexo(resultado_if, "M")).nota + " pelo aluno " + getMaiorNota(getBySexo(resultado_if, "M")).nome + " concorrendo ao curso de " + getMaiorNota(getBySexo(resultado_if, "M")).curso + " no campus " + getCampusById(getMaiorNota(getBySexo(resultado_if, "F")).campus).campus);
-console.log("A maior nota tirada por um aluno do sexo feminino no processo seletivo foi: " + getMaiorNota(getBySexo(resultado_if, "F")).nota + " pela aluna " + getMaiorNota(getBySexo(resultado_if, "F")).nome + " concorrendo ao curso de " + getMaiorNota(getBySexo(resultado_if, "F")).curso + " no campus " + getCampusById(getMaiorNota(getBySexo(resultado_if, "F")).campus).campus);
+console.log("A maior nota tirada no sisu foi: " + getMaiorNota(resultado_if).nota + " pelo aluno " + getMaiorNota(resultado_if).nome + " concorrendo ao curso de " + getMaiorNota(resultado_if).curso + " no campus " + getCampusById(getMaiorNota(resultado_if).campus).campus);
+console.log("A maior nota tirada por um aluno do sexo masculino no sisu foi: " + getMaiorNota(getBySexo(resultado_if, "M")).nota + " pelo aluno " + getMaiorNota(getBySexo(resultado_if, "M")).nome + " concorrendo ao curso de " + getMaiorNota(getBySexo(resultado_if, "M")).curso + " no campus " + getCampusById(getMaiorNota(getBySexo(resultado_if, "F")).campus).campus);
+console.log("A maior nota tirada por um aluno do sexo feminino no sisu foi: " + getMaiorNota(getBySexo(resultado_if, "F")).nota + " pela aluna " + getMaiorNota(getBySexo(resultado_if, "F")).nome + " concorrendo ao curso de " + getMaiorNota(getBySexo(resultado_if, "F")).curso + " no campus " + getCampusById(getMaiorNota(getBySexo(resultado_if, "F")).campus).campus);
 console.log('-------------------------------------------------------');
-console.log("A menor nota tirada no processo seletivo foi: " + getMenorNota(resultado_if).nota + " pelo aluno " + getMenorNota(resultado_if).nome + " concorrendo ao curso de " + getMenorNota(resultado_if).curso + " no campus " + getCampusById(getMenorNota(resultado_if).campus).campus);
-console.log("A menor nota tirada por um aluno do sexo masculino no processo seletivo foi: " + getMenorNota(getBySexo(resultado_if, "M")).nota + " pelo aluno " + getMenorNota(getBySexo(resultado_if, "M")).nome + " concorrendo ao curso de " + getMenorNota(getBySexo(resultado_if, "M")).curso + " no campus " + getCampusById(getMenorNota(getBySexo(resultado_if, "F")).campus).campus);
-console.log("A menor nota tirada por um aluno do sexo feminino no processo seletivo foi: " + getMenorNota(getBySexo(resultado_if, "F")).nota + " pela aluna " + getMenorNota(getBySexo(resultado_if, "F")).nome + " concorrendo ao curso de " + getMenorNota(getBySexo(resultado_if, "F")).curso + " no campus " + getCampusById(getMenorNota(getBySexo(resultado_if, "F")).campus).campus);
+console.log("A menor nota tirada no sisu foi: " + getMenorNota(resultado_if).nota + " pelo aluno " + getMenorNota(resultado_if).nome + " concorrendo ao curso de " + getMenorNota(resultado_if).curso + " no campus " + getCampusById(getMenorNota(resultado_if).campus).campus);
+console.log("A menor nota tirada por um aluno do sexo masculino no sisu foi: " + getMenorNota(getBySexo(resultado_if, "M")).nota + " pelo aluno " + getMenorNota(getBySexo(resultado_if, "M")).nome + " concorrendo ao curso de " + getMenorNota(getBySexo(resultado_if, "M")).curso + " no campus " + getCampusById(getMenorNota(getBySexo(resultado_if, "F")).campus).campus);
+console.log("A menor nota tirada por um aluno do sexo feminino no sisu foi: " + getMenorNota(getBySexo(resultado_if, "F")).nota + " pela aluna " + getMenorNota(getBySexo(resultado_if, "F")).nome + " concorrendo ao curso de " + getMenorNota(getBySexo(resultado_if, "F")).curso + " no campus " + getCampusById(getMenorNota(getBySexo(resultado_if, "F")).campus).campus);
 console.log('-------------------------------------------------------');
 const maiores_menores_notas_sexo = {
     maior: {
@@ -267,6 +267,8 @@ const curso_inscritos_com_sexo = {};
 const notas_corte_cursos_ampla_concorrencia = {};
 const maiores_menores_notas_curso = {};
 const curso_vagas = {};
+let resultado_curso = "Total de inscritos por curso: \r\n";
+let resultado_campus = "Total de inscritos por campus: \r\n";
 campi.forEach((value, index) => {
     const campus_id = value.id;
     // console.log(campus_id);
@@ -274,6 +276,7 @@ campi.forEach((value, index) => {
     console.log(`inscritos com ${getByCampus(resultado_if, campus_id).length} resultados`);
     console.log(`Sendo esses: Inscritos  Com resultado - ${getBySexo(getByCampus(resultado_if, campus_id), "M").length} do sexo masculino e`);
     console.log(`Sendo esses: Inscritos  Com resultado - ${getBySexo(getByCampus(resultado_if, campus_id), "F").length} do sexo feminino`);
+    resultado_campus += `${value.campus} ${getByCampus(resultado_if, campus_id).length} inscritos\r\n`;
 
     inscritos_por_campus[value.campus] = getByCampus(resultado_if, campus_id).length;
     inscritos_por_campus_com_sexo[value.campus] = {};
@@ -296,6 +299,7 @@ campi.forEach((value, index) => {
 
         const list = getByCurso(getByCampus(resultado_if, campus_id), curso.curso);
         console.log("Total de inscritos no curso: " + list.length);
+        resultado_curso += `${value.campus} e curso ${curso.curso}: ${list.length}\r\n`;
 
         if (maiores_menores_notas_curso[value.campus] === undefined) {
             maiores_menores_notas_curso[value.campus] = {};
@@ -329,7 +333,7 @@ campi.forEach((value, index) => {
 
         if (Number(total_inscritos) < Number(curso.total_vagas)) {
             cursos_pouco_inscritos.push(`${curso.curso} no ${value.campus}` + " (" + getByCurso(getByCampus(resultado_if, campus_id), curso.curso).length + " inscritos de " + curso.total_vagas + " vagas)");
-            console.log("Possuiu menos inscritos que a quantidade total de vagas pelo processo seletivo (" + getByCurso(getByCampus(resultado_if, campus_id), curso.curso).length + " de " + curso.total_vagas + ")");
+            console.log("Possuiu menos inscritos que a quantidade total de vagas pelo sisu (" + getByCurso(getByCampus(resultado_if, campus_id), curso.curso).length + " de " + curso.total_vagas + ")");
         }
         const nota_corte = getNotaCorte(getByCurso(getByCampus(resultado_if, campus_id), curso.curso), curso.curso, 'AC', campus_id);
 
@@ -382,7 +386,12 @@ questao_seis += "Os cursos que houveram o número de convocados para 1ª chamada
 console.log(cursos_pouco_inscritos.join('\r\n'));
 questao_seis += cursos_pouco_inscritos.join('\r\n');
 
-console.log("\nO total de vagas ofertadas pelo processo seletivo foram: " + total_vagas);
+console.log("\nO total de vagas ofertadas pelo sisu foram: " + total_vagas);
+
+let resultado_area_conhecimento = "Inscritos por área de conhecimento: \r\n";
+Object.entries(inscritos_por_area_conhecimento).forEach(value => {
+    resultado_area_conhecimento += `${value[0]}: ${value[1]}\r\n`
+});
 
 /**
  * Escreve os arquivos dos resultados
@@ -414,6 +423,10 @@ fs.writeFileSync('resultados_sisu/campi_quantidade_inscritos_sisu.json', JSON.st
 fs.writeFileSync('resultados_sisu/campi_inscritos_por_campus_com_sexo_sisu.json', JSON.stringify(inscritos_por_campus_com_sexo));
 fs.writeFileSync('resultados_sisu/campi_maiores_menores_notas_corte_ampla_concorrencia_sisu.json', JSON.stringify(campi_maiores_menores_notas_corte_ampla_concorrencia));
 fs.writeFileSync('resultados_sisu/campi_maiores_menores_notas_corte_cota_sisu.json', JSON.stringify(maiores_menores_notas_corte_campi_cotas_filtered));
+
+fs.writeFileSync('resultados_gerais/resultado_1_area_conhecimento_sisu.txt', resultado_area_conhecimento);
+fs.writeFileSync('resultados_gerais/resultado_1_curso_sisu.txt', resultado_curso);
+fs.writeFileSync('resultados_gerais/resultado_1_campus_sisu.txt', resultado_campus);
 
 // Questão 6
 fs.writeFileSync('resultados_sisu/questao_6_sisu.txt', questao_seis);

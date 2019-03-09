@@ -275,6 +275,9 @@ const curso_inscritos_com_sexo = {};
 const notas_corte_cursos_ampla_concorrencia = {};
 const maiores_menores_notas_curso = {};
 const curso_vagas = {};
+let resultado_curso = "Total de inscritos por curso: \r\n";
+let resultado_campus = "Total de inscritos por campus: \r\n";
+
 campi.forEach((value, index) => {
     const campus_id = value.id;
     // console.log(campus_id);
@@ -282,6 +285,7 @@ campi.forEach((value, index) => {
     console.log(`${getByCampus(inscritos_if, campus_id).length} inscritos, porém com ${getByCampus(resultado_if, campus_id).length} resultados`);
     console.log(`Sendo esses: Inscritos - ${getBySexo(getByCampus(inscritos_if, campus_id), "M").length} e Com resultado - ${getBySexo(getByCampus(resultado_if, campus_id), "M").length} do sexo masculino e`);
     console.log(`Sendo esses: Inscritos - ${getBySexo(getByCampus(inscritos_if, campus_id), "F").length} e Com resultado - ${getBySexo(getByCampus(resultado_if, campus_id), "F").length} do sexo feminino`);
+    resultado_campus += `${value.campus} ${getByCampus(resultado_if, campus_id).length} inscritos\r\n`;
 
     inscritos_por_campus[value.campus] = getByCampus(resultado_if, campus_id).length;
     inscritos_por_campus_com_sexo[value.campus] = {};
@@ -304,6 +308,7 @@ campi.forEach((value, index) => {
 
         const list = getByCurso(getByCampus(resultado_if, campus_id), curso.curso);
         console.log("Total de inscritos no curso: " + list.length);
+        resultado_curso += `${value.campus} e curso ${curso.curso}: ${list.length}\r\n`;
 
         if (maiores_menores_notas_curso[value.campus] === undefined) {
             maiores_menores_notas_curso[value.campus] = {};
@@ -392,6 +397,11 @@ questao_seis += cursos_pouco_inscritos.join('\r\n');
 
 console.log("\nO total de vagas ofertadas pelo processo seletivo foram: " + total_vagas);
 
+let resultado_area_conhecimento = "Inscritos por área de conhecimento: \r\n";
+Object.entries(inscritos_por_area_conhecimento).forEach(value => {
+    resultado_area_conhecimento += `${value[0]}: ${value[1]}\r\n`
+});
+
 /**
  * Escreve os arquivos dos resultados
  */
@@ -423,6 +433,11 @@ fs.writeFileSync('resultados/campi_quantidade_inscritos_if.json', JSON.stringify
 fs.writeFileSync('resultados/campi_inscritos_por_campus_com_sexo_if.json', JSON.stringify(inscritos_por_campus_com_sexo));
 fs.writeFileSync('resultados/campi_maiores_menores_notas_corte_ampla_concorrencia_if.json', JSON.stringify(campi_maiores_menores_notas_corte_ampla_concorrencia));
 fs.writeFileSync('resultados/campi_maiores_menores_notas_corte_cota_if.json', JSON.stringify(maiores_menores_notas_corte_campi_cotas_filtered));
+
+
+fs.writeFileSync('resultados_gerais/resultado_1_area_conhecimento_if.txt', resultado_area_conhecimento);
+fs.writeFileSync('resultados_gerais/resultado_1_curso_if.txt', resultado_curso);
+fs.writeFileSync('resultados_gerais/resultado_1_campus_if.txt', resultado_campus);
 
 // Questão 6
 fs.writeFileSync('resultados/questao_6_if.txt', questao_seis);

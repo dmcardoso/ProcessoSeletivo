@@ -88,11 +88,22 @@ const start = async () => {
         }
     });
 
+    const sisu_total_vagas_csv = await csv({delimiter: ';'})
+        .fromFile('./files_sisu/campi_vagas_sisu.csv');
     campi_sisu.forEach((value, index) => {
-        value.cursos.forEach((curso, index_curso) => {
-            const total_vagas_qtde_array = curso.vagas.map(vaga => vaga[Object.keys(vaga)[0]]);
+        value.cursos.forEach((curso_atual, index_curso) => {
+            const total_vagas_qtde_array = curso_atual.vagas.map(vaga => vaga[Object.keys(vaga)[0]]);
 
             campi_sisu[index].cursos[index_curso].vagas_calculadas = total_vagas_qtde_array.reduce((reducer, curr) => reducer + curr);
+
+            sisu_total_vagas_csv.forEach(({campus, curso, vagas}) => {
+                const campus_id = value.id;
+                const this_curso = curso_atual.curso;
+                if(curso === "Bacharelado em Engenharia da Computação") curso = "Bacharelado em Engenharia de Computação";
+                if(Number(campus_id) === Number(campus) && removeAccents(this_curso.toUpperCase()) === removeAccents(curso.toUpperCase())){
+                    campi_sisu[index].cursos[index_curso].total_vagas = vagas;
+                }
+            });
         });
     });
 
