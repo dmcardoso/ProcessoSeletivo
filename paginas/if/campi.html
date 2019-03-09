@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Processo Seletivo</title>
-    <script src="libs/jquery.min.js"></script>
-    <script src="libs/chartjs.min.js"></script>
+    <script src="../../libs/jquery.min.js"></script>
+    <script src="../../libs/chartjs.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -95,7 +95,7 @@
             width: 100%;
             background: #fff;
             border-radius: 5px;
-            box-shadow: 1px 0 20px 0 rgba(0,0,0,0.2);
+            box-shadow: 1px 0 20px 0 rgba(0, 0, 0, 0.2);
             z-index: 10;
             padding: 15px;
         }
@@ -135,24 +135,24 @@
 <header>
     <nav>
         <ul>
-            <li><a href="index.html">Início</a></li>
+            <li><a href="../../index.html">Início</a></li>
             <li>IFGoiano
                 <div class="submenu">
                     <ul>
-                        <li><a href="paginas/if/area_conhecimento.html">Área de Conhecimento</a></li>
-                        <li><a href="paginas/if/campi.html">Campi</a></li>
-                        <li><a href="paginas/if/curso.html">Curso</a></li>
-                        <li><a href="paginas/if/sexo.html">Sexo</a></li>
+                        <li><a href="area_conhecimento.html">Área de Conhecimento</a></li>
+                        <li><a href="campi.html">Campi</a></li>
+                        <li><a href="curso.html">Curso</a></li>
+                        <li><a href="sexo.html">Sexo</a></li>
                     </ul>
                 </div>
             </li>
             <li>Sisu
                 <div class="submenu">
                     <ul>
-                        <li><a href="paginas/sisu/area_conhecimento.html">Área de Conhecimento</a></li>
-                        <li><a href="paginas/sisu/campi.html">Campi</a></li>
-                        <li><a href="paginas/sisu/curso.html">Curso</a></li>
-                        <li><a href="paginas/sisu/sexo.html">Sexo</a></li>
+                        <li><a href="../sisu/area_conhecimento.html">Área de Conhecimento</a></li>
+                        <li><a href="../sisu/campi.html">Campi</a></li>
+                        <li><a href="../sisu/curso.html">Curso</a></li>
+                        <li><a href="../sisu/sexo.html">Sexo</a></li>
                     </ul>
                 </div>
             </li>
@@ -162,7 +162,12 @@
 
 <article>
 
-
+    <canvas id="total_vagas"></canvas>
+    <canvas id="inscritos"></canvas>
+    <canvas id="inscritos_com_sexo"></canvas>
+    <canvas id="maior_menor_nota_ac"></canvas>
+    <canvas id="maior_menor_nota_cotas"></canvas>
+    <canvas id="vagas_detalhada"></canvas>
 
 </article>
 
@@ -170,40 +175,40 @@
 
     let dados = [
         {
-            url: 'resultados/area_conhecimento_inscritos_com_sexo_if.json',
+            url: '../../resultados/campi_inscritos_por_campus_com_sexo_if.json',
             elemento: 'inscritos_com_sexo',
             titulo: 'TOTAL DE INSCRITOS POR SEXO',
             multidaset: true
         },
         {
-            url: 'resultados/area_conhecimento_inscritos_if.json',
-            elemento: 'inscritos',
-            titulo: 'TOTAL DE INSCRITOS',
-            multidaset: false
-        },
-        {
-            url: 'resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json',
+            url: '../../resultados/campi_maiores_menores_notas_corte_ampla_concorrencia_if.json',
             elemento: 'maior_menor_nota_ac',
             titulo: 'MAIOR E MENOR NOTA DE CORTE AC',
             multidaset: true
         },
         {
-            url: 'resultados/area_conhecimento_maiores_menores_notas_corte_cotas_if.json',
+            url: '../../resultados/campi_maiores_menores_notas_corte_cota_if.json',
             elemento: 'maior_menor_nota_cotas',
             titulo: 'MAIOR E MENOR NOTA DE CORTE POR COTAS',
             multidaset: true
         },
         {
-            url: 'resultados/area_conhecimento_vagas_por_cotas_detalhada_if.json',
-            elemento: 'vagas_cotas_detalhada',
-            titulo: 'VAGAS POR COTAS DETALHADAS',
+            url: '../../resultados/campi_quantidade_inscritos_if.json',
+            elemento: 'inscritos',
+            titulo: 'TOTAL DE INSCRITOS',
+            multidaset: false
+        },
+        {
+            url: '../../resultados/campi_quantidade_vagas_detalhada_if.json',
+            elemento: 'vagas_detalhada',
+            titulo: 'VAGAS DETALHADA',
             multidaset: true
         },
         {
-            url: 'resultados/area_conhecimento_vagas_por_cotas_if.json',
-            elemento: 'vagas_cotas',
-            titulo: 'VAGAS POR COTAS',
-            multidaset: true
+            url: '../../resultados/campi_quantidade_vagas_if.json',
+            elemento: 'total_vagas',
+            titulo: 'TOTAL DE VAGAS',
+            multidaset: false
         }
     ];
 
@@ -229,7 +234,7 @@
             config = {},
             colors = [
                 '#001f3f', '#85144b', '#3D9970', '#FF4136', '#0074D9', '#FF851B',
-                '#2ECC40', '#F012BE', '#39CCCC', '#7FDBFF', '#01FF70','#B10DC9', '#FFDC00'
+                '#2ECC40', '#F012BE', '#39CCCC', '#7FDBFF', '#01FF70', '#B10DC9', '#FFDC00'
             ],
             labels = [],
             posicao_dados = [],
@@ -339,11 +344,21 @@
         } else {
 
             $.each(dados, function (i, v) {
-                if (i !== 'total') {
+
+                if (elemento === 'total_vagas') {
+
+                    labels.push(Object.keys(v)[0]);
+                    posicao_dados.push({indice: Object.keys(v)[0], valor: Object.values(v)[0]});
+                    if (Object.values(v)[0] > max_value) max_value = Object.values(v)[0];
+                    if (Object.values(v)[0] < min_value) min_value = Object.values(v)[0];
+
+                } else {
+
                     labels.push(i);
                     posicao_dados.push({indice: i, valor: v});
                     if (v > max_value) max_value = v;
                     if (v < min_value) min_value = v;
+
                 }
             });
 

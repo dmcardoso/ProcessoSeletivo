@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Processo Seletivo</title>
-    <script src="libs/jquery.min.js"></script>
-    <script src="libs/chartjs.min.js"></script>
+    <script src="../../libs/jquery.min.js"></script>
+    <script src="../../libs/chartjs.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -135,24 +135,24 @@
 <header>
     <nav>
         <ul>
-            <li><a href="index.html">Início</a></li>
+            <li><a href="../../index.html">Início</a></li>
             <li>IFGoiano
                 <div class="submenu">
                     <ul>
-                        <li><a href="paginas/if/area_conhecimento.html">Área de Conhecimento</a></li>
-                        <li><a href="paginas/if/campi.html">Campi</a></li>
-                        <li><a href="paginas/if/curso.html">Curso</a></li>
-                        <li><a href="paginas/if/sexo.html">Sexo</a></li>
+                        <li><a href="area_conhecimento.html">Área de Conhecimento</a></li>
+                        <li><a href="campi.html">Campi</a></li>
+                        <li><a href="curso.html">Curso</a></li>
+                        <li><a href="sexo.html">Sexo</a></li>
                     </ul>
                 </div>
             </li>
             <li>Sisu
                 <div class="submenu">
                     <ul>
-                        <li><a href="paginas/sisu/area_conhecimento.html">Área de Conhecimento</a></li>
-                        <li><a href="paginas/sisu/campi.html">Campi</a></li>
-                        <li><a href="paginas/sisu/curso.html">Curso</a></li>
-                        <li><a href="paginas/sisu/sexo.html">Sexo</a></li>
+                        <li><a href="../sisu/area_conhecimento.html">Área de Conhecimento</a></li>
+                        <li><a href="../sisu/campi.html">Campi</a></li>
+                        <li><a href="../sisu/curso.html">Curso</a></li>
+                        <li><a href="../sisu/sexo.html">Sexo</a></li>
                     </ul>
                 </div>
             </li>
@@ -162,7 +162,12 @@
 
 <article>
 
-
+    <canvas id="inscritos"></canvas>
+    <canvas id="inscritos_com_sexo"></canvas>
+    <canvas id="maior_menor_nota_ac"></canvas>
+    <canvas id="maior_menor_nota_cotas"></canvas>
+    <canvas id="vagas_cotas_detalhada"></canvas>
+    <canvas id="vagas_cotas"></canvas>
 
 </article>
 
@@ -170,37 +175,37 @@
 
     let dados = [
         {
-            url: 'resultados/area_conhecimento_inscritos_com_sexo_if.json',
+            url: '../../resultados/area_conhecimento_inscritos_com_sexo_if.json',
             elemento: 'inscritos_com_sexo',
             titulo: 'TOTAL DE INSCRITOS POR SEXO',
             multidaset: true
         },
         {
-            url: 'resultados/area_conhecimento_inscritos_if.json',
+            url: '../../resultados/area_conhecimento_inscritos_if.json',
             elemento: 'inscritos',
             titulo: 'TOTAL DE INSCRITOS',
             multidaset: false
         },
         {
-            url: 'resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json',
+            url: '../../resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json',
             elemento: 'maior_menor_nota_ac',
             titulo: 'MAIOR E MENOR NOTA DE CORTE AC',
             multidaset: true
         },
         {
-            url: 'resultados/area_conhecimento_maiores_menores_notas_corte_cotas_if.json',
+            url: '../../resultados/area_conhecimento_maiores_menores_notas_corte_cotas_if.json',
             elemento: 'maior_menor_nota_cotas',
             titulo: 'MAIOR E MENOR NOTA DE CORTE POR COTAS',
             multidaset: true
         },
         {
-            url: 'resultados/area_conhecimento_vagas_por_cotas_detalhada_if.json',
+            url: '../../resultados/area_conhecimento_vagas_por_cotas_detalhada_if.json',
             elemento: 'vagas_cotas_detalhada',
             titulo: 'VAGAS POR COTAS DETALHADAS',
             multidaset: true
         },
         {
-            url: 'resultados/area_conhecimento_vagas_por_cotas_if.json',
+            url: '../../resultados/area_conhecimento_vagas_por_cotas_if.json',
             elemento: 'vagas_cotas',
             titulo: 'VAGAS POR COTAS',
             multidaset: true
