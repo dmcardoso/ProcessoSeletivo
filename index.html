@@ -28,8 +28,40 @@
             margin-bottom: 30px;
         }
 
+        header nav {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 40px;
+        }
+
+        header nav a {
+            text-transform: uppercase;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border: 2px solid #4d4d4d;
+            transition: 0.3s;
+            text-decoration: none;
+            color: #4d4d4d;
+            font-weight: bold;
+        }
+
+        header nav a:hover {
+            background: #4d4d4d;
+            color: #FFF;
+            transition: 0.3s;
+        }
+
+        article {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
         canvas {
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
 
     </style>
@@ -37,7 +69,12 @@
 <body>
 
 <header>
-    <h1>Mineração de Dados</h1>
+    <nav>
+        <a href="index.html">Área de Conhecimento</a>
+        <a href="campi.html">Campi</a>
+        <a href="curso.html">Curso</a>
+        <a href="sexo.html">Sexo</a>
+    </nav>
 </header>
 
 <article>
@@ -45,6 +82,9 @@
     <canvas id="inscritos"></canvas>
     <canvas id="inscritos_com_sexo"></canvas>
     <canvas id="maior_menor_nota_ac"></canvas>
+    <canvas id="maior_menor_nota_cotas"></canvas>
+    <canvas id="vagas_cotas_detalhada"></canvas>
+    <canvas id="vagas_cotas"></canvas>
 
 </article>
 
@@ -52,21 +92,40 @@
 
     let dados = [
         {
-            url: 'resultados/area_conhecimento_inscritos_if.json',
-            elemento: 'inscritos',
-            titulo: 'Total de Inscritos',
-            multidaset: false
-        },
-        {
             url: 'resultados/area_conhecimento_inscritos_com_sexo_if.json',
             elemento: 'inscritos_com_sexo',
-            titulo: 'Total de Inscritos/Sexo',
+            titulo: 'TOTAL DE INSCRITOS POR SEXO',
             multidaset: true
+        },
+        {
+            url: 'resultados/area_conhecimento_inscritos_if.json',
+            elemento: 'inscritos',
+            titulo: 'TOTAL DE INSCRITOS',
+            multidaset: false
         },
         {
             url: 'resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json',
             elemento: 'maior_menor_nota_ac',
-            titulo: 'Maior/Menor Nota de Corte AC',
+            titulo: 'MAIOR E MENOR NOTA DE CORTE AC',
+            multidaset: true
+        },
+        {
+            // TODO corrigir o complemento do label no gráfico
+            url: 'resultados/area_conhecimento_maiores_menores_notas_corte_cotas_if_editada.json',
+            elemento: 'maior_menor_nota_cotas',
+            titulo: 'MAIOR E MENOR NOTA DE CORTE POR COTAS',
+            multidaset: true
+        },
+        {
+            url: 'resultados/area_conhecimento_vagas_por_cotas_detalhada_if.json',
+            elemento: 'vagas_cotas_detalhada',
+            titulo: 'VAGAS POR COTAS DETALHADAS',
+            multidaset: true
+        },
+        {
+            url: 'resultados/area_conhecimento_vagas_por_cotas_if.json',
+            elemento: 'vagas_cotas',
+            titulo: 'VAGAS POR COTAS',
             multidaset: true
         }
     ];
@@ -92,24 +151,28 @@
         let elem = document.getElementById(elemento).getContext('2d'),
             config = {},
             colors = [
-                '#001f3f', '#0074D9', '#7FDBFF', '#39CCCC', '#3D9970', '#2ECC40', '#01FF70', '#FFDC00',
-                '#FF851B', '#FF4136', '#85144b', '#F012BE', '#B10DC9', '#111111', '#AAAAAA', '#DDDDDD'
+                '#001f3f', '#85144b', '#3D9970', '#FF4136', '#0074D9', '#FF851B',
+                '#2ECC40', '#F012BE', '#39CCCC', '#7FDBFF', '#01FF70','#B10DC9', '#FFDC00'
             ],
+            // colors = [
+            //     '#001f3f', '#0074D9', '#7FDBFF', '#39CCCC', '#3D9970', '#2ECC40', '#01FF70', '#FFDC00',
+            //     '#FF851B', '#FF4136', '#85144b', '#F012BE', '#B10DC9', '#111111', '#AAAAAA', '#DDDDDD'
+            // ],
             labels = [],
             posicao_dados = [],
+            novo = [],
             max_value = 0,
             min_value = 1000000;
 
-        $.each(dados, function (i, v) {
-            if (i !== 'total') {
+        if (multidataset) {
+
+            $.each(dados, function (i, v) {
                 labels.push(i);
-                posicao_dados.push({indice: i, valor: v});
                 if (v > max_value) max_value = v;
                 if (v < min_value) min_value = v;
-            }
-        });
 
-        if (multidataset) {
+                posicao_dados.push(v);
+            });
 
             config = {
                 type: 'bar',
@@ -141,7 +204,7 @@
                     },
                     title: {
                         display: true,
-                        text: titulo,
+                        text: titulo.toUpperCase(),
                         fontSize: 26,
                         fontColor: '#4d4d4d'
                     },
@@ -162,10 +225,32 @@
                 }
             };
 
+            $.each(Object.keys(posicao_dados[0]), function (i, v) {
+                novo.push({indice: v, dados: []})
+            });
+
             $.each(posicao_dados, function (i, v) {
+                let cont = 0;
+
+                $.each(v, function (a, b) {
+                    if (typeof b === 'string' && b.split('|').length > 1) {
+                        if (novo[cont].indice === a) {
+                            novo[cont].dados.push(b.split('|')[0]);
+                            novo[cont].complemento = b.split('|')[1];
+                        }
+                    } else {
+                        if (novo[cont].indice === a) novo[cont].dados.push(b);
+                    }
+
+                    cont++;
+                });
+            });
+
+            $.each(novo, function (i, v) {
+                v.complemento = v.complemento !== undefined ? ' - ' + v.complemento : '';
 
                 config.data.datasets.push({
-                    label: v.indice,
+                    label: (v.indice + v.complemento).toUpperCase(),
                     data: [],
                     backgroundColor: colors[i],
                     hoverBackgroundColor: colors[i],
@@ -177,15 +262,21 @@
                     borderWidth: 3
                 });
 
-                $.each(v.valor, function (a, b) {
+                $.each(v.dados, function (a, b) {
                     config.data.datasets[i].data.push(b);
                 });
-
-                // config.data.datasets[i].data.push(100);
             });
-            console.log(config.data.datasets);
 
         } else {
+
+            $.each(dados, function (i, v) {
+                if (i !== 'total') {
+                    labels.push(i);
+                    posicao_dados.push({indice: i, valor: v});
+                    if (v > max_value) max_value = v;
+                    if (v < min_value) min_value = v;
+                }
+            });
 
             config = {
                 type: 'bar',
@@ -229,9 +320,7 @@
                     },
                     legend: {
                         labels: {
-                            usePointStyle: true,
-                            fontColor: '#001f3f',
-                            fontSize: 16
+                            usePointStyle: true
                         }
                     },
                     hover: {

@@ -1,1 +1,26 @@
-{"CIÊNCIAS SOCIAIS APLICADAS":{"homens":188,"mulheres":329},"CIÊNCIAS AGRÁRIAS":{"homens":711,"mulheres":693},"CIÊNCIAS EXATAS E DA TERRA":{"homens":379,"mulheres":247},"CIÊNCIAS BIOLÓGICAS":{"homens":13,"mulheres":25},"ENGENHARIAS":{"homens":301,"mulheres":161},"CIÊNCIAS HUMANAS":{"homens":3,"mulheres":37}}
+{
+  "CIÊNCIAS SOCIAIS APLICADAS": {
+    "homens": 188,
+    "mulheres": 329
+  },
+  "CIÊNCIAS AGRÁRIAS": {
+    "homens": 711,
+    "mulheres": 693
+  },
+  "CIÊNCIAS EXATAS E DA TERRA": {
+    "homens": 379,
+    "mulheres": 247
+  },
+  "CIÊNCIAS BIOLÓGICAS": {
+    "homens": 13,
+    "mulheres": 25
+  },
+  "ENGENHARIAS": {
+    "homens": 301,
+    "mulheres": 161
+  },
+  "CIÊNCIAS HUMANAS": {
+    "homens": 3,
+    "mulheres": 37
+  }
+}

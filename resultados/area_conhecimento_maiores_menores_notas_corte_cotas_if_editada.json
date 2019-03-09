@@ -1,0 +1,22 @@
+{
+  "CIÊNCIAS SOCIAIS APLICADAS": {
+    "maior": "2771.2|RIPPI-PCD",
+    "menor": "2501.5|RIPPI"
+  },
+  "CIÊNCIAS AGRÁRIAS": {
+    "maior": "3157.6|RIPPI-PCD",
+    "menor": "2423.8|RIPPI"
+  },
+  "CIÊNCIAS EXATAS E DA TERRA": {
+    "maior": "3071.6|RI",
+    "menor": "2292|RIPPI-PCD"
+  },
+  "CIÊNCIAS BIOLÓGICAS": {
+    "maior": "3245.7|RI-PCD",
+    "menor": "3245.7|RI-PCD"
+  },
+  "ENGENHARIAS": {
+    "maior": "3435.1|RIPPI-PCD",
+    "menor": "2475.8|RIPPI"
+  }
+}
