@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="647b93de-2930-43c8-b03a-ff67298f8ac3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/paginas/if/area_conhecimento.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/sisu/area_conhecimento.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/sisu/campi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/sisu/curso.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/sisu/sexo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/campi.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/campi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/curso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultados/area_conhecimento_maiores_menores_notas_corte_cotas_if_editada.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultados/campi_quantidade_vagas_if.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados/campi_quantidade_vagas_if.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sexo.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/sexo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/if/area_conhecimento.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/area_conhecimento.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/if/campi.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/campi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/if/curso.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/curso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/if/sexo.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/sexo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/sisu/area_conhecimento.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/sisu/area_conhecimento.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/sisu/campi.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/sisu/campi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/sisu/curso.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/sisu/curso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/sisu/sexo.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/sisu/sexo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados/sexo_maiores_menores_notas_com_cotas_if.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados/sexo_maiores_menores_notas_com_cotas_if.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,52 +24,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-54">
+            <state relative-caret-position="270">
               <caret line="164" selection-start-line="164" selection-end-line="164" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#4162#4350#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/paginas/if/area_conhecimento.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="185" column="39" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="39" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-                <element signature="e#7102#9131#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/paginas/if/campi.html">
+        <entry file="file://$PROJECT_DIR$/paginas/if/sexo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="350" column="88" selection-start-line="350" selection-start-column="88" selection-end-line="350" selection-end-column="88" />
+            <state relative-caret-position="1014">
+              <caret line="324" column="15" lean-forward="true" selection-start-line="324" selection-start-column="15" selection-end-line="324" selection-end-column="15" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#6527#6715#0" />
-                <element signature="e#6884#10496#0" />
-                <element signature="e#10849#13640#0" />
-                <element signature="e#11249#13626#0" />
+                <element signature="e#10862#13653#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resultados/campi_quantidade_vagas_if.json">
+        <entry file="file://$PROJECT_DIR$/resultados/sexo_maiores_menores_notas_com_cotas_if.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="378">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -91,6 +71,7 @@
       <find>quantidade_</find>
       <find>uruta</find>
       <find>campi_maiores_menores_notas_corte_cota_if</find>
+      <find>maior_menor_nota_ac</find>
     </findStrings>
     <replaceStrings>
       <replace>Matemática</replace>
@@ -103,22 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resultado_if.js" />
-        <option value="$PROJECT_DIR$/resultados/resultado_if.json" />
-        <option value="$PROJECT_DIR$/scripts_resultados_if/filters.js" />
-        <option value="$PROJECT_DIR$/scripts_resultados_if/rotina.js" />
-        <option value="$PROJECT_DIR$/sisu_area_conhecimento.js" />
-        <option value="$PROJECT_DIR$/files_sisu/campi_info_sisu.json" />
-        <option value="$PROJECT_DIR$/scripts_resultados_sisu/rotina.js" />
-        <option value="$PROJECT_DIR$/resultados_sisu/curso_vagas_sisu.json" />
-        <option value="$PROJECT_DIR$/resultados_sisu/area_conhecimento_inscritos_com_sexo_sisu.json" />
-        <option value="$PROJECT_DIR$/resultados_sisu/area_conhecimento_inscritos_sisu.json" />
-        <option value="$PROJECT_DIR$/resultados_sisu/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_sisu.json" />
-        <option value="$PROJECT_DIR$/resultados_sisu/area_conhecimento_maiores_menores_notas_corte_cotas_sisu.json" />
-        <option value="$PROJECT_DIR$/resultados_sisu/area_conhecimento_vagas_por_cotas_detalhada_sisu.json" />
-        <option value="$PROJECT_DIR$/resultados_sisu/area_conhecimento_vagas_por_cotas_sisu.json" />
-        <option value="$PROJECT_DIR$/resultados_sisu/campi_inscritos_por_campus_com_sexo_sisu.json" />
-        <option value="$PROJECT_DIR$/resultados_sisu/campi_maiores_menores_notas_corte_ampla_concorrencia_sisu.json" />
         <option value="$PROJECT_DIR$/resultados_sisu/campi_maiores_menores_notas_corte_cota_sisu.json" />
         <option value="$PROJECT_DIR$/resultados_sisu/campi_quantidade_vagas_detalhada_sisu.json" />
         <option value="$PROJECT_DIR$/resultados_sisu/campi_quantidade_inscritos_sisu.json" />
@@ -141,19 +106,35 @@
         <option value="$PROJECT_DIR$/script_resultados_geral.js" />
         <option value="$PROJECT_DIR$/resultados_gerais/geral_vagas_por_campus_detalhada.json" />
         <option value="$PROJECT_DIR$/resultados_gerais/geral_vagas_por_campus.json" />
-        <option value="$PROJECT_DIR$/paginas/if/curso.html" />
-        <option value="$PROJECT_DIR$/paginas/if/sexo.html" />
-        <option value="$PROJECT_DIR$/resultados/area_conhecimento_maiores_menores_notas_corte_cotas_if.json" />
-        <option value="$PROJECT_DIR$/paginas/if/area_conhecimento.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resultados/campi_inscritos_por_campus_com_sexo_if.json" />
         <option value="$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_cota_if.json" />
         <option value="$PROJECT_DIR$/resultados/campi_quantidade_vagas_if.json" />
-        <option value="$PROJECT_DIR$/resultados/curso_inscritos_com_sexo_if.json" />
         <option value="$PROJECT_DIR$/resultados/campi_quantidade_inscritos_if.json" />
         <option value="$PROJECT_DIR$/resultados/campi_quantidade_vagas_detalhada_if.json" />
-        <option value="$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_ampla_concorrencia_if.json" />
+        <option value="$PROJECT_DIR$/resultados/area_conhecimento_vagas_por_cotas_detalhada_if.json" />
+        <option value="$PROJECT_DIR$/resultados_sisu/area_conhecimento_vagas_por_cotas_detalhada_sisu.json" />
+        <option value="$PROJECT_DIR$/resultados/curso_inscritos_com_sexo_if.json" />
+        <option value="$PROJECT_DIR$/resultados/curso_inscritos_if.json" />
+        <option value="$PROJECT_DIR$/resultados/curso_maiores_menores_notas_if.json" />
+        <option value="$PROJECT_DIR$/resultados/curso_notas_corte_ampla_concorrencia_if.json" />
+        <option value="$PROJECT_DIR$/resultados/curso_notas_corte_cotas_if.json" />
+        <option value="$PROJECT_DIR$/resultados/curso_vagas_if.json" />
+        <option value="$PROJECT_DIR$/resultados/curso_vagas_por_cotas_detalhada_if.json" />
+        <option value="$PROJECT_DIR$/resultados/sexo_inscritos_if.json" />
+        <option value="$PROJECT_DIR$/paginas/if/curso.html" />
         <option value="$PROJECT_DIR$/paginas/if/campi.html" />
+        <option value="$PROJECT_DIR$/paginas/if/area_conhecimento.html" />
+        <option value="$PROJECT_DIR$/paginas/sisu/curso.html" />
+        <option value="$PROJECT_DIR$/paginas/sisu/sexo.html" />
+        <option value="$PROJECT_DIR$/paginas/sisu/area_conhecimento.html" />
+        <option value="$PROJECT_DIR$/paginas/sisu/campi.html" />
+        <option value="$PROJECT_DIR$/resultados/area_conhecimento_maiores_menores_notas_corte_cotas_if.json" />
+        <option value="$PROJECT_DIR$/resultados/area_conhecimento_inscritos_com_sexo_if.json" />
+        <option value="$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_ampla_concorrencia_if.json" />
+        <option value="$PROJECT_DIR$/resultados/sexo_maiores_menores_notas_com_cotas_if.json" />
+        <option value="$PROJECT_DIR$/resultados/sexo_maiores_menores_notas_if.json" />
+        <option value="$PROJECT_DIR$/paginas/if/sexo.html" />
       </list>
     </option>
   </component>
@@ -161,9 +142,9 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="745" />
+    <option name="x" value="555" />
+    <option name="width" value="940" />
+    <option name="height" value="779" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -173,6 +154,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,18 +186,13 @@
             <path>
               <item name="ProcessoSeletivo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProcessoSeletivo" type="462c0819:PsiDirectoryNode" />
-              <item name="resultados" type="462c0819:PsiDirectoryNode" />
+              <item name="paginas" type="462c0819:PsiDirectoryNode" />
+              <item name="sisu" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
             <path>
-              <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ProcessoSeletivo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProcessoSeletivo" type="462c0819:PsiDirectoryNode" />
+              <item name="resultados" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,7 +202,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -284,17 +271,18 @@
       <workItem from="1551911754305" duration="6553000" />
       <workItem from="1552141504686" duration="186000" />
       <workItem from="1552141763655" duration="5840000" />
+      <workItem from="1552268209046" duration="2559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19097000" />
+    <option name="totallyTimeSpent" value="21656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3181818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3513369" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -344,83 +332,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/area_conhecimento_inscritos_com_sexo_sisu.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/area_conhecimento_inscritos_sisu.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_sisu.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/area_conhecimento_maiores_menores_notas_corte_cotas_sisu.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/area_conhecimento_vagas_por_cotas_detalhada_sisu.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/area_conhecimento_vagas_por_cotas_sisu.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/campi_inscritos_por_campus_com_sexo_sisu.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/campi_maiores_menores_notas_corte_ampla_concorrencia_sisu.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/campi_quantidade_vagas_detalhada_sisu.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/curso_vagas_sisu.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/sexo_maiores_menores_notas_sisu.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/curso_vagas_por_cotas_sisu.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/curso_vagas_por_cotas_detalhada_sisu.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="385" column="1" selection-start-line="385" selection-start-column="1" selection-end-line="385" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/curso_notas_corte_cotas_sisu.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/curso_notas_corte_ampla_concorrencia_sisu.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/curso_maiores_menores_notas_sisu.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_sisu/curso_inscritos_sisu.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resultados_sisu/curso_inscritos_com_sexo_sisu.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -527,48 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paginas/if/curso.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paginas/if/sexo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="158" column="13" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paginas/sisu/area_conhecimento.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados/area_conhecimento_maiores_menores_notas_corte_cotas_if.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="135" lean-forward="true" selection-start-column="135" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#4162#4350#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resultados/campi_informacoes.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -577,15 +446,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resultados/campi_inscritos_por_campus_com_sexo_if.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_cota_if.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados/curso_inscritos_if.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados/curso_inscritos_com_sexo_if.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resultados/campi_quantidade_inscritos_if.json">
@@ -598,38 +458,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_ampla_concorrencia_if.json">
+    <entry file="file://$PROJECT_DIR$/resultados/campi_quantidade_vagas_if.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados_sisu/area_conhecimento_inscritos_com_sexo_sisu.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/area_conhecimento_vagas_por_cotas_detalhada_if.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados_sisu/area_conhecimento_vagas_por_cotas_detalhada_sisu.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/curso_inscritos_if.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/curso_notas_corte_cotas_if.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/curso_notas_corte_ampla_concorrencia_if.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/curso_maiores_menores_notas_if.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/curso_inscritos_com_sexo_if.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/curso_vagas_por_cotas_detalhada_if.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/curso_vagas_if.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/sexo_inscritos_com_resultado_if.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/paginas/if/area_conhecimento.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="185" column="39" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="39" />
+        <state relative-caret-position="156">
+          <caret line="144" column="43" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#7102#9131#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resultados/campi_quantidade_vagas_if.json">
+    <entry file="file://$PROJECT_DIR$/paginas/sisu/curso.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="288">
+          <caret line="139" column="36" selection-start-line="139" selection-start-column="36" selection-end-line="139" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/sisu/sexo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="141" column="43" selection-start-line="141" selection-start-column="43" selection-end-line="141" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/if/curso.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="144" column="43" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/sisu/campi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="247" column="29" lean-forward="true" selection-start-line="247" selection-start-column="29" selection-end-line="247" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/sisu/area_conhecimento.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="144" column="43" selection-start-line="144" selection-start-column="43" selection-end-line="144" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/sexo_inscritos_if.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/area_conhecimento_inscritos_if.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/area_conhecimento_maiores_menores_notas_corte_cotas_if.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="135" lean-forward="true" selection-start-column="135" selection-end-column="135" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/paginas/if/campi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="350" column="88" selection-start-line="350" selection-start-column="88" selection-end-line="350" selection-end-column="88" />
+        <state relative-caret-position="-2500">
+          <caret line="184" column="42" selection-start-line="184" selection-start-column="23" selection-end-line="184" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#6527#6715#0" />
-            <element signature="e#6884#10496#0" />
-            <element signature="e#10849#13640#0" />
-            <element signature="e#11249#13626#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/area_conhecimento_inscritos_com_sexo_if.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_ampla_concorrencia_if.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_cota_if.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/sexo_maiores_menores_notas_if.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/sexo_maiores_menores_notas_com_cotas_if.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/if/sexo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="324" column="15" lean-forward="true" selection-start-line="324" selection-start-column="15" selection-end-line="324" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="e#10862#13653#0" />
           </folding>
         </state>
       </provider>
