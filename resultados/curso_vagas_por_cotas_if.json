@@ -1,1 +1,214 @@
-{"CAMPUS CAMPOS BELOS":{"BACHARELADO EM ADMINISTRAÇÃO":{"ac":12,"cotas":13},"BACHARELADO EM ZOOTECNIA":{"ac":14,"cotas":14}},"CAMPUS POSSE":{"BACHARELADO EM ADMINISTRAÇÃO":{"ac":14,"cotas":14},"BACHARELADO EM AGRONOMIA":{"ac":14,"cotas":14}},"CAMPUS RIO VERDE":{"BACHARELADO EM ADMINISTRAÇÃO":{"ac":17,"cotas":18},"BACHARELADO EM AGRONOMIA":{"ac":17,"cotas":18},"LICENCIATURA EM CIÊNCIAS BIOLÓGICAS":{"ac":17,"cotas":18},"BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO":{"ac":12,"cotas":13},"BACHARELADO EM ZOOTECNIA":{"ac":17,"cotas":18},"LICENCIATURA EM QUÍMICA":{"ac":17,"cotas":18},"BACHARELADO EM CIÊNCIAS BIOLÓGICAS":{"ac":17,"cotas":18},"BACHARELADO EM ENGENHARIA AMBIENTAL":{"ac":17,"cotas":18},"BACHARELADO EM ENGENHARIA CIVIL":{"ac":17,"cotas":18},"BACHARELADO EM ENGENHARIA DE ALIMENTOS":{"ac":17,"cotas":18},"TECNOLOGIA EM SANEAMENTO AMBIENTAL":{"ac":17,"cotas":18}},"CAMPUS AVANÇADO IPAMERI":{"TECNOLOGIA EM GESTÃO COMERCIAL":{"ac":14,"cotas":14}},"CAMPUS URUTAÍ":{"TECNOLOGIA EM GESTÃO DA TECNOLOGIA DA INFORMAÇÃO":{"ac":14,"cotas":14},"BACHARELADO EM AGRONOMIA":{"ac":14,"cotas":14},"BACHARELADO EM CIÊNCIA E TECNOLOGIA DE ALIMENTOS":{"ac":14,"cotas":14},"BACHARELADO EM MEDICINA VETERINÁRIA":{"ac":14,"cotas":14},"LICENCIATURA EM CIÊNCIAS BIOLÓGICAS":{"ac":14,"cotas":14},"BACHARELADO EM SISTEMAS DE INFORMAÇÃO":{"ac":14,"cotas":14},"LICENCIATURA EM MATEMÁTICA":{"ac":14,"cotas":14},"LICENCIATURA EM QUÍMICA":{"ac":14,"cotas":14},"BACHARELADO EM ENGENHARIA AGRÍCOLA":{"ac":14,"cotas":14}},"CAMPUS CERES":{"BACHARELADO EM AGRONOMIA":{"ac":14,"cotas":14},"LICENCIATURA EM CIÊNCIAS BIOLÓGICAS":{"ac":14,"cotas":14},"BACHARELADO EM SISTEMAS DE INFORMAÇÃO":{"ac":14,"cotas":14},"BACHARELADO EM ZOOTECNIA":{"ac":14,"cotas":14},"LICENCIATURA EM QUÍMICA":{"ac":14,"cotas":14}},"CAMPUS IPORÁ":{"BACHARELADO EM AGRONOMIA":{"ac":14,"cotas":14},"TECNOLOGIA EM AGRONEGÓCIO":{"ac":14,"cotas":14},"LICENCIATURA EM QUÍMICA":{"ac":10,"cotas":11},"TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS":{"ac":14,"cotas":14}},"CAMPUS MORRINHOS":{"BACHARELADO EM AGRONOMIA":{"ac":14,"cotas":14},"BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO":{"ac":14,"cotas":14},"BACHARELADO EM ZOOTECNIA":{"ac":14,"cotas":14},"LICENCIATURA EM QUÍMICA":{"ac":14,"cotas":14},"TECNOLOGIA EM ALIMENTOS":{"ac":14,"cotas":14},"TECNOLOGIA EM SISTEMAS PARA INTERNET":{"ac":10,"cotas":11},"LICENCIATURA EM PEDAGOGIA":{"ac":14,"cotas":14}},"CAMPUS AVANÇADO HIDROLÂNDIA":{"TECNOLOGIA EM AGROECOLOGIA":{"ac":14,"cotas":14}},"CAMPUS CRISTALINA":{"TECNOLOGIA EM HORTICULTURA":{"ac":14,"cotas":14}},"CAMPUS AVANÇADO CATALÃO":{"LICENCIATURA EM CIÊNCIAS NATURAIS":{"ac":14,"cotas":14}},"CAMPUS TRINDADE":{"BACHARELADO EM ENGENHARIA CIVIL":{"ac":14,"cotas":14},"BACHARELADO EM ENGENHARIA ELÉTRICA":{"ac":14,"cotas":14},"BACHARELADO EM ENGENHARIA DA COMPUTAÇÃO":{"ac":14,"cotas":14}}}
+{
+  "CAMPUS CAMPOS BELOS": {
+    "BACHARELADO EM ADMINISTRAÇÃO": {
+      "ac": 12,
+      "cotas": 13
+    },
+    "BACHARELADO EM ZOOTECNIA": {
+      "ac": 14,
+      "cotas": 14
+    }
+  },
+  "CAMPUS POSSE": {
+    "BACHARELADO EM ADMINISTRAÇÃO": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "BACHARELADO EM AGRONOMIA": {
+      "ac": 14,
+      "cotas": 14
+    }
+  },
+  "CAMPUS RIO VERDE": {
+    "BACHARELADO EM ADMINISTRAÇÃO": {
+      "ac": 17,
+      "cotas": 18
+    },
+    "BACHARELADO EM AGRONOMIA": {
+      "ac": 17,
+      "cotas": 18
+    },
+    "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS": {
+      "ac": 17,
+      "cotas": 18
+    },
+    "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO": {
+      "ac": 12,
+      "cotas": 13
+    },
+    "BACHARELADO EM ZOOTECNIA": {
+      "ac": 17,
+      "cotas": 18
+    },
+    "LICENCIATURA EM QUÍMICA": {
+      "ac": 17,
+      "cotas": 18
+    },
+    "BACHARELADO EM CIÊNCIAS BIOLÓGICAS": {
+      "ac": 17,
+      "cotas": 18
+    },
+    "BACHARELADO EM ENGENHARIA AMBIENTAL": {
+      "ac": 17,
+      "cotas": 18
+    },
+    "BACHARELADO EM ENGENHARIA CIVIL": {
+      "ac": 17,
+      "cotas": 18
+    },
+    "BACHARELADO EM ENGENHARIA DE ALIMENTOS": {
+      "ac": 17,
+      "cotas": 18
+    },
+    "TECNOLOGIA EM SANEAMENTO AMBIENTAL": {
+      "ac": 17,
+      "cotas": 18
+    }
+  },
+  "CAMPUS AVANÇADO IPAMERI": {
+    "TECNOLOGIA EM GESTÃO COMERCIAL": {
+      "ac": 14,
+      "cotas": 14
+    }
+  },
+  "CAMPUS URUTAÍ": {
+    "TECNOLOGIA EM GESTÃO DA TECNOLOGIA DA INFORMAÇÃO": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "BACHARELADO EM AGRONOMIA": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "BACHARELADO EM CIÊNCIA E TECNOLOGIA DE ALIMENTOS": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "BACHARELADO EM MEDICINA VETERINÁRIA": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "BACHARELADO EM SISTEMAS DE INFORMAÇÃO": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "LICENCIATURA EM MATEMÁTICA": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "LICENCIATURA EM QUÍMICA": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "BACHARELADO EM ENGENHARIA AGRÍCOLA": {
+      "ac": 14,
+      "cotas": 14
+    }
+  },
+  "CAMPUS CERES": {
+    "BACHARELADO EM AGRONOMIA": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "BACHARELADO EM SISTEMAS DE INFORMAÇÃO": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "BACHARELADO EM ZOOTECNIA": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "LICENCIATURA EM QUÍMICA": {
+      "ac": 14,
+      "cotas": 14
+    }
+  },
+  "CAMPUS IPORÁ": {
+    "BACHARELADO EM AGRONOMIA": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "TECNOLOGIA EM AGRONEGÓCIO": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "LICENCIATURA EM QUÍMICA": {
+      "ac": 10,
+      "cotas": 11
+    },
+    "TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS": {
+      "ac": 14,
+      "cotas": 14
+    }
+  },
+  "CAMPUS MORRINHOS": {
+    "BACHARELADO EM AGRONOMIA": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "BACHARELADO EM ZOOTECNIA": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "LICENCIATURA EM QUÍMICA": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "TECNOLOGIA EM ALIMENTOS": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "TECNOLOGIA EM SISTEMAS PARA INTERNET": {
+      "ac": 10,
+      "cotas": 11
+    },
+    "LICENCIATURA EM PEDAGOGIA": {
+      "ac": 14,
+      "cotas": 14
+    }
+  },
+  "CAMPUS AVANÇADO HIDROLÂNDIA": {
+    "TECNOLOGIA EM AGROECOLOGIA": {
+      "ac": 14,
+      "cotas": 14
+    }
+  },
+  "CAMPUS CRISTALINA": {
+    "TECNOLOGIA EM HORTICULTURA": {
+      "ac": 14,
+      "cotas": 14
+    }
+  },
+  "CAMPUS AVANÇADO CATALÃO": {
+    "LICENCIATURA EM CIÊNCIAS NATURAIS": {
+      "ac": 14,
+      "cotas": 14
+    }
+  },
+  "CAMPUS TRINDADE": {
+    "BACHARELADO EM ENGENHARIA CIVIL": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "BACHARELADO EM ENGENHARIA ELÉTRICA": {
+      "ac": 14,
+      "cotas": 14
+    },
+    "BACHARELADO EM ENGENHARIA DA COMPUTAÇÃO": {
+      "ac": 14,
+      "cotas": 14
+    }
+  }
+}
