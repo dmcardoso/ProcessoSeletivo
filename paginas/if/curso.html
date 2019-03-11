@@ -95,7 +95,7 @@
             width: 100%;
             background: #fff;
             border-radius: 5px;
-            box-shadow: 1px 0 20px 0 rgba(0,0,0,0.2);
+            box-shadow: 1px 0 20px 0 rgba(0, 0, 0, 0.2);
             z-index: 10;
             padding: 15px;
         }
@@ -224,7 +224,7 @@
                     res.json().then(function (result) {
                         let cont = 0;
                         $.each(result, function (a, b) {
-                            grafico(b, v.elemento + cont, v.titulo, v.multidaset, a);
+                            grafico(b, v.elemento + '-' + cont, v.titulo, v.multidaset, a);
                             cont++;
                         });
                     })
@@ -245,7 +245,7 @@
             config = {},
             colors = [
                 '#001f3f', '#85144b', '#3D9970', '#FF4136', '#0074D9', '#FF851B',
-                '#2ECC40', '#F012BE', '#39CCCC', '#7FDBFF', '#01FF70','#B10DC9', '#FFDC00'
+                '#2ECC40', '#F012BE', '#39CCCC', '#7FDBFF', '#01FF70', '#B10DC9', '#FFDC00'
             ],
             labels = [],
             posicao_dados = [],
@@ -326,6 +326,7 @@
                     cont++;
                 });
             });
+            if (elemento.split('-')[0] === 'maior_menor_nota_ac') console.log(novo);
 
             $.each(novo, function (i, v) {
 
@@ -343,11 +344,8 @@
                 });
 
                 $.each(v.dados, function (a, b) {
-                    if (elemento === 'maior_menor_nota_cotas') {
-
-                        // config.data.datasets[i].label += ' - ' + Object.keys(b)[0];
-                        config.data.datasets[i].data.push(Object.values(b)[0]);
-
+                    if (elemento.split('-')[0] === 'maior_menor_nota_ac') {
+                        config.data.datasets[i].data.push(b.replace(',', '.'));
                     } else config.data.datasets[i].data.push(b);
                 });
             });
@@ -355,12 +353,10 @@
         } else {
 
             $.each(dados, function (i, v) {
-                if (i !== 'total') {
-                    labels.push(i);
-                    posicao_dados.push({indice: i, valor: v});
-                    if (v > max_value) max_value = v;
-                    if (v < min_value) min_value = v;
-                }
+                labels.push(i);
+                posicao_dados.push({indice: i, valor: v});
+                if (v > max_value) max_value = v;
+                if (v < min_value) min_value = v;
             });
 
             config = {
@@ -398,7 +394,7 @@
                         }
                     },
                     title: {
-                        text: titulo,
+                        text: titulo.toUpperCase() + ' - ' + campus,
                         fontSize: 30,
                         fontColor: '#4d4d4d',
                         display: true
@@ -436,11 +432,9 @@
             };
 
             $.each(posicao_dados, function (i, v) {
-                if (v.indice !== 'total') {
-                    config.data.datasets[0].backgroundColor.push(colors[i]);
-                    config.data.datasets[0].borderColor.push(colors[i]);
-                    config.data.datasets[0].data.push(v.valor);
-                }
+                config.data.datasets[0].backgroundColor.push(colors[i]);
+                config.data.datasets[0].borderColor.push(colors[i]);
+                config.data.datasets[0].data.push(v.valor);
             });
         }
 
