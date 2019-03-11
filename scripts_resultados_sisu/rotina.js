@@ -269,8 +269,8 @@ console.log("A menor nota tirada por um aluno do sexo feminino no sisu foi: " + 
 console.log('-------------------------------------------------------');
 const maiores_menores_notas_sexo = {
     maior: {
-        homens: getMaiorNota(resultado_if).nota,
-        mulheres: getMaiorNota(getBySexo(resultado_if, "M")).nota,
+        homens: getMaiorNota(getBySexo(resultado_if, "M")).nota,
+        mulheres: getMaiorNota(getBySexo(resultado_if, "F")).nota,
     },
     menor: {
         homens: getMenorNota(getBySexo(resultado_if, "M")).nota,

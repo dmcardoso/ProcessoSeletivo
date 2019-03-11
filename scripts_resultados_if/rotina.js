@@ -13,6 +13,7 @@ const {
     getByAreaConhecimento,
     getCursoByAreaConhecimento,
     cotas,
+    getByCotas,
     getByCota
 } = require('./filters');
 const resultado_if = require('../resultados/resultado_if.json');
@@ -51,7 +52,7 @@ areasConhecimento.forEach((value, index) => {
     let maior_nota_corte = 0;
     let menor_nota_corte = null;
     cursos.forEach(curso => {
-        const nota_corte = getNotaCorte(resultado_if, curso.curso, "AC", curso.campus);
+        const nota_corte = getNotaCorte(getByCurso(getByCampus(resultado, curso.campus), curso.curso), curso.curso, "AC", curso.campus);
         if (nota_corte > maior_nota_corte) maior_nota_corte = nota_corte;
 
         if (menor_nota_corte === null) menor_nota_corte = nota_corte;
@@ -76,6 +77,7 @@ areasConhecimento.forEach((value, index) => {
     let vagas_ampla_concorrencia = 0;
 
     cursos.forEach(curso => {
+        const curso_list = getByCurso(getByCampus(resultado, curso.campus), curso.curso);
         let vagas_cotas = 0;
         if (vagas_por_curso_detalhada[getCampusById(curso.campus).campus] === undefined) {
             vagas_por_curso_detalhada[getCampusById(curso.campus).campus] = {};
@@ -102,7 +104,7 @@ areasConhecimento.forEach((value, index) => {
         };
 
         cotas.forEach(cota => {
-            const nota_corte = getNotaCorte(resultado, curso.curso, cota, curso.campus);
+            const nota_corte = getNotaCorte(getByCota(curso_list, cota), curso.curso, cota, curso.campus);
             if (nota_corte > maior_nota_corte) {
                 maior_nota_corte = nota_corte;
                 cota_maior = cota;
@@ -136,10 +138,10 @@ areasConhecimento.forEach((value, index) => {
             maiores_menores_notas_corte_campi_cotas[getCampusById(curso.campus).campus].push({
                 curso: curso.curso,
                 cota,
-                nota_corte
+                nota_corte: nota_corte || 0
             });
 
-            maiores_menores_notas_corte_campi_cotas_to_json[getCampusById(curso.campus).campus][curso.curso][cota] = nota_corte;
+            maiores_menores_notas_corte_campi_cotas_to_json[getCampusById(curso.campus).campus][curso.curso][cota] = nota_corte || 0;
 
         });
         console.log("Vagas reservadas para cotas no curso " + curso.curso + " do " + getCampusById(curso.campus).campus + ": " + vagas_cotas);
@@ -234,22 +236,22 @@ const sexo_inscritos_com_resultado = {
 const sexo_maior_menor_nota_com_cota = {
     maior: {
         homens: {
-            cota: getMaiorNota(getByCota(getBySexo(resultado_if, "M"))).concorrencia,
-            nota: getMaiorNota(getByCota(getBySexo(resultado_if, "M"))).nota
+            cota: getMaiorNota(getByCotas(getBySexo(resultado_if, "M"))).concorrencia,
+            nota: getMaiorNota(getByCotas(getBySexo(resultado_if, "M"))).nota
         },
         mulheres: {
-            cota: getMaiorNota(getByCota(getBySexo(resultado_if, "F"))).concorrencia,
-            nota: getMaiorNota(getByCota(getBySexo(resultado_if, "F"))).nota
+            cota: getMaiorNota(getByCotas(getBySexo(resultado_if, "F"))).concorrencia,
+            nota: getMaiorNota(getByCotas(getBySexo(resultado_if, "F"))).nota
         }
     },
     menor: {
         homens: {
-            cota: getMenorNota(getByCota(getBySexo(resultado_if, "M"))).concorrencia,
-            nota: getMenorNota(getByCota(getBySexo(resultado_if, "M"))).nota
+            cota: getMenorNota(getByCotas(getBySexo(resultado_if, "M"))).concorrencia,
+            nota: getMenorNota(getByCotas(getBySexo(resultado_if, "M"))).nota
         },
         mulheres: {
-            cota: getMenorNota(getByCota(getBySexo(resultado_if, "F"))).concorrencia,
-            nota: getMenorNota(getByCota(getBySexo(resultado_if, "F"))).nota
+            cota: getMenorNota(getByCotas(getBySexo(resultado_if, "F"))).concorrencia,
+            nota: getMenorNota(getByCotas(getBySexo(resultado_if, "F"))).nota
         }
     }
 };
@@ -277,8 +279,8 @@ console.log("A menor nota tirada por um aluno do sexo feminino no processo selet
 console.log('-------------------------------------------------------');
 const maiores_menores_notas_sexo = {
     maior: {
-        homens: getMaiorNota(resultado_if).nota,
-        mulheres: getMaiorNota(getBySexo(resultado_if, "M")).nota,
+        homens: getMaiorNota(getBySexo(resultado_if, "M")).nota,
+        mulheres: getMaiorNota(getBySexo(resultado_if, "F")).nota,
     },
     menor: {
         homens: getMenorNota(getBySexo(resultado_if, "M")).nota,
@@ -381,13 +383,19 @@ campi.forEach((value, index) => {
         total_vagas += Number(curso.total_vagas);
         vagas_campus += Number(curso.total_vagas);
     });
-    // console.log(maiores_menores_notas_corte_campi_cotas[value.campus]);
     const maior_nota_corte_campus_cota = maiores_menores_notas_corte_campi_cotas[value.campus].reduce((reducer, curr) => {
         return (parseFloat(reducer.nota_corte) > parseFloat(curr.nota_corte)) ? reducer : curr
     }, {nota_corte: 0});
     const menor_nota_corte_campus_cota = maiores_menores_notas_corte_campi_cotas[value.campus].reduce((reducer, curr) => {
+        if(parseFloat(curr.nota_corte) === 0){
+            curr.nota_corte = 8000;
+        }
         return (parseFloat(reducer.nota_corte) < parseFloat(curr.nota_corte)) ? reducer : curr
-    }, {nota_corte: 6000});
+    }, {nota_corte: 8000});
+
+    if(menor_nota_corte_campus_cota.nota_corte === 8000){
+        menor_nota_corte_campus_cota.nota_corte = 0;
+    }
 
     if (maiores_menores_notas_corte_campi_cotas_filtered[value.campus] === undefined) {
         maiores_menores_notas_corte_campi_cotas_filtered[value.campus] = {
