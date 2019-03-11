@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "CAMPUS CAMPOS BELOS": [
     {
       "curso": "BACHARELADO EM ADMINISTRAÇÃO",
@@ -1118,4 +1119,406 @@
       "nota_corte": "679.54"
     }
   ]
+=======
+  "CAMPUS CAMPOS BELOS": {
+    "BACHARELADO EM ADMINISTRAÇÃO": {
+      "RIPPI-PCD": "472.50",
+      "RIPPI": "621.32",
+      "RI": "591.62",
+      "RSPPI-PCD": "512.42",
+      "RSPPI": "578.02",
+      "RS": 0
+    },
+    "BACHARELADO EM ZOOTECNIA": {
+      "RIPPI-PCD": "477.20",
+      "RIPPI": "596.72",
+      "RI": "603.78",
+      "RSPPI-PCD": 0,
+      "RSPPI": "558.78",
+      "RS": "596.22"
+    }
+  },
+  "CAMPUS POSSE": {
+    "BACHARELADO EM ADMINISTRAÇÃO": {
+      "RIPPI-PCD": "552.30",
+      "RIPPI": "617.36",
+      "RI": "586.50",
+      "RSPPI-PCD": "504.20",
+      "RSPPI": "607.48",
+      "RS": "597.72"
+    },
+    "BACHARELADO EM AGRONOMIA": {
+      "RIPPI-PCD": "443.52",
+      "RIPPI": "583.44",
+      "RI": "609.08",
+      "RSPPI-PCD": "463.56",
+      "RSPPI": "603.74",
+      "RS": "614.60"
+    }
+  },
+  "CAMPUS URUTAÍ": {
+    "TECNOLOGIA EM GESTÃO DA TECNOLOGIA DA INFORMAÇÃO": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "571.72",
+      "RI": "606.44",
+      "RSPPI-PCD": 0,
+      "RSPPI": "565.62",
+      "RS": "595.46"
+    },
+    "BACHARELADO EM MEDICINA VETERINÁRIA": {
+      "RIPPI-PCD": "550.36",
+      "RIPPI": "657.88",
+      "RI": "668.22",
+      "RSPPI-PCD": "479.52",
+      "RSPPI": "672.66",
+      "RS": "688.14"
+    },
+    "BACHARELADO EM AGRONOMIA": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "596.08",
+      "RI": "642.46",
+      "RSPPI-PCD": 0,
+      "RSPPI": "612.24",
+      "RS": "659.06"
+    },
+    "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "575.60",
+      "RI": "667.90",
+      "RSPPI-PCD": 0,
+      "RSPPI": "638.46",
+      "RS": "615.18"
+    },
+    "BACHARELADO EM CIÊNCIA E TECNOLOGIA DE ALIMENTOS": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "573.46",
+      "RI": "577.74",
+      "RSPPI-PCD": 0,
+      "RSPPI": "577.64",
+      "RS": "576.92"
+    },
+    "LICENCIATURA EM QUÍMICA": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "532.08",
+      "RI": "548.96",
+      "RSPPI-PCD": 0,
+      "RSPPI": "538.50",
+      "RS": "565.14"
+    },
+    "BACHARELADO EM SISTEMAS DE INFORMAÇÃO": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "579.74",
+      "RI": "563.28",
+      "RSPPI-PCD": 0,
+      "RSPPI": "575.92",
+      "RS": "555.84"
+    },
+    "LICENCIATURA EM MATEMÁTICA": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "602.26",
+      "RI": "626.06",
+      "RSPPI-PCD": 0,
+      "RSPPI": "655.52",
+      "RS": "535.08"
+    },
+    "BACHARELADO EM ENGENHARIA AGRÍCOLA": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "593.54",
+      "RI": "610.80",
+      "RSPPI-PCD": 0,
+      "RSPPI": "611.42",
+      "RS": "666.14"
+    }
+  },
+  "CAMPUS AVANÇADO IPAMERI": {
+    "TECNOLOGIA EM GESTÃO COMERCIAL": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "554.62",
+      "RI": "569.86",
+      "RSPPI-PCD": "494.94",
+      "RSPPI": "601.60",
+      "RS": "564.36"
+    }
+  },
+  "CAMPUS RIO VERDE": {
+    "BACHARELADO EM ADMINISTRAÇÃO": {
+      "RIPPI-PCD": "541.02",
+      "RIPPI": "617.94",
+      "RI": "669.06",
+      "RSPPI-PCD": "508.14",
+      "RSPPI": "598.08",
+      "RS": "628.52"
+    },
+    "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS": {
+      "RIPPI-PCD": "499.64",
+      "RIPPI": "606.86",
+      "RI": "593.46",
+      "RSPPI-PCD": 0,
+      "RSPPI": "577.46",
+      "RS": "646.98"
+    },
+    "BACHARELADO EM AGRONOMIA": {
+      "RIPPI-PCD": "541",
+      "RIPPI": "586.84",
+      "RI": "612.22",
+      "RSPPI-PCD": "462.78",
+      "RSPPI": "625.24",
+      "RS": "611.92"
+    },
+    "LICENCIATURA EM QUÍMICA": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "579.74",
+      "RI": "542.20",
+      "RSPPI-PCD": 0,
+      "RSPPI": "567.74",
+      "RS": "668.32"
+    },
+    "BACHARELADO EM ZOOTECNIA": {
+      "RIPPI-PCD": "447.96",
+      "RIPPI": "576.70",
+      "RI": "583.24",
+      "RSPPI-PCD": "508.22",
+      "RSPPI": "575.20",
+      "RS": "579.14"
+    },
+    "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO": {
+      "RIPPI-PCD": "511.48",
+      "RIPPI": "587.32",
+      "RI": "636.84",
+      "RSPPI-PCD": 0,
+      "RSPPI": "660.98",
+      "RS": 0
+    },
+    "BACHARELADO EM CIÊNCIAS BIOLÓGICAS": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "585.06",
+      "RI": "587.44",
+      "RSPPI-PCD": 0,
+      "RSPPI": "585.92",
+      "RS": "702.18"
+    },
+    "TECNOLOGIA EM SANEAMENTO AMBIENTAL": {
+      "RIPPI-PCD": "459.76",
+      "RIPPI": "534.10",
+      "RI": "558.30",
+      "RSPPI-PCD": 0,
+      "RSPPI": "571.18",
+      "RS": "570.20"
+    },
+    "BACHARELADO EM ENGENHARIA CIVIL": {
+      "RIPPI-PCD": "467.68",
+      "RIPPI": "649.66",
+      "RI": "680.68",
+      "RSPPI-PCD": 0,
+      "RSPPI": "656.88",
+      "RS": "703.54"
+    },
+    "BACHARELADO EM ENGENHARIA DE ALIMENTOS": {
+      "RIPPI-PCD": "430.30",
+      "RIPPI": "593.28",
+      "RI": "629.18",
+      "RSPPI-PCD": "539.70",
+      "RSPPI": "611.18",
+      "RS": "633.52"
+    },
+    "BACHARELADO EM ENGENHARIA AMBIENTAL": {
+      "RIPPI-PCD": "552.20",
+      "RIPPI": "610.38",
+      "RI": "600.50",
+      "RSPPI-PCD": 0,
+      "RSPPI": "603.40",
+      "RS": "617.54"
+    }
+  },
+  "CAMPUS CERES": {
+    "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS": {
+      "RIPPI-PCD": "512.38",
+      "RIPPI": "597.28",
+      "RI": "602.96",
+      "RSPPI-PCD": "486.12",
+      "RSPPI": "610.88",
+      "RS": "607.42"
+    },
+    "BACHARELADO EM AGRONOMIA": {
+      "RIPPI-PCD": "468.96",
+      "RIPPI": "637.20",
+      "RI": "621.32",
+      "RSPPI-PCD": 0,
+      "RSPPI": "630.88",
+      "RS": "620.92"
+    },
+    "BACHARELADO EM SISTEMAS DE INFORMAÇÃO": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "611.50",
+      "RI": "643.50",
+      "RSPPI-PCD": 0,
+      "RSPPI": "629.92",
+      "RS": "640.16"
+    },
+    "BACHARELADO EM ZOOTECNIA": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "585.30",
+      "RI": "624.78",
+      "RSPPI-PCD": "476.88",
+      "RSPPI": "605.32",
+      "RS": "642.82"
+    },
+    "LICENCIATURA EM QUÍMICA": {
+      "RIPPI-PCD": "466.90",
+      "RIPPI": "619.14",
+      "RI": "614.32",
+      "RSPPI-PCD": 0,
+      "RSPPI": "642.08",
+      "RS": "591.54"
+    }
+  },
+  "CAMPUS IPORÁ": {
+    "TECNOLOGIA EM AGRONEGÓCIO": {
+      "RIPPI-PCD": "511.06",
+      "RIPPI": "604.76",
+      "RI": "595.38",
+      "RSPPI-PCD": 0,
+      "RSPPI": "580.16",
+      "RS": "602.02"
+    },
+    "BACHARELADO EM AGRONOMIA": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "599.42",
+      "RI": "623.92",
+      "RSPPI-PCD": 0,
+      "RSPPI": "587.34",
+      "RS": "618.74"
+    },
+    "TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "567.06",
+      "RI": "596.32",
+      "RSPPI-PCD": 0,
+      "RSPPI": "549.16",
+      "RS": "582.14"
+    },
+    "LICENCIATURA EM QUÍMICA": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "592.36",
+      "RI": "545.40",
+      "RSPPI-PCD": 0,
+      "RSPPI": "540.48",
+      "RS": 0
+    }
+  },
+  "CAMPUS CRISTALINA": {
+    "TECNOLOGIA EM HORTICULTURA": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "553.26",
+      "RI": "544.02",
+      "RSPPI-PCD": 0,
+      "RSPPI": "570.12",
+      "RS": "677.60"
+    }
+  },
+  "CAMPUS AVANÇADO HIDROLÂNDIA": {
+    "TECNOLOGIA EM AGROECOLOGIA": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "564.26",
+      "RI": "548.50",
+      "RSPPI-PCD": 0,
+      "RSPPI": "590.20",
+      "RS": "594.86"
+    }
+  },
+  "CAMPUS MORRINHOS": {
+    "BACHARELADO EM AGRONOMIA": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "599.02",
+      "RI": "623.78",
+      "RSPPI-PCD": 0,
+      "RSPPI": "628.10",
+      "RS": "648.30"
+    },
+    "TECNOLOGIA EM SISTEMAS PARA INTERNET": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "635.64",
+      "RI": "597.20",
+      "RSPPI-PCD": 0,
+      "RSPPI": "607.70",
+      "RS": 0
+    },
+    "BACHARELADO EM ZOOTECNIA": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "605.20",
+      "RI": "584.40",
+      "RSPPI-PCD": 0,
+      "RSPPI": "578.68",
+      "RS": "608.56"
+    },
+    "TECNOLOGIA EM ALIMENTOS": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "569.20",
+      "RI": "547.62",
+      "RSPPI-PCD": 0,
+      "RSPPI": "546.10",
+      "RS": "599.14"
+    },
+    "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "552.18",
+      "RI": "601.20",
+      "RSPPI-PCD": 0,
+      "RSPPI": "624.92",
+      "RS": "639.28"
+    },
+    "LICENCIATURA EM QUÍMICA": {
+      "RIPPI-PCD": "466.50",
+      "RIPPI": "549.28",
+      "RI": "566.58",
+      "RSPPI-PCD": 0,
+      "RSPPI": "614.12",
+      "RS": "583.40"
+    },
+    "LICENCIATURA EM PEDAGOGIA": {
+      "RIPPI-PCD": "415.84",
+      "RIPPI": "587.44",
+      "RI": "601.72",
+      "RSPPI-PCD": "430.92",
+      "RSPPI": "586.24",
+      "RS": "604.70"
+    }
+  },
+  "CAMPUS AVANÇADO CATALÃO": {
+    "LICENCIATURA EM CIÊNCIAS NATURAIS": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "564.98",
+      "RI": "535.78",
+      "RSPPI-PCD": 0,
+      "RSPPI": "555.70",
+      "RS": "561.98"
+    }
+  },
+  "CAMPUS TRINDADE": {
+    "BACHARELADO EM ENGENHARIA DE COMPUTAÇÃO": {
+      "RIPPI-PCD": "505.52",
+      "RIPPI": "613.34",
+      "RI": "662.44",
+      "RSPPI-PCD": 0,
+      "RSPPI": "641.86",
+      "RS": "656.08"
+    },
+    "BACHARELADO EM ENGENHARIA ELÉTRICA": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "633.28",
+      "RI": "663.58",
+      "RSPPI-PCD": "555.08",
+      "RSPPI": "641.42",
+      "RS": "602.86"
+    },
+    "BACHARELADO EM ENGENHARIA CIVIL": {
+      "RIPPI-PCD": 0,
+      "RIPPI": "656.18",
+      "RI": "658.58",
+      "RSPPI-PCD": "402.14",
+      "RSPPI": "652.30",
+      "RS": "679.54"
+    }
+  }
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
 }

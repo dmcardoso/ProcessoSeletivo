@@ -6,12 +6,20 @@
       "RI": 1,
       "RSPPI-PCD": 1,
       "RSPPI": 1,
+<<<<<<< HEAD
+=======
+      "RS": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "AC": 5
     },
     "BACHARELADO EM ZOOTECNIA": {
       "RIPPI-PCD": 1,
       "RIPPI": 1,
       "RI": 1,
+<<<<<<< HEAD
+=======
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
@@ -39,8 +47,15 @@
   },
   "CAMPUS URUTAÍ": {
     "TECNOLOGIA EM GESTÃO DA TECNOLOGIA DA INFORMAÇÃO": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
@@ -55,50 +70,99 @@
       "AC": 6
     },
     "BACHARELADO EM AGRONOMIA": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "LICENCIATURA EM CIÊNCIAS BIOLÓGICAS": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "BACHARELADO EM CIÊNCIA E TECNOLOGIA DE ALIMENTOS": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "LICENCIATURA EM QUÍMICA": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "BACHARELADO EM SISTEMAS DE INFORMAÇÃO": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "LICENCIATURA EM MATEMÁTICA": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "BACHARELADO EM ENGENHARIA AGRÍCOLA": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
@@ -106,6 +170,10 @@
   },
   "CAMPUS AVANÇADO IPAMERI": {
     "TECNOLOGIA EM GESTÃO COMERCIAL": {
+<<<<<<< HEAD
+=======
+      "RIPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RIPPI": 1,
       "RI": 1,
       "RSPPI-PCD": 1,
@@ -128,6 +196,10 @@
       "RIPPI-PCD": 1,
       "RIPPI": 2,
       "RI": 1,
+<<<<<<< HEAD
+=======
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 2,
       "RS": 1,
       "AC": 7
@@ -142,8 +214,15 @@
       "AC": 7
     },
     "LICENCIATURA EM QUÍMICA": {
+<<<<<<< HEAD
       "RIPPI": 2,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 2,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 2,
       "RS": 1,
       "AC": 7
@@ -161,12 +240,25 @@
       "RIPPI-PCD": 1,
       "RIPPI": 1,
       "RI": 1,
+<<<<<<< HEAD
       "RSPPI": 1,
       "AC": 5
     },
     "BACHARELADO EM CIÊNCIAS BIOLÓGICAS": {
       "RIPPI": 2,
       "RI": 1,
+=======
+      "RSPPI-PCD": 0,
+      "RSPPI": 1,
+      "RS": 0,
+      "AC": 5
+    },
+    "BACHARELADO EM CIÊNCIAS BIOLÓGICAS": {
+      "RIPPI-PCD": 0,
+      "RIPPI": 2,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 2,
       "RS": 1,
       "AC": 7
@@ -175,6 +267,10 @@
       "RIPPI-PCD": 1,
       "RIPPI": 2,
       "RI": 1,
+<<<<<<< HEAD
+=======
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 2,
       "RS": 1,
       "AC": 7
@@ -183,6 +279,10 @@
       "RIPPI-PCD": 1,
       "RIPPI": 2,
       "RI": 1,
+<<<<<<< HEAD
+=======
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 2,
       "RS": 1,
       "AC": 7
@@ -200,6 +300,10 @@
       "RIPPI-PCD": 1,
       "RIPPI": 2,
       "RI": 1,
+<<<<<<< HEAD
+=======
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 2,
       "RS": 1,
       "AC": 7
@@ -219,18 +323,33 @@
       "RIPPI-PCD": 1,
       "RIPPI": 1,
       "RI": 1,
+<<<<<<< HEAD
+=======
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "BACHARELADO EM SISTEMAS DE INFORMAÇÃO": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "BACHARELADO EM ZOOTECNIA": {
+<<<<<<< HEAD
+=======
+      "RIPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RIPPI": 1,
       "RI": 1,
       "RSPPI-PCD": 1,
@@ -242,6 +361,10 @@
       "RIPPI-PCD": 1,
       "RIPPI": 1,
       "RI": 1,
+<<<<<<< HEAD
+=======
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
@@ -252,35 +375,69 @@
       "RIPPI-PCD": 1,
       "RIPPI": 1,
       "RI": 1,
+<<<<<<< HEAD
+=======
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "BACHARELADO EM AGRONOMIA": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "LICENCIATURA EM QUÍMICA": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
       "RSPPI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+      "RSPPI": 1,
+      "RS": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "AC": 4
     }
   },
   "CAMPUS CRISTALINA": {
     "TECNOLOGIA EM HORTICULTURA": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
@@ -288,8 +445,15 @@
   },
   "CAMPUS AVANÇADO HIDROLÂNDIA": {
     "TECNOLOGIA EM AGROECOLOGIA": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
@@ -297,13 +461,21 @@
   },
   "CAMPUS MORRINHOS": {
     "BACHARELADO EM AGRONOMIA": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "TECNOLOGIA EM SISTEMAS PARA INTERNET": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
       "RSPPI": 1,
@@ -312,20 +484,49 @@
     "BACHARELADO EM ZOOTECNIA": {
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+      "RSPPI": 1,
+      "RS": 0,
+      "AC": 4
+    },
+    "BACHARELADO EM ZOOTECNIA": {
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "TECNOLOGIA EM ALIMENTOS": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "BACHARELADO EM CIÊNCIA DA COMPUTAÇÃO": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
@@ -334,6 +535,10 @@
       "RIPPI-PCD": 1,
       "RIPPI": 1,
       "RI": 1,
+<<<<<<< HEAD
+=======
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
@@ -350,8 +555,15 @@
   },
   "CAMPUS AVANÇADO CATALÃO": {
     "LICENCIATURA EM CIÊNCIAS NATURAIS": {
+<<<<<<< HEAD
       "RIPPI": 1,
       "RI": 1,
+=======
+      "RIPPI-PCD": 0,
+      "RIPPI": 1,
+      "RI": 1,
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
@@ -362,11 +574,19 @@
       "RIPPI-PCD": 1,
       "RIPPI": 1,
       "RI": 1,
+<<<<<<< HEAD
+=======
+      "RSPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RSPPI": 1,
       "RS": 1,
       "AC": 6
     },
     "BACHARELADO EM ENGENHARIA ELÉTRICA": {
+<<<<<<< HEAD
+=======
+      "RIPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RIPPI": 1,
       "RI": 1,
       "RSPPI-PCD": 1,
@@ -375,6 +595,10 @@
       "AC": 6
     },
     "BACHARELADO EM ENGENHARIA CIVIL": {
+<<<<<<< HEAD
+=======
+      "RIPPI-PCD": 0,
+>>>>>>> 1307bde316a4a9ea212d186dde50944f29bf0356
       "RIPPI": 1,
       "RI": 1,
       "RSPPI-PCD": 1,
