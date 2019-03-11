@@ -49,7 +49,7 @@ const getNotaCorte = (list, curso, vaga_search = "AC", campus_id) => {
             filtro_colocacao = "classificacao_cota";
             break;
     }
-    let ultimo_aprovado = list.filter(inscrito => Number(inscrito[filtro_colocacao]) === corte);
+    let ultimo_aprovado = list.filter(inscrito => Number(inscrito[filtro_colocacao]) === Number(corte));
 
     if (ultimo_aprovado.length > 0) {
         ultimo_aprovado = ultimo_aprovado[0];
@@ -86,7 +86,11 @@ const getVagas = (campus_id, curso_search, vaga_search = "") => {
     }
 };
 
-const getByAreaConhecimento = (list, area_search) => list.filter(row => removeAccents(row['area_conhecimento'].toUpperCase()) === removeAccents(area_search.toUpperCase()));
+const getByAreaConhecimento = (list, area_search) => {
+    return list.filter(row => {
+        return removeAccents(row['area_conhecimento'].toUpperCase()) === removeAccents(area_search.toUpperCase());
+    });
+};
 
 const getCursoByAreaConhecimento = (area_search, list) => {
     const cursos = [];
@@ -101,7 +105,8 @@ const getCursoByAreaConhecimento = (area_search, list) => {
     return cursos;
 };
 
-const getByCota = (list) => list.filter(row => row.concorrencia !== "AC");
+const getByCotas = (list) => list.filter(row => row.concorrencia !== "AC");
+const getByCota = (list, vaga_search) => list.filter(row => row.concorrencia === vaga_search);
 
 module.exports = {
     getByCampus,
@@ -117,13 +122,17 @@ module.exports = {
     getByAreaConhecimento,
     getCursoByAreaConhecimento,
     cotas,
+    getByCotas,
     getByCota
 };
 
 // console.log(getByCampus(resultado_if,7));
 // console.log(getBySexo(getByCampus(resultado_if, 10), "F"));
-// console.log(getByCurso(getByCampus(getBySexo(resultado_if, "M"),7), "BACHARELADO EM SISTEMAS DE INFORMAÇÃO").length);
+// console.log(getByCota(getByCurso(getByCampus(resultado_if,2), "BACHARELADO EM AGRONOMIA"), 'RS'));
 // console.log(parseFloat(replaceDot(getMaiorNota(resultado_if).nota)));
 // console.log(getVagas(7, "BACHARELADO EM SISTEMAS DE INFORMAÇÃO"));
 // getNotaCorte(resultado_if);
 // console.log(getNotaCorte(getByCurso(getByCampus(resultado_if, 7), "BACHARELADO EM SISTEMAS DE INFORMAÇÃO"), "BACHARELADO EM SISTEMAS DE INFORMAÇÃO"));
+// console.log(getNotaCorte(getByCurso(getByCampus(resultado_if, 10), 'TECNOLOGIA EM GESTÃO COMERCIAL'), 'TECNOLOGIA EM GESTÃO COMERCIAL', 'AC', 10));
+// console.log(getByCurso(getByCampus(resultado_if, 10), 'TECNOLOGIA EM GESTÃO COMERCIAL'));
+// console.log(getTotalInscritos("AC", 10, 'TECNOLOGIA EM GESTÃO COMERCIAL'));

@@ -1,9 +1,285 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PhpServers">
-    <servers />
+  <component name="ChangeListManager">
+    <list default="true" id="d394553f-9e21-41e1-9f46-d15e81e54538" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados/area_conhecimento_maiores_menores_notas_corte_cotas_if.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados/area_conhecimento_maiores_menores_notas_corte_cotas_if.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_cota_if.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_cota_if.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados/curso_inscritos_com_sexo_if.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados/curso_inscritos_com_sexo_if.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados/curso_inscritos_if.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados/curso_inscritos_if.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados/curso_maiores_menores_notas_if.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados/curso_maiores_menores_notas_if.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados/curso_notas_corte_cotas_if.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados/curso_notas_corte_cotas_if.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados/curso_vagas_if.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados/curso_vagas_if.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados/curso_vagas_por_cotas_detalhada_if.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados/curso_vagas_por_cotas_detalhada_if.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados/curso_vagas_por_cotas_if.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados/curso_vagas_por_cotas_if.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados_sisu/curso_notas_corte_cotas_sisu.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados_sisu/curso_notas_corte_cotas_sisu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_resultados_if/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_resultados_if/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_resultados_if/rotina.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_resultados_if/rotina.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="RunManager" selected="Node.js.script_resultados_geral.js">
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts_resultados_if/rotina.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5043">
+              <caret line="465" column="51" selection-start-line="465" selection-start-column="51" selection-end-line="465" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts_resultados_if/filters.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="131" column="72" selection-start-line="131" selection-start-column="72" selection-end-line="131" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resultados/curso_notas_corte_ampla_concorrencia_if.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resultados/campi_informacoes.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="513" column="42" selection-start-line="513" selection-start-column="18" selection-end-line="513" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resultados/resultado_if.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1178">
+              <caret line="35716" column="16" selection-start-line="35716" selection-start-column="5" selection-end-line="35716" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="350" selection-start-column="350" selection-end-column="350" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_cota_if.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-125" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resultados/curso_notas_corte_cotas_if.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="495" column="1" selection-start-line="495" selection-start-column="1" selection-end-line="495" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Bacharelado em Engenharia de Computação</find>
+      <find>processo seletivo</find>
+      <find>quantidade_</find>
+      <find>uruta</find>
+      <find>campi_maiores_menores_notas_corte_cota_if</find>
+      <find>maior_menor_nota_ac</find>
+      <find>detalhada</find>
+      <find>cursos_nota</find>
+      <find>cursos_no</find>
+      <find>365</find>
+      <find>vagas_por_curso_detalhada</find>
+      <find>curso_list</find>
+      <find>BACHARELADO EM ADMINISTRAÇÃO</find>
+      <find>5</find>
+      <find>id&quot;: 5</find>
+      <find>getNota</find>
+      <find>mulheres inscritas, com resultado, pela área de conhecimento</find>
+      <find>do, pela área de conhecimento</find>
+      <find>campus&quot;: 10</find>
+      <find>ipa</find>
+      <find>unde</find>
+      <find>Possuiu menos inscritos que a quantidade total de vagas pelo processo</find>
+      <find>maiores_menores_notas_corte_campi_cotas_filtered</find>
+      <find>maiores_menores_notas_corte_campi_cotas</find>
+      <find>nota_corte</find>
+      <find>getByCota</find>
+      <find>morri</find>
+      <find>belos</find>
+      <find>curso_notas_cote</find>
+      <find>maiores_menores_notas_corte_campi_cotas_to_json</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Matemática</replace>
+      <replace>sisu</replace>
+      <replace>getByCotas</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/resultados_gerais/geral_por_vagas.json" />
+        <option value="$PROJECT_DIR$/files_sisu/campi_vagas_sisu.csv" />
+        <option value="$PROJECT_DIR$/resultados_sisu/campi_quantidade_vagas_sisu.json" />
+        <option value="$PROJECT_DIR$/script_resultados_geral.js" />
+        <option value="$PROJECT_DIR$/resultados_gerais/geral_vagas_por_campus.json" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/resultados/campi_inscritos_por_campus_com_sexo_if.json" />
+        <option value="$PROJECT_DIR$/resultados/campi_quantidade_vagas_if.json" />
+        <option value="$PROJECT_DIR$/resultados/campi_quantidade_inscritos_if.json" />
+        <option value="$PROJECT_DIR$/resultados/area_conhecimento_vagas_por_cotas_detalhada_if.json" />
+        <option value="$PROJECT_DIR$/resultados_sisu/area_conhecimento_vagas_por_cotas_detalhada_sisu.json" />
+        <option value="$PROJECT_DIR$/resultados/sexo_inscritos_if.json" />
+        <option value="$PROJECT_DIR$/paginas/if/curso.html" />
+        <option value="$PROJECT_DIR$/paginas/if/campi.html" />
+        <option value="$PROJECT_DIR$/paginas/if/area_conhecimento.html" />
+        <option value="$PROJECT_DIR$/paginas/sisu/curso.html" />
+        <option value="$PROJECT_DIR$/paginas/sisu/sexo.html" />
+        <option value="$PROJECT_DIR$/paginas/sisu/area_conhecimento.html" />
+        <option value="$PROJECT_DIR$/paginas/sisu/campi.html" />
+        <option value="$PROJECT_DIR$/resultados/area_conhecimento_maiores_menores_notas_corte_cotas_if.json" />
+        <option value="$PROJECT_DIR$/resultados/area_conhecimento_inscritos_com_sexo_if.json" />
+        <option value="$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_ampla_concorrencia_if.json" />
+        <option value="$PROJECT_DIR$/resultados/sexo_maiores_menores_notas_if.json" />
+        <option value="$PROJECT_DIR$/paginas/if/sexo.html" />
+        <option value="$PROJECT_DIR$/resultados/curso_maiores_menores_notas_if.json" />
+        <option value="$PROJECT_DIR$/resultados/curso_inscritos_if.json" />
+        <option value="$PROJECT_DIR$/resultados/campi_quantidade_vagas_detalhada_if.json" />
+        <option value="$PROJECT_DIR$/resultados/curso_vagas_if.json" />
+        <option value="$PROJECT_DIR$/resultados/curso_inscritos_com_sexo_if.json" />
+        <option value="$PROJECT_DIR$/resultados_sisu/curso_inscritos_com_sexo_sisu.json" />
+        <option value="$PROJECT_DIR$/resultados_sisu/curso_vagas_sisu.json" />
+        <option value="$PROJECT_DIR$/resultados_gerais/geral_aglutinacao_area_conhecimento.json" />
+        <option value="$PROJECT_DIR$/resultados_gerais/geral_vagas_por_campus_detalhada.json" />
+        <option value="$PROJECT_DIR$/resultados/curso_vagas_por_cotas_if.json" />
+        <option value="$PROJECT_DIR$/resultados_sisu/curso_vagas_por_cotas_sisu.json" />
+        <option value="$PROJECT_DIR$/resultados_sisu/curso_maiores_menores_notas_sisu.json" />
+        <option value="$PROJECT_DIR$/resultados_sisu/campi_quantidade_inscritos_sisu.json" />
+        <option value="$PROJECT_DIR$/resultados_sisu/curso_inscritos_sisu.json" />
+        <option value="$PROJECT_DIR$/scripts_resultados_sisu/rotina.js" />
+        <option value="$PROJECT_DIR$/resultados_sisu/curso_vagas_por_cotas_detalhada_sisu.json" />
+        <option value="$PROJECT_DIR$/resultados_sisu/curso_notas_corte_ampla_concorrencia_sisu.json" />
+        <option value="$PROJECT_DIR$/resultados/sexo_maiores_menores_notas_com_cotas_if.json" />
+        <option value="$PROJECT_DIR$/resultados/curso_vagas_por_cotas_detalhada_if.json" />
+        <option value="$PROJECT_DIR$/resultados_sisu/curso_notas_corte_cotas_sisu.json" />
+        <option value="$PROJECT_DIR$/resultados/campi_informacoes.json" />
+        <option value="$PROJECT_DIR$/resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json" />
+        <option value="$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_cota_if.json" />
+        <option value="$PROJECT_DIR$/scripts_resultados_if/filters.js" />
+        <option value="$PROJECT_DIR$/resultados/curso_notas_corte_cotas_if.json" />
+        <option value="$PROJECT_DIR$/scripts_resultados_if/rotina.js" />
+        <option value="$PROJECT_DIR$/resultados/curso_notas_corte_ampla_concorrencia_if.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProcessoSeletivo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProcessoSeletivo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProcessoSeletivo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProcessoSeletivo" type="462c0819:PsiDirectoryNode" />
+              <item name="paginas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProcessoSeletivo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProcessoSeletivo" type="462c0819:PsiDirectoryNode" />
+              <item name="paginas" type="462c0819:PsiDirectoryNode" />
+              <item name="if" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProcessoSeletivo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProcessoSeletivo" type="462c0819:PsiDirectoryNode" />
+              <item name="resultados" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProcessoSeletivo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProcessoSeletivo" type="462c0819:PsiDirectoryNode" />
+              <item name="resultados_sisu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProcessoSeletivo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProcessoSeletivo" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts_resultados_if" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProcessoSeletivo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProcessoSeletivo" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts_resultados_sisu" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="resultados" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.rotina.js">
     <configuration name="filters.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/scripts_resultados_if/filters.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -21,12 +297,161 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.script_resultados_geral.js" />
-        <item itemvalue="Node.js.rotina.js (1)" />
-        <item itemvalue="Node.js.sisu_area_conhecimento.js" />
         <item itemvalue="Node.js.rotina.js" />
         <item itemvalue="Node.js.filters.js" />
+        <item itemvalue="Node.js.rotina.js (1)" />
+        <item itemvalue="Node.js.script_resultados_geral.js" />
+        <item itemvalue="Node.js.sisu_area_conhecimento.js" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d394553f-9e21-41e1-9f46-d15e81e54538" name="Default Changelist" comment="" />
+      <created>1551911751635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551911751635</updated>
+      <workItem from="1551911754305" duration="6553000" />
+      <workItem from="1552141504686" duration="186000" />
+      <workItem from="1552141763655" duration="5840000" />
+      <workItem from="1552268209046" duration="2559000" />
+      <workItem from="1552309900623" duration="236000" />
+      <workItem from="1552312380089" duration="8109000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5080000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.52747256" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32857144" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scripts_resultados_sisu/rotina.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="144" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados_sisu/curso_notas_corte_cotas_sisu.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados_sisu/curso_vagas_por_cotas_detalhada_sisu.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="609" column="1" selection-start-line="609" selection-start-column="1" selection-end-line="609" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados_sisu/curso_notas_corte_ampla_concorrencia_sisu.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados_sisu/campi_quantidade_inscritos_sisu.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados_sisu/curso_inscritos_sisu.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/sexo_maiores_menores_notas_com_cotas_if.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="184" selection-start-column="184" selection-end-column="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/curso_vagas_por_cotas_detalhada_if.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret column="6257" selection-start-column="6257" selection-end-column="6257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/resultado_if.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1178">
+          <caret line="35716" column="16" selection-start-line="35716" selection-start-column="5" selection-end-line="35716" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="350" selection-start-column="350" selection-end-column="350" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/campi_informacoes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="513" column="42" selection-start-line="513" selection-start-column="18" selection-end-line="513" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_cota_if.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts_resultados_if/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="131" column="72" selection-start-line="131" selection-start-column="72" selection-end-line="131" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts_resultados_if/rotina.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5043">
+          <caret line="465" column="51" selection-start-line="465" selection-start-column="51" selection-end-line="465" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/curso_notas_corte_cotas_if.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="495" column="1" selection-start-line="495" selection-start-column="1" selection-end-line="495" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados/curso_notas_corte_ampla_concorrencia_if.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
