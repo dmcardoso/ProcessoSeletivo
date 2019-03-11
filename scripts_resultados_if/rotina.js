@@ -28,6 +28,7 @@ const campi_quantidade_vagas_detalhada = {};
 const maiores_menores_notas_corte_area_conhecimento_ampla_concorrencia = {};
 const maiores_menores_notas_corte_area_conhecimento_cotas = {};
 const maiores_menores_notas_corte_campi_cotas = {};
+const maiores_menores_notas_corte_campi_cotas_to_json = {};
 const inscritos_com_sexo_por_area_conhecimento = {};
 const inscritos_por_area_conhecimento = {};
 
@@ -76,6 +77,30 @@ areasConhecimento.forEach((value, index) => {
 
     cursos.forEach(curso => {
         let vagas_cotas = 0;
+        if (vagas_por_curso_detalhada[getCampusById(curso.campus).campus] === undefined) {
+            vagas_por_curso_detalhada[getCampusById(curso.campus).campus] = {};
+        }
+        vagas_por_curso_detalhada[getCampusById(curso.campus).campus][curso.curso] = {
+            'RIPPI-PCD': 0,
+            'RIPPI': 0,
+            'RI': 0,
+            'RSPPI-PCD': 0,
+            'RSPPI': 0,
+            'RS': 0
+        };
+
+        if (maiores_menores_notas_corte_campi_cotas_to_json[getCampusById(curso.campus).campus] === undefined) {
+            maiores_menores_notas_corte_campi_cotas_to_json[getCampusById(curso.campus).campus] = {};
+        }
+        maiores_menores_notas_corte_campi_cotas_to_json[getCampusById(curso.campus).campus][curso.curso] = {
+            'RIPPI-PCD': 0,
+            'RIPPI': 0,
+            'RI': 0,
+            'RSPPI-PCD': 0,
+            'RSPPI': 0,
+            'RS': 0
+        };
+
         cotas.forEach(cota => {
             const nota_corte = getNotaCorte(resultado, curso.curso, cota, curso.campus);
             if (nota_corte > maior_nota_corte) {
@@ -94,12 +119,6 @@ areasConhecimento.forEach((value, index) => {
             const vagas_curso_cota = getVagas(curso.campus, curso.curso, cota);
             vagas_cotas += vagas_curso_cota;
 
-            if (vagas_por_curso_detalhada[getCampusById(curso.campus).campus] === undefined) {
-                vagas_por_curso_detalhada[getCampusById(curso.campus).campus] = {};
-            }
-            if (vagas_por_curso_detalhada[getCampusById(curso.campus).campus][curso.curso] === undefined) {
-                vagas_por_curso_detalhada[getCampusById(curso.campus).campus][curso.curso] = {};
-            }
             vagas_por_curso_detalhada[getCampusById(curso.campus).campus][curso.curso][cota] = vagas_curso_cota;
 
             if (vagas_area_conhecimento_por_cotas_detalhada[value] === undefined) {
@@ -119,6 +138,8 @@ areasConhecimento.forEach((value, index) => {
                 cota,
                 nota_corte
             });
+
+            maiores_menores_notas_corte_campi_cotas_to_json[getCampusById(curso.campus).campus][curso.curso][cota] = nota_corte;
 
         });
         console.log("Vagas reservadas para cotas no curso " + curso.curso + " do " + getCampusById(curso.campus).campus + ": " + vagas_cotas);
@@ -419,7 +440,7 @@ fs.writeFileSync('resultados/curso_vagas_if.json', JSON.stringify(curso_vagas));
 fs.writeFileSync('resultados/curso_inscritos_if.json', JSON.stringify(curso_inscritos)); //1 e 5
 fs.writeFileSync('resultados/curso_inscritos_com_sexo_if.json', JSON.stringify(curso_inscritos_com_sexo)); //1 e 5
 fs.writeFileSync('resultados/curso_notas_corte_ampla_concorrencia_if.json', JSON.stringify(notas_corte_cursos_ampla_concorrencia)); //1 e 5
-fs.writeFileSync('resultados/curso_notas_corte_cotas_if.json', JSON.stringify(maiores_menores_notas_corte_campi_cotas)); //1 e 5
+fs.writeFileSync('resultados/curso_notas_corte_cotas_if.json', JSON.stringify(maiores_menores_notas_corte_campi_cotas_to_json)); //1 e 5
 fs.writeFileSync('resultados/curso_maiores_menores_notas_if.json', JSON.stringify(maiores_menores_notas_curso)); //1 e 5
 
 fs.writeFileSync('resultados/sexo_inscritos_if.json', JSON.stringify(sexo_inscritos));
