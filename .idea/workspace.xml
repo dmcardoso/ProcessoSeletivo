@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01134283-2b26-4098-a6a0-393ebab13c05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paginas/if/curso.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/curso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_cota_if.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultados/curso_notas_corte_cotas_if.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultados_sisu/curso_notas_corte_cotas_sisu.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/if/area_conhecimento.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/area_conhecimento.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/if/campi.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/campi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/if/sexo.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/sexo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/sisu/area_conhecimento.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/sisu/area_conhecimento.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/sisu/campi.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/sisu/campi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/sisu/curso.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/sisu/curso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paginas/sisu/sexo.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/sisu/sexo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados_gerais/geral_aglutinacao_area_conhecimento.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados_gerais/geral_aglutinacao_area_conhecimento.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados_gerais/geral_por_processo.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados_gerais/geral_por_processo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados_gerais/geral_por_sexo.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados_gerais/geral_por_sexo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados_gerais/geral_por_vagas.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados_gerais/geral_por_vagas.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados_gerais/geral_vagas_por_campus.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados_gerais/geral_vagas_por_campus.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resultados_gerais/geral_vagas_por_campus_detalhada.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados_gerais/geral_vagas_por_campus_detalhada.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,79 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts_resultados_if/rotina.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="463" column="38" selection-start-line="463" selection-start-column="38" selection-end-line="463" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts_resultados_if/filters.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="131" column="72" selection-start-line="131" selection-start-column="72" selection-end-line="131" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resultados/resultado_if.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607172">
-              <caret line="35716" column="16" selection-start-line="35716" selection-start-column="5" selection-end-line="35716" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="350" selection-start-column="350" selection-end-column="350" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/paginas/if/curso.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3213">
-              <caret line="189" column="37" selection-start-line="189" selection-start-column="37" selection-end-line="189" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resultados/curso_maiores_menores_notas_if.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resultados/campi_maiores_menores_notas_corte_ampla_concorrencia_if.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts_resultados_sisu/rotina.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="437" selection-start-line="437" selection-end-line="437" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -97,54 +34,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/paginas/sisu/curso.html" />
+        <option value="$PROJECT_DIR$/resultados_gerais/geral_aglutinacao_area_conhecimento.json" />
+        <option value="$PROJECT_DIR$/resultados_gerais/geral_por_processo.json" />
+        <option value="$PROJECT_DIR$/resultados_gerais/geral_por_sexo.json" />
+        <option value="$PROJECT_DIR$/resultados_gerais/geral_por_vagas.json" />
+        <option value="$PROJECT_DIR$/resultados_gerais/geral_vagas_por_campus.json" />
+        <option value="$PROJECT_DIR$/resultados_gerais/geral_vagas_por_campus_detalhada.json" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/paginas/sisu/sexo.html" />
+        <option value="$PROJECT_DIR$/paginas/sisu/campi.html" />
+        <option value="$PROJECT_DIR$/paginas/sisu/area_conhecimento.html" />
+        <option value="$PROJECT_DIR$/paginas/if/area_conhecimento.html" />
+        <option value="$PROJECT_DIR$/paginas/if/sexo.html" />
+        <option value="$PROJECT_DIR$/paginas/if/campi.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="paginas" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="paginas" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="if" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="resultados" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="scripts_resultados_if" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="scripts_resultados_sisu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,22 +84,8 @@
             <path>
               <item name="ProcessoSeletivo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProcessoSeletivo" type="462c0819:PsiDirectoryNode" />
-              <item name="resultados" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProcessoSeletivo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProcessoSeletivo" type="462c0819:PsiDirectoryNode" />
-              <item name="resultados_sisu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProcessoSeletivo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProcessoSeletivo" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts_resultados_if" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProcessoSeletivo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProcessoSeletivo" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts_resultados_sisu" type="462c0819:PsiDirectoryNode" />
+              <item name="paginas" type="462c0819:PsiDirectoryNode" />
+              <item name="sisu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,11 +97,6 @@
             <path>
               <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="ProcessoSeletivo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -235,11 +134,6 @@
       <setting name="shellParams" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Mongo.rotina.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -263,12 +157,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1405000" />
+    <option name="totallyTimeSpent" value="2305000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="0" y="-1" width="1920" height="1027" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2973262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -283,13 +177,36 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3181818" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5284281" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32943144" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -320,20 +237,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="350" selection-start-column="350" selection-end-column="350" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados/curso_notas_corte_cotas_if.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8500">
-          <caret line="500" selection-start-line="500" selection-end-line="500" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paginas/if/curso.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3213">
-          <caret line="189" column="37" selection-start-line="189" selection-start-column="37" selection-end-line="189" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -377,6 +280,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
           <caret line="463" column="38" selection-start-line="463" selection-start-column="38" selection-end-line="463" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados_gerais/geral_aglutinacao_area_conhecimento.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados_gerais/geral_por_processo.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados_gerais/geral_por_sexo.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados_gerais/geral_por_vagas.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados_gerais/geral_vagas_por_campus.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados_gerais/geral_vagas_por_campus_detalhada.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2173">
+          <caret line="377" column="50" selection-start-line="377" selection-start-column="50" selection-end-line="377" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/sisu/sexo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2484">
+          <caret line="363" column="31" selection-start-line="363" selection-start-column="31" selection-end-line="363" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/sisu/curso.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1638">
+          <caret line="281" column="18" lean-forward="true" selection-start-line="281" selection-start-column="18" selection-end-line="281" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/sisu/campi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="399" column="50" selection-start-line="399" selection-start-column="50" selection-end-line="399" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/sisu/area_conhecimento.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="389" column="50" selection-start-line="389" selection-start-column="50" selection-end-line="389" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/if/area_conhecimento.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="389" column="50" selection-start-line="389" selection-start-column="50" selection-end-line="389" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/if/sexo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="370" column="50" selection-start-line="370" selection-start-column="50" selection-end-line="370" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/if/campi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="399" column="50" selection-start-line="399" selection-start-column="50" selection-end-line="399" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paginas/if/curso.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3816">
+          <caret line="166" column="7" lean-forward="true" selection-start-line="166" selection-start-column="7" selection-end-line="166" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

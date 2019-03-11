@@ -95,7 +95,7 @@
             width: 100%;
             background: #fff;
             border-radius: 5px;
-            box-shadow: 1px 0 20px 0 rgba(0,0,0,0.2);
+            box-shadow: 1px 0 20px 0 rgba(0, 0, 0, 0.2);
             z-index: 10;
             padding: 15px;
         }
@@ -162,47 +162,45 @@
 
 <article>
 
-
-
 </article>
 
 <script>
 
     let dados = [
         {
-            url: 'resultados/area_conhecimento_inscritos_com_sexo_if.json',
-            elemento: 'inscritos_com_sexo',
-            titulo: 'TOTAL DE INSCRITOS POR SEXO',
-            multidaset: true
-        },
-        {
-            url: 'resultados/area_conhecimento_inscritos_if.json',
-            elemento: 'inscritos',
-            titulo: 'TOTAL DE INSCRITOS',
+            url: 'resultados_gerais/geral_aglutinacao_area_conhecimento.json',
+            elemento: 'area_conhecimento',
+            titulo: 'Aglutinação por área de conhecimento',
             multidaset: false
         },
         {
-            url: 'resultados/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_if.json',
-            elemento: 'maior_menor_nota_ac',
-            titulo: 'MAIOR E MENOR NOTA DE CORTE AC',
-            multidaset: true
+            url: 'resultados_gerais/geral_por_processo.json',
+            elemento: 'processo',
+            titulo: 'Processo Seletivo',
+            multidaset: false
         },
         {
-            url: 'resultados/area_conhecimento_maiores_menores_notas_corte_cotas_if.json',
-            elemento: 'maior_menor_nota_cotas',
-            titulo: 'MAIOR E MENOR NOTA DE CORTE POR COTAS',
-            multidaset: true
+            url: 'resultados_gerais/geral_por_sexo.json',
+            elemento: 'geral_sexo',
+            titulo: 'Inscritos Gerais por sexo',
+            multidaset: false
         },
         {
-            url: 'resultados/area_conhecimento_vagas_por_cotas_detalhada_if.json',
-            elemento: 'vagas_cotas_detalhada',
-            titulo: 'VAGAS POR COTAS DETALHADAS',
-            multidaset: true
+            url: 'resultados_gerais/geral_por_vagas.json',
+            elemento: 'geral_vagas',
+            titulo: 'Vagas por Processo Seletivo',
+            multidaset: false
         },
         {
-            url: 'resultados/area_conhecimento_vagas_por_cotas_if.json',
-            elemento: 'vagas_cotas',
-            titulo: 'VAGAS POR COTAS',
+            url: 'resultados_gerais/geral_vagas_por_campus.json',
+            elemento: 'vagas_campus',
+            titulo: 'Vagas por campus',
+            multidaset: false
+        },
+        {
+            url: 'resultados_gerais/geral_vagas_por_campus_detalhada.json',
+            elemento: 'vagas_detalhadas',
+            titulo: 'Vagas por campus detalhadas',
             multidaset: true
         }
     ];
@@ -225,11 +223,13 @@
 
     const grafico = function (dados, elemento, titulo, multidataset) {
 
+        $('article').append('<canvas id="' + elemento + '"></canvas');
+
         let elem = document.getElementById(elemento).getContext('2d'),
             config = {},
             colors = [
                 '#001f3f', '#85144b', '#3D9970', '#FF4136', '#0074D9', '#FF851B',
-                '#2ECC40', '#F012BE', '#39CCCC', '#7FDBFF', '#01FF70','#B10DC9', '#FFDC00'
+                '#2ECC40', '#F012BE', '#39CCCC', '#7FDBFF', '#01FF70', '#B10DC9', '#FFDC00'
             ],
             labels = [],
             posicao_dados = [],
@@ -327,24 +327,17 @@
                 });
 
                 $.each(v.dados, function (a, b) {
-                    if (elemento === 'maior_menor_nota_cotas') {
-
-                        // config.data.datasets[i].label += ' - ' + Object.keys(b)[0];
-                        config.data.datasets[i].data.push(Object.values(b)[0]);
-
-                    } else config.data.datasets[i].data.push(b);
+                    config.data.datasets[i].data.push(b);
                 });
             });
 
         } else {
 
             $.each(dados, function (i, v) {
-                if (i !== 'total') {
-                    labels.push(i);
-                    posicao_dados.push({indice: i, valor: v});
-                    if (v > max_value) max_value = v;
-                    if (v < min_value) min_value = v;
-                }
+                labels.push(i);
+                posicao_dados.push({indice: i, valor: v});
+                if (v > max_value) max_value = v;
+                if (v < min_value) min_value = v;
             });
 
             config = {
@@ -382,7 +375,7 @@
                         }
                     },
                     title: {
-                        text: titulo,
+                        text: titulo.toUpperCase(),
                         fontSize: 30,
                         fontColor: '#4d4d4d',
                         display: true
@@ -390,7 +383,8 @@
                     legend: {
                         labels: {
                             usePointStyle: true
-                        }
+                        },
+                        display: false
                     },
                     hover: {
                         animationDuration: 0
@@ -419,11 +413,9 @@
             };
 
             $.each(posicao_dados, function (i, v) {
-                if (v.indice !== 'total') {
-                    config.data.datasets[0].backgroundColor.push(colors[i]);
-                    config.data.datasets[0].borderColor.push(colors[i]);
-                    config.data.datasets[0].data.push(v.valor);
-                }
+                config.data.datasets[0].backgroundColor.push(colors[i]);
+                config.data.datasets[0].borderColor.push(colors[i]);
+                config.data.datasets[0].data.push(v.valor);
             });
         }
 
