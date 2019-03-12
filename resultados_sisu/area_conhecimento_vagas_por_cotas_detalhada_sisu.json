@@ -1,1 +1,56 @@
-{"CIÊNCIAS SOCIAIS APLICADAS":{"RIPPI-PCD":3,"RIPPI":6,"RI":5,"RSPPI-PCD":4,"RSPPI":6,"ac":30,"RS":4},"CIÊNCIAS AGRÁRIAS":{"RIPPI-PCD":7,"RIPPI":16,"RI":14,"RSPPI-PCD":4,"RSPPI":16,"RS":14,"ac":86},"CIÊNCIAS EXATAS E DA TERRA":{"RIPPI":20,"RI":18,"RSPPI":20,"RS":15,"ac":105,"RIPPI-PCD":5,"RSPPI-PCD":2},"CIÊNCIAS BIOLÓGICAS":{"RIPPI":2,"RI":1,"RSPPI":2,"RS":1,"ac":7},"ENGENHARIAS":{"RIPPI-PCD":5,"RIPPI":12,"RI":8,"RSPPI":12,"RS":8,"ac":52,"RSPPI-PCD":3},"CIÊNCIAS HUMANAS":{"RIPPI-PCD":1,"RIPPI":1,"RI":1,"RSPPI-PCD":1,"RSPPI":1,"RS":1,"ac":6}}
+{
+  "CIÊNCIAS SOCIAIS APLICADAS": {
+    "RIPPI-PCD": 3,
+    "RIPPI": 6,
+    "RI": 5,
+    "RSPPI-PCD": 4,
+    "RSPPI": 6,
+    "RS": 4,
+    "ac": 30
+  },
+  "CIÊNCIAS AGRÁRIAS": {
+    "RIPPI-PCD": 7,
+    "RIPPI": 16,
+    "RI": 14,
+    "RSPPI-PCD": 4,
+    "RSPPI": 16,
+    "RS": 14,
+    "ac": 86
+  },
+  "CIÊNCIAS EXATAS E DA TERRA": {
+    "RIPPI-PCD": 5,
+    "RIPPI": 20,
+    "RI": 18,
+    "RSPPI-PCD": 2,
+    "RSPPI": 20,
+    "RS": 15,
+    "ac": 105
+  },
+  "CIÊNCIAS BIOLÓGICAS": {
+    "RIPPI-PCD": 0,
+    "RIPPI": 2,
+    "RI": 1,
+    "RSPPI-PCD": 0,
+    "RSPPI": 2,
+    "RS": 1,
+    "ac": 7
+  },
+  "ENGENHARIAS": {
+    "RIPPI-PCD": 5,
+    "RIPPI": 12,
+    "RI": 8,
+    "RSPPI-PCD": 3,
+    "RSPPI": 12,
+    "RS": 8,
+    "ac": 52
+  },
+  "CIÊNCIAS HUMANAS": {
+    "RIPPI-PCD": 1,
+    "RIPPI": 1,
+    "RI": 1,
+    "RSPPI-PCD": 1,
+    "RSPPI": 1,
+    "RS": 1,
+    "ac": 6
+  }
+}
