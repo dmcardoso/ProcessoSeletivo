@@ -20,7 +20,7 @@
 ## Roteiro do trabalho:
 
 #### 1. Manipulação das amostras (Processo seletivo):
-- Converter o pdf com a relação de inscritos para um arquivo com formato de facil edição;  (**~ 40 minutos**)
+- Converter o pdf com a relação de inscritos para um arquivo com formato de facil edição;  (**40 minutos, aproximadamente**)
     - O tempo de execução do passo anterior se deu pela análise de qual site encontrado gerava a melhor forma de se trabalhar com o documento gerado, o escolhido foi [Convert.io](https://convertio.co/pt/pdf-csv/);
 - Limpar o lixo do arquivo de texto `files_inscritos/inscricoes_com_lixo.txt` e gerou o arquivo `files_inscritos/inscricoes_limpo.txt`; ( **~ 1 hora**)
 - Colocar os delimitadores `;` em todas as linhas e limpar as linhas em branco do arquivo `files_inscritos/inscricoes_limpo.txt`; ( **~ 30 minutos**)
