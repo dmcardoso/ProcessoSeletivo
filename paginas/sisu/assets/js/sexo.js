@@ -165,7 +165,7 @@ const grafico = function (dados, elemento, titulo, multidataset) {
             data: {
                 labels: labels,
                 datasets: [{
-                    label: titulo,
+                    label: titulo.toUpperCase(),
                     data: [],
                     backgroundColor: [],
                     borderColor: [],

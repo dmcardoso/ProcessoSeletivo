@@ -72,7 +72,7 @@ const grafico = function (dados, elemento, titulo, multidataset) {
     if (multidataset) {
 
         $.each(dados, function (i, v) {
-            labels.push(i);
+            labels.push(i.toUpperCase());
             if (v > max_value) max_value = v;
             if (v < min_value) min_value = v;
 
@@ -166,7 +166,7 @@ const grafico = function (dados, elemento, titulo, multidataset) {
     } else {
 
         $.each(dados, function (i, v) {
-            labels.push(i);
+            labels.push(i.toUpperCase());
             posicao_dados.push({indice: i, valor: v});
             if (v > max_value) max_value = v;
             if (v < min_value) min_value = v;
@@ -177,7 +177,7 @@ const grafico = function (dados, elemento, titulo, multidataset) {
             data: {
                 labels: labels,
                 datasets: [{
-                    label: titulo,
+                    label: titulo.toUpperCase(),
                     data: [],
                     backgroundColor: [],
                     borderColor: [],
