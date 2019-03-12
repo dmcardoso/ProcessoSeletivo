@@ -25,7 +25,7 @@
 - Limpar o lixo do arquivo de texto `files_inscritos/inscricoes_com_lixo.txt` e gerou o arquivo `files_inscritos/inscricoes_limpo.txt` ( **~ 1 hora**);
 - Colocar os delimitadores `;` em todas as linhas e limpar as linhas em branco do arquivo `files_inscritos/inscricoes_limpo.txt` ( **~ 30 minutos**);
     - Devido algumas linhas da tabela dos resultados estarem em duas linhas, esse passo foi feito manualmente para evitar um código extenso e cheio de validações que poderiam no final não funcionar perfeitamente.
-- Passar para um formato .csv `files_inscritos/inscricoes.csv` (**~ 2 minutos**);
+- Passar para um formato .csv `files_inscritos/inscricoes.csv` (__~ 2 minutos__);
 
 - Implementação do script `inscricoes_from_csv_to_json.js` utilizando a biblioteca `csvtojson` para passar o arquivo `files_inscritos/inscricoes.csv` para o formato json `files_inscritos/inscricoes.json` (**~ 5 minutos**);
 - Implementação do script `json_inscricoes.js` para manipulação do arquivo gerado anteriormente e gerar os arquivos `files_inscritos/inscricoes_organizadas.json` e `files_inscritos/campi.json` (**~ 15 minutos**);
@@ -256,5 +256,5 @@
 
 * Cada arquivo deverá ser invocado da seguinte maneira (em seu respectivo diretório):
 ```npm
-    node [nome_arquivo].js
+    $ node [nome_arquivo].js
 ```
