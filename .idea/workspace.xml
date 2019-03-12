@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01134283-2b26-4098-a6a0-393ebab13c05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/estilo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/if/assets/css/area_conhecimento.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/if/assets/css/campi.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/if/assets/css/curso.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/if/assets/css/sexo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/if/assets/js/area_conhecimento.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/if/assets/js/campi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/if/assets/js/curso.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/if/assets/js/sexo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/sisu/assets/css/area_conhecimento.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/sisu/assets/css/campi.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/sisu/assets/css/curso.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/sisu/assets/css/sexo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/sisu/assets/js/area_conhecimento.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/sisu/assets/js/campi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/sisu/assets/js/curso.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/paginas/sisu/assets/js/sexo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inscritos_roteiro.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/chartjs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/libs/chartjs.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/libs/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paginas/if/area_conhecimento.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/area_conhecimento.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paginas/if/campi.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/campi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paginas/if/curso.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/curso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paginas/if/sexo.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/if/sexo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paginas/sisu/area_conhecimento.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/sisu/area_conhecimento.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paginas/sisu/campi.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/sisu/campi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paginas/sisu/curso.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/sisu/curso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paginas/sisu/sexo.html" beforeDir="false" afterPath="$PROJECT_DIR$/paginas/sisu/sexo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultados/curso_notas_corte_ampla_concorrencia_if.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados/curso_notas_corte_ampla_concorrencia_if.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultados_sisu/area_conhecimento_vagas_por_cotas_detalhada_sisu.json" beforeDir="false" afterPath="$PROJECT_DIR$/resultados_sisu/area_conhecimento_vagas_por_cotas_detalhada_sisu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts_resultados_sisu/rotina.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_resultados_sisu/rotina.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,8 +80,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
-                <caret line="33" column="284" selection-start-line="33" selection-start-column="284" selection-end-line="33" selection-end-column="284" />
+              <first_editor relative-caret-position="207">
+                <caret line="39" column="376" selection-start-line="39" selection-start-column="376" selection-end-line="39" selection-end-column="376" />
               </first_editor>
               <second_editor />
             </state>
@@ -138,6 +104,7 @@
       <find>getByArea</find>
       <find>AQUI</find>
       <find>LINK</find>
+      <find>TEMPO A</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -299,13 +266,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11420000" />
+    <option name="totallyTimeSpent" value="11680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -320,7 +286,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32857144" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -712,8 +678,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="221">
-            <caret line="33" column="284" selection-start-line="33" selection-start-column="284" selection-end-line="33" selection-end-column="284" />
+          <first_editor relative-caret-position="207">
+            <caret line="39" column="376" selection-start-line="39" selection-start-column="376" selection-end-line="39" selection-end-column="376" />
           </first_editor>
           <second_editor />
         </state>
