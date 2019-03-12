@@ -101,6 +101,17 @@ areasConhecimento.forEach((value, index) => {
             'RS': 0
         };
 
+        if (vagas_area_conhecimento_por_cotas_detalhada[value] === undefined) {
+            vagas_area_conhecimento_por_cotas_detalhada[value] = {
+                'RIPPI-PCD': 0,
+                'RIPPI': 0,
+                'RI': 0,
+                'RSPPI-PCD': 0,
+                'RSPPI': 0,
+                'RS': 0
+            };
+        }
+
         cotas.forEach(cota => {
             const nota_corte = getNotaCorte(resultado, curso.curso, cota, curso.campus);
             // console.log(getNotaCorte(resultado, curso.curso, cota, curso.campus));
@@ -124,12 +135,9 @@ areasConhecimento.forEach((value, index) => {
 
                 vagas_por_curso_detalhada[getCampusById(curso.campus).campus][curso.curso][cota] = vagas_curso_cota;
 
-                if (vagas_area_conhecimento_por_cotas_detalhada[value] === undefined) {
-                    vagas_area_conhecimento_por_cotas_detalhada[value] = {};
-                }
-                if (vagas_area_conhecimento_por_cotas_detalhada[value][cota] === undefined) {
-                    vagas_area_conhecimento_por_cotas_detalhada[value][cota] = 0;
-                }
+                // if (vagas_area_conhecimento_por_cotas_detalhada[value][cota] === undefined) {
+                //     vagas_area_conhecimento_por_cotas_detalhada[value][cota] = 0;
+                // }
                 vagas_area_conhecimento_por_cotas_detalhada[value][cota] += vagas_curso_cota;
 
                 if (maiores_menores_notas_corte_campi_cotas[getCampusById(curso.campus).campus] === undefined) {
@@ -424,7 +432,6 @@ fs.writeFileSync('resultados_sisu/area_conhecimento_vagas_por_cotas_detalhada_si
 fs.writeFileSync('resultados_sisu/area_conhecimento_vagas_por_cotas_sisu.json', JSON.stringify(vagas_area_conhecimento_por_cotas)); //2
 fs.writeFileSync('resultados_sisu/area_conhecimento_maiores_menores_notas_corte_ampla_concorrencia_sisu.json', JSON.stringify(maiores_menores_notas_corte_area_conhecimento_ampla_concorrencia)); //3 e 4
 fs.writeFileSync('resultados_sisu/area_conhecimento_maiores_menores_notas_corte_cotas_sisu.json', JSON.stringify(maiores_menores_notas_corte_area_conhecimento_cotas));//3 e 4
-
 fs.writeFileSync('resultados_sisu/curso_vagas_por_cotas_detalhada_sisu.json', JSON.stringify(vagas_por_curso_detalhada));
 fs.writeFileSync('resultados_sisu/curso_vagas_por_cotas_sisu.json', JSON.stringify(vagas_por_curso));
 fs.writeFileSync('resultados_sisu/curso_vagas_sisu.json', JSON.stringify(curso_vagas));
@@ -433,21 +440,16 @@ fs.writeFileSync('resultados_sisu/curso_inscritos_com_sexo_sisu.json', JSON.stri
 fs.writeFileSync('resultados_sisu/curso_notas_corte_ampla_concorrencia_sisu.json', JSON.stringify(notas_corte_cursos_ampla_concorrencia)); //1 e 5
 fs.writeFileSync('resultados_sisu/curso_notas_corte_cotas_sisu.json', JSON.stringify(maiores_menores_notas_corte_campi_cotas_to_json)); //1 e 5
 fs.writeFileSync('resultados_sisu/curso_maiores_menores_notas_sisu.json', JSON.stringify(maiores_menores_notas_curso)); //1 e 5
-
 fs.writeFileSync('resultados_sisu/sexo_inscritos_com_resultado_sisu.json', JSON.stringify(sexo_inscritos_com_resultado));
 fs.writeFileSync('resultados_sisu/sexo_maiores_menores_notas_sisu.json', JSON.stringify(maiores_menores_notas_sexo));
 fs.writeFileSync('resultados_sisu/sexo_maiores_menores_notas_com_cotas_sisu.json', JSON.stringify(sexo_maior_menor_nota_com_cota));
-
 fs.writeFileSync('resultados_sisu/campi_quantidade_vagas_sisu.json', JSON.stringify(vagas_campi));
 fs.writeFileSync('resultados_sisu/campi_quantidade_vagas_detalhada_sisu.json', JSON.stringify(campi_quantidade_vagas_detalhada));
 fs.writeFileSync('resultados_sisu/campi_quantidade_inscritos_sisu.json', JSON.stringify(inscritos_por_campus));
 fs.writeFileSync('resultados_sisu/campi_inscritos_por_campus_com_sexo_sisu.json', JSON.stringify(inscritos_por_campus_com_sexo));
 fs.writeFileSync('resultados_sisu/campi_maiores_menores_notas_corte_ampla_concorrencia_sisu.json', JSON.stringify(campi_maiores_menores_notas_corte_ampla_concorrencia));
 fs.writeFileSync('resultados_sisu/campi_maiores_menores_notas_corte_cota_sisu.json', JSON.stringify(maiores_menores_notas_corte_campi_cotas_filtered));
-
 fs.writeFileSync('resultados_gerais/resultado_1_area_conhecimento_sisu.txt', resultado_area_conhecimento);
 fs.writeFileSync('resultados_gerais/resultado_1_curso_sisu.txt', resultado_curso);
 fs.writeFileSync('resultados_gerais/resultado_1_campus_sisu.txt', resultado_campus);
-
-// Questão 6
 fs.writeFileSync('resultados_sisu/questao_6_sisu.txt', questao_seis);
