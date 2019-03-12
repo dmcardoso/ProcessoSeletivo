@@ -37,7 +37,7 @@
 
 #### 2. Manipulação das amostras (SISU):
 
-- Pesquisa dos arquivos referentes ao SISU, infelizmente só conseguimos arquivos referentes à primeira chamada, e não uma relação completa de todos os inscritos nos cursos. Felizmente achamos uma tabela completa com essa relação para o IFGoiano para a primeira chamada em [SISU](https://sisu.mec.gov.br/selecionados?co_oferta=104863) `files_sisu/sisu_completo.csv`(**~ TEMPO AQUI**);
+- Pesquisa dos arquivos referentes ao SISU, infelizmente só conseguimos arquivos referentes à primeira chamada, e não uma relação completa de todos os inscritos nos cursos. Felizmente achamos uma tabela completa com essa relação para o IFGoiano para a primeira chamada em [SISU](https://sisu.mec.gov.br/selecionados?co_oferta=104863) `files_sisu/sisu_completo.csv`(**~ 5 horas**);
 - Implementação do script `aprovados_sisu.js` para manipulação da amostra e manter o padrão estabelecido anteriormente para a relação de inscritos do processo seletivo, sincronizando o sexo dos inscritos, não necessariamente significa que são os mesmos inscritos, apenas que o nome é exatamente o mesmo, logo, o sexo também. Foi encontrado a ocorrência de 89 pessoas nesse caso. Para esse passo foram gerados os arquivos: `files_sisu/inscricoes_organizadas_com_sexo.json`, `resultados/resultado_sisu.csv` e utlizada a biblioteca `csvtojson` (**~ 45 minutos**);
 - Padronização das cotas pelo processo seletivo, devido o formato presente na planilha, gerando o arquivo `files_sisu/padronizado.csv` (**~ 1 hora**);
 - Inserção manual do sexo dos inscritos restantes no arquivo `files_sisu/padronizado.csv`, gerando o arquivo `files_sisu/sisu_com_sexo.csv` (**~ 3 horas**).
