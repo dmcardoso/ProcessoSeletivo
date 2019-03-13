@@ -234,8 +234,8 @@ areasConhecimento.forEach((value, index) => {
 });
 
 const sexo_inscritos_com_resultado = {
-    mulheres: getBySexo(resultado_if, "F").length,
-    homens: getBySexo(resultado_if, "M").length
+    homens: getBySexo(resultado_if, "M").length,
+    mulheres: getBySexo(resultado_if, "F").length
 };
 
 const sexo_maior_menor_nota_com_cota = {
